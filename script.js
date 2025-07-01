@@ -28,38 +28,32 @@ function initExperienceTimelineChart() {
     const today = new Date().toISOString().split('T')[0]; // Gets today's date in 'YYYY-MM-DD'
 
     const experiences = [
-        {
-            company: 'Stealth Mode',
-            role: 'Founder',
-            logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQE0rsd2g6jl7A/company-logo_200_200/company-logo_200_200/0/1631348439336?e=1750896000&v=beta&t=vyuImeOqq46PeIhT6ql2Z77FM61RwR5I9-ocVozDzc0',
-            start: '2025-03-01',
-            end: today
-        },
+
         {
             company: 'Kovalty Technologies',
             role: 'Associate Product Owner',
-            logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQFnR-aXDsX0kw/company-logo_200_200/company-logo_200_200/0/1719208831479/kovalty_logo?e=1750896000&v=beta&t=a_nNxG21M4_zBZnn8Uw13ah7506VfeDg79w2ZSPCHp8',
-            start: '2024-10-01',
-            end: today
+            logo:'https://blogger.googleusercontent.com/img/a/AVvXsEjCzD74LmdC2EvvN93wElF4BNzANEWi8wp94TU33iTvxr78XtrDan2WQs5WEwNL6sQHFSK2bI9ltOf7qULVjs3Ev4qQhqepWEc9y1aIu0Jb-Ec_w5qXh4zuMT3nT3IpZ_YSX3ZskVwpPdY8qCuYC01cgYTtol--GMgdSaCVZC2Q67OSVancYvqDqELR3QfR',
+            start: '2024-09-01',
+            end: '2025-08-01'
         },
         {
             company: 'FinanceOps.AI',
             role: 'Business Analyst (Intern → Full-time)',
-            logo: 'https://media.licdn.com/dms/image/v2/D560BAQG9BM02K6d7GQ/company-logo_200_200/company-logo_200_200/0/1698052728883/financeopsai_logo?e=1750896000&v=beta&t=-mg7yOJxx1AYOrrBKqUfYy-1cHhzMOCLOyzI7SC80YE',
-            start: '2023-12-01',
-            end: '2024-09-30'
+            logo: 'https://blogger.googleusercontent.com/img/a/AVvXsEgkl3EYLSN2NWzOEi5_CLVhnjUQUBnfbvqnpKB3ZyeO66KyTFQqE5i-of8CtwAypLhrw_k9BFiE0n-Ipdv9T-H8zJ60vgWTB1d8LF5fii3KuMYMY5RGH_ibNR28K-qVhXnXYOVJVXV4P2MEDmF1FoBtpfkDYVL6incQYpmcXPmDFGy9VFFHwEcAUgMiT_Bg',
+            start: '2024-01-01',
+            end: '2024-08-30'
         },
         {
             company: 'HighRadius',
             role: 'Product Intern',
-            logo: 'https://media.licdn.com/dms/image/v2/D560BAQG46HFrpwzM-g/company-logo_200_200/company-logo_200_200/0/1721816460710/highradius_logo?e=1750896000&v=beta&t=JiRw_SWTx0LHiQhkzv_Y3wS6ndk03hnYpcVJQf8hPr4',
+            logo: 'https://blogger.googleusercontent.com/img/a/AVvXsEhzCaiOsOfjj1OlYlm4FzQSdrKmJMk6dqVyskaVCUYbpoqJSU_wgA0dKxpBbZB25PRHNo_SIFzrVXjpORrsbcweEoKSSh0uII-CmJa53HNft13ZLyPoby9kg9hL7CIlM_G90gU-CiZjMOealS2Yp9a5Fno29teGP3m91piF-VUVawpsDXO46MY3esv8vvl4',
             start: '2023-05-01',
             end: '2023-12-31'
         },
         {
             company: 'Metaverse Simplified',
             role: 'Design & Creative Intern',
-            logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQF8lpbDsEU9kQ/company-logo_200_200/company-logo_200_200/0/1647629626033?e=1750896000&v=beta&t=NjuLI5QtLg8tIgbB6JJmT7z3_zap5OUS_UqQXlNwy3o',
+            logo: 'https://blogger.googleusercontent.com/img/a/AVvXsEhLjHTvicUuo7lRXbuWYa4S8Ha8fK7qdEwLPs3xQc3ynRk9dKwRHWVXbKEZEir7v6HMnoZqF9ZPH-uGLrj0mN2RO3ETb-dlFEKOsKsrpV-XlHwjWavpuFmlQzY6zqyvs7G1DT5M1Q3DdpSNmitEn65mx-ptNX7H7CtfgBvjQHAzFfYIytgWMrvzylOBJwb7',
             start: '2022-04-01',
             end: '2023-04-30'
         }
@@ -108,9 +102,9 @@ function initExperienceTimelineChart() {
                 x: {
                     type: 'time',
                     min: '2022-02-01',
-                    max: '2025-05-31',
+                    max: '2025-08-31',
                     time: {
-                        unit: 'month',
+                        unit: 'year',
                         tooltipFormat: 'MMM yyyy'
                     },
                     title: {

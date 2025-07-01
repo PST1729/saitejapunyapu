@@ -32,9 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
             { institution: "KKR Gowtham", degree: "Schooling", period: "– 2018" }
         ],
         currentPositions: [
-            { role: "Founder", company: "Stealth Mode · Self-employed", period: "Mar 2025 - Present", 
-              description: ["Experimenting on a new venture in stealth mode focused on innovation"] },
-            { role: "Associate Product Owner", company: "Kovalty Technologies", period: "Oct 2024 - Present", 
+
+            { role: "Associate Product Owner", company: "Kovalty Technologies", period: "Sep 2024 - Present", 
               description: ["Managing product requirements and feature prioritization", 
                            "Conducting stakeholder analysis and requirements gathering", 
                            "Implementing agile methodologies for efficient product delivery"] }
@@ -325,22 +324,24 @@ Education:
 - KKR Gowtham: Schooling (till 2018)
 
 Current Positions:
-- Founder at Stealth Mode (Self-employed) - Mar 2025 - Present
-  * Experimenting on a new venture in stealth mode focused on innovation
-- Associate Product Owner at Kovalty Technologies - Oct 2024 - Present
-  * Managing product requirements and feature prioritization
-  * Conducting stakeholder analysis and requirements gathering
-  * Implementing agile methodologies for efficient product delivery
+- Associate Product Owner at Kovalty Technologies - Sep 2024 - Aug 2025
+• Delivered AI/ML-powered features end-to-end, boosting client engagement by 28% via intelligent personaliza-
+tion and automated business insights.
+• Prioritized and managed a backlog of 50+ data science initiatives, reducing time-to-market for ML solutions by
+35% while aligning with key business OKRs.
+• Drove development of analytics dashboards that enhanced stakeholder KPI visibility and cut manual reporting
+time by 70%, enabling real-time, data-driven decisions.
+• Led Agile ceremonies across 8 teams, reducing rework and improving on-time delivery across sprints.
 
 Previous Positions:
-- Business Analyst at FinanceOps.AI (Dec 2023 - Sep 2024)
-  * Built an AI bot managing thousands of delinquent accounts with no manual intervention
-  * Improved forecasting and operational efficiency through KPI dashboards
-  * Supported both strategic initiatives and automation efforts
+- Business Analyst at FinanceOps.AI (Jan 2023 - Aug 2024)
+• Increased $500K in AR recovery by identifying delinquency patterns and streamlining dunning workflows
+through data-driven analysis.
+• Built financial dashboards that boosted cash flow forecast accuracy by 50%.
+• Spearheaded UAT for multiple enterprise clients and introduced automation, cutting testing time by 90%
 - Product Intern at HighRadius (May 2023 - Dec 2023)
-  * Built ML model for Order Amount Forecasting in the H2H Program
-  * Conducted UAT and automated test cases for better QA efficiency
-  * Used Python, Jira, and dashboards for reporting and validation
+• Developed and executed 100+ automated tests using Selenium and Postman to streamline regression testing.
+• Maintained test cases for a web application, ensuring 95% coverage across critical modules.
 - Design & Creative Intern at Metaverse Simplified (Apr 2022 - Apr 2023)
   * Created 200+ designs reaching 1M+ views
   * Built a reusable template library
