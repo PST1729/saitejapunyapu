@@ -32,6 +32,7 @@
                 <a href="#education">Education</a>
                 <a href="#certifications">Certifications</a>
                 <a href="#projects">Projects</a>
+                <a href="#blog">Blogs</a>
             </div>
             <a href="" class="work-btn">
                 <img src="https://topmate.io/cdn-cgi/image/width=384,quality=90/images/common/topmate-light.svg" alt="I talk AI Logo" class="work-btn-logo">
@@ -64,7 +65,7 @@
                     <button class="action-btn resume-btn" onclick="toggleResumePopup()">
                         <i class="fas fa-eye"></i> View Resume
                     </button>
-                    <a href="mailto:punyapusaiteja@gmail.com" class="action-btn hire-btn">
+                    <a href="mailto:SaiTeja.Punyapu@UTDallas.edu" class="action-btn hire-btn">
                         <i class="fas fa-envelope"></i> Hire Me
                     </a>
                     <button class="action-btn assistant-btn" onclick="toggleJarvis()">
@@ -74,7 +75,7 @@
                 </div>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/connect-saiteja/" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:punyapusaiteja@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:SaiTeja.Punyapu@UTDallas.edu" class="social-btn"><i class="fas fa-envelope"></i></a>
                     <a href="https://github.com/PST1729" class="social-btn"><i class="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/ft.saiteja/" class="social-btn"><i class="fab fa-instagram"></i></a>
                     <a href="https://utdallas.joinhandshake.com/profiles/8236m6" class="social-btn"><i class="fa-solid fa-handshake"></i></a>
@@ -741,6 +742,82 @@
             </div>
         </section>
         
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.querySelector('.blog-slider');
+            const cards = document.querySelectorAll('.blog-card');
+            const leftBtn = document.querySelector('#blog .scroll-left');
+            const rightBtn = document.querySelector('#blog .scroll-right');
+            const pageIndicator = document.querySelector('#blog .page-indicator');
+
+            let currentPosition = 0;
+            const cardGap = 20;
+
+            function updateScrollButtons() {
+                const maxScrollLeft = slider.scrollWidth - slider.clientWidth;
+                if (slider.scrollLeft <= 10) {
+                    leftBtn.style.opacity = '0.5';
+                    leftBtn.style.pointerEvents = 'none';
+                } else {
+                    leftBtn.style.opacity = '1';
+                    leftBtn.style.pointerEvents = 'auto';
+                }
+
+                if (slider.scrollLeft >= maxScrollLeft - 10) {
+                    rightBtn.style.opacity = '0.5';
+                    rightBtn.style.pointerEvents = 'none';
+                } else {
+                    rightBtn.style.opacity = '1';
+                    rightBtn.style.pointerEvents = 'auto';
+                }
+            }
+
+            function updatePageIndicator() {
+                const cardWidth = cards[0]?.offsetWidth + cardGap;
+                const visibleCards = Math.floor(slider.clientWidth / cardWidth);
+                const totalPages = Math.ceil(cards.length / visibleCards);
+                const currentPage = Math.min(Math.ceil((currentPosition + 1) / visibleCards), totalPages);
+                pageIndicator.textContent = `${currentPage}/${totalPages}`;
+            }
+
+            function scrollSlider(direction) {
+                const cardWidth = cards[0]?.offsetWidth + cardGap;
+                const visibleCards = Math.floor(slider.clientWidth / cardWidth);
+                currentPosition = direction === 'left'
+                    ? Math.max(currentPosition - visibleCards, 0)
+                    : Math.min(currentPosition + visibleCards, cards.length - visibleCards);
+
+                slider.scrollTo({
+                    left: currentPosition * cardWidth,
+                    behavior: 'smooth'
+                });
+
+                updateScrollButtons();
+                updatePageIndicator();
+            }
+
+            if (leftBtn && rightBtn) {
+                leftBtn.addEventListener('click', () => scrollSlider('left'));
+                rightBtn.addEventListener('click', () => scrollSlider('right'));
+            }
+
+            slider.addEventListener('scroll', function () {
+                const cardWidth = cards[0]?.offsetWidth + cardGap;
+                currentPosition = Math.round(slider.scrollLeft / cardWidth);
+                updateScrollButtons();
+                updatePageIndicator();
+            });
+
+            window.addEventListener('resize', function () {
+                updateScrollButtons();
+                updatePageIndicator();
+            });
+
+            updateScrollButtons();
+            updatePageIndicator();
+        });
+        </script>
+
 
         <!-- Contact Section -->
         <section id="contact" class="dashboard-section">
@@ -755,7 +832,7 @@
                         </div>
                         <div class="contact-text">
                             <h3>Email</h3>
-                            <p><a href="mailto:punyapusaiteja@gmail.com">punyapusaiteja@gmail.com</a></p>
+                            <p><a href="mailto:SaiTeja.Punyapu@UTDallas.edu">SaiTeja.Punyapu@UTDallas.edu</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -777,22 +854,33 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                    <a href="mailto:punyapusaiteja@gmail.com" class="submit-btn">Send Message</a>                    </form>
+                  <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p class="hidden">
+                      <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    </p>
+
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                  </form>
                 </div>
+
+                
             </div>
         </section>
     </div>
@@ -855,7 +943,7 @@
                     </div>
                     <div class="footer-bottom-links">
                         <a href="#home">Home</a>
-                        <a href="mailto:punyapusaiteja@gmail.com">Hire me</a>
+                        <a href="mailto:SaiTeja.Punyapu@UTDallas.edu">Hire me</a>
                         <!-- <a href="#">Sitemap</a> -->
                     </div>
                 </div>

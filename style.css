@@ -1910,3 +1910,20 @@ certificates-container {
                 text-align: center;
             }
         }
+
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-legend {
+    display: none;
+  }
+}
