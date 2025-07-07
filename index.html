@@ -968,6 +968,16 @@
                   </form>
                 </div>
 
+                <!-- Hidden newsletter form to register it with Netlify -->
+<div hidden>
+  <form name="newsletter" netlify netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="newsletter" />
+    <input type="email" name="email" />
+    <input name="bot-field" />
+  </form>
+</div>
+
+
 
             </div>
         </section>
