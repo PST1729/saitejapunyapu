@@ -162,42 +162,6 @@ function showNotification(message, type = 'info') {
     }, 3000);
 }
 
-// ====== NEWSLETTER SIGNUP HANDLER ======
-function handleNewsletterSignup(email) {
-    // Replace this with your actual newsletter signup logic
-    // This could be an API call to your backend, third-party service, etc.
-
-    console.log('Newsletter signup:', email);
-
-    // Example: Show success message
-    showNotification('Thank you for subscribing!', 'success');
-
-    // Clear the form
-    document.querySelector('.newsletter-form input').value = '';
-
-    // Example API call (uncomment and modify as needed):
-    /*
-    fetch('/api/newsletter-signup', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email: email })
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            showNotification('Thank you for subscribing!', 'success');
-        } else {
-            showNotification('Error: ' + data.message, 'error');
-        }
-    })
-    .catch(error => {
-        showNotification('Error subscribing. Please try again.', 'error');
-    });
-    */
-}
-
 // ====== READING PROGRESS INDICATOR ======
 function createReadingProgress() {
     // Create progress bar
@@ -505,11 +469,6 @@ document.addEventListener('click', function(e) {
         trackEvent('Social Share', 'click', platform);
     }
 });
-
-// Track newsletter signups
-function trackNewsletterSignup(email) {
-    trackEvent('Newsletter', 'signup', 'blog-post');
-}
 
 // ====== PERFORMANCE MONITORING ======
 // Monitor Core Web Vitals
