@@ -378,14 +378,14 @@ Resume: https://drive.google.com/file/d/1qgavdAyTF4uGqzS9E0RJAUqFobJIXYAh/previe
                 presence_penalty: 0
             };
 
-            const response = await fetch("https://financeops-azure-openai-backup.openai.azure.com/openai/deployments/financeops-azure-openai-backup/chat/completions?api-version=2024-04-01-preview", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "api-key": "5b4d8a7651294134b88ada1181a43795"
-                },
-                body: JSON.stringify(payload)
-            });
+const response = await fetch("/.netlify/functions/jarvis", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+});
+
 
             if (!response.ok) {
                             throw new Error(`API request failed with status ${response.status}`);
