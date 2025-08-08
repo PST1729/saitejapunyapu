@@ -1,56 +1,27 @@
 // Preloader functionality
-let currentPercentage = 0;
-let waterFillHeight = 0;
-
-function updatePercentage() {
-    const percentageElement = document.querySelector('.loading-percentage');
-    const waterFill = document.querySelector('.water-fill');
-    
-    if (percentageElement && waterFill) {
-        currentPercentage += 1;
-        waterFillHeight += 1;
-        
-        percentageElement.textContent = currentPercentage + '%';
-        waterFill.style.height = waterFillHeight + '%';
-        
-        if (currentPercentage < 100) {
-            setTimeout(updatePercentage, 30); // Update every 30ms for smooth animation
-        } else {
-            // When 100% is reached, expand and reveal the site
-            setTimeout(() => {
-                const preloader = document.getElementById('preloader');
-                if (preloader) {
-                    preloader.classList.add('hidden');
-                    setTimeout(() => {
-                        preloader.style.display = 'none';
-                    }, 1000);
-                }
-            }, 500);
-        }
+function hidePreloader() {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.classList.add('hidden');
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 500);
     }
-}
-
-function startWaterFill() {
-    setTimeout(() => {
-        updatePercentage();
-    }, 500);
 }
 
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
-    // Start the water fill animation
-    startWaterFill();
+    // Hide preloader after page loads
+    window.addEventListener('load', function() {
+        setTimeout(() => {
+            hidePreloader();
+        }, 3000); // Show preloader for at least 3 seconds
+    });
     
-    // Fallback: hide preloader after 8 seconds even if something goes wrong
+    // Fallback: hide preloader after 5 seconds even if page doesn't fully load
     setTimeout(() => {
-        const preloader = document.getElementById('preloader');
-        if (preloader && !preloader.classList.contains('hidden')) {
-            preloader.classList.add('hidden');
-            setTimeout(() => {
-                preloader.style.display = 'none';
-            }, 1000);
-        }
-    }, 8000);
+        hidePreloader();
+    }, 5000);
 
     // Initialize all charts and visualizations with improved styles
     initExperienceTimelineChart();
