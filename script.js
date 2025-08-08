@@ -1,75 +1,56 @@
 // Preloader functionality
-let currentFactIndex = 0;
-const facts = [
-    "Sai Teja is currently pursuing Masters in Business Analytics and AI at UT Dallas",
-    "Sai Teja loves biryani",
-    "Sai Teja is a certified Scrum Product Owner",
-    "Sai Teja is actively looking for summer internship in USA, hire him",
-    "Sai Teja plays cricket as a hobby"
-];
+let currentPercentage = 0;
+let waterFillHeight = 0;
 
-function rotateFacts() {
-    const factSlides = document.querySelectorAll('.fact-slide');
+function updatePercentage() {
+    const percentageElement = document.querySelector('.loading-percentage');
+    const waterFill = document.querySelector('.water-fill');
     
-    // Remove active class from current slide
-    factSlides[currentFactIndex].classList.remove('active');
-    
-    // Move to next fact
-    currentFactIndex = (currentFactIndex + 1) % facts.length;
-    
-    // Add active class to new slide
-    factSlides[currentFactIndex].classList.add('active');
-}
-
-function animateLoadingProgress() {
-    const progressBar = document.querySelector('.loading-progress');
-    if (progressBar) {
-        progressBar.style.width = '0%';
-        setTimeout(() => {
-            progressBar.style.width = '30%';
-        }, 500);
-        setTimeout(() => {
-            progressBar.style.width = '60%';
-        }, 1500);
-        setTimeout(() => {
-            progressBar.style.width = '100%';
-        }, 2500);
+    if (percentageElement && waterFill) {
+        currentPercentage += 1;
+        waterFillHeight += 1;
+        
+        percentageElement.textContent = currentPercentage + '%';
+        waterFill.style.height = waterFillHeight + '%';
+        
+        if (currentPercentage < 100) {
+            setTimeout(updatePercentage, 30); // Update every 30ms for smooth animation
+        } else {
+            // When 100% is reached, expand and reveal the site
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.classList.add('hidden');
+                    setTimeout(() => {
+                        preloader.style.display = 'none';
+                    }, 1000);
+                }
+            }, 500);
+        }
     }
 }
 
-function hidePreloader() {
-    const preloader = document.getElementById('preloader');
-    if (preloader) {
-        // Add a fade-out effect
-        preloader.style.transition = 'opacity 0.8s ease-out, visibility 0.8s ease-out';
-        preloader.classList.add('hidden');
-        setTimeout(() => {
-            preloader.style.display = 'none';
-        }, 800);
-    }
+function startWaterFill() {
+    setTimeout(() => {
+        updatePercentage();
+    }, 500);
 }
 
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
-    // Start fact rotation
-    const factInterval = setInterval(rotateFacts, 3000);
+    // Start the water fill animation
+    startWaterFill();
     
-    // Start loading progress animation
-    animateLoadingProgress();
-    
-    // Hide preloader after page loads
-    window.addEventListener('load', function() {
-        setTimeout(() => {
-            hidePreloader();
-            clearInterval(factInterval);
-        }, 3000); // Show preloader for at least 3 seconds
-    });
-    
-    // Fallback: hide preloader after 6 seconds even if page doesn't fully load
+    // Fallback: hide preloader after 8 seconds even if something goes wrong
     setTimeout(() => {
-        hidePreloader();
-        clearInterval(factInterval);
-    }, 6000);
+        const preloader = document.getElementById('preloader');
+        if (preloader && !preloader.classList.contains('hidden')) {
+            preloader.classList.add('hidden');
+            setTimeout(() => {
+                preloader.style.display = 'none';
+            }, 1000);
+        }
+    }, 8000);
 
     // Initialize all charts and visualizations with improved styles
     initExperienceTimelineChart();
