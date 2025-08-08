@@ -1,5 +1,55 @@
+// Preloader functionality
+let currentFactIndex = 0;
+const facts = [
+    "Sai Teja is currently pursuing Masters in Business Analytics and AI at UT Dallas",
+    "Sai Teja loves biryani",
+    "Sai Teja is a certified Scrum Product Owner",
+    "Sai Teja is actively looking for summer internship in USA, hire him",
+    "Sai Teja plays cricket as a hobby"
+];
+
+function rotateFacts() {
+    const factSlides = document.querySelectorAll('.fact-slide');
+    
+    // Remove active class from current slide
+    factSlides[currentFactIndex].classList.remove('active');
+    
+    // Move to next fact
+    currentFactIndex = (currentFactIndex + 1) % facts.length;
+    
+    // Add active class to new slide
+    factSlides[currentFactIndex].classList.add('active');
+}
+
+function hidePreloader() {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        preloader.classList.add('hidden');
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 500);
+    }
+}
+
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
+    // Start fact rotation
+    const factInterval = setInterval(rotateFacts, 3000);
+    
+    // Hide preloader after page loads
+    window.addEventListener('load', function() {
+        setTimeout(() => {
+            hidePreloader();
+            clearInterval(factInterval);
+        }, 2000); // Show preloader for at least 2 seconds
+    });
+    
+    // Fallback: hide preloader after 5 seconds even if page doesn't fully load
+    setTimeout(() => {
+        hidePreloader();
+        clearInterval(factInterval);
+    }, 5000);
+
     // Initialize all charts and visualizations with improved styles
     initExperienceTimelineChart();
     initEducationTimelineChart();
