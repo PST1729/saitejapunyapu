@@ -21,13 +21,31 @@ function rotateFacts() {
     factSlides[currentFactIndex].classList.add('active');
 }
 
+function animateLoadingProgress() {
+    const progressBar = document.querySelector('.loading-progress');
+    if (progressBar) {
+        progressBar.style.width = '0%';
+        setTimeout(() => {
+            progressBar.style.width = '30%';
+        }, 500);
+        setTimeout(() => {
+            progressBar.style.width = '60%';
+        }, 1500);
+        setTimeout(() => {
+            progressBar.style.width = '100%';
+        }, 2500);
+    }
+}
+
 function hidePreloader() {
     const preloader = document.getElementById('preloader');
     if (preloader) {
+        // Add a fade-out effect
+        preloader.style.transition = 'opacity 0.8s ease-out, visibility 0.8s ease-out';
         preloader.classList.add('hidden');
         setTimeout(() => {
             preloader.style.display = 'none';
-        }, 500);
+        }, 800);
     }
 }
 
@@ -36,19 +54,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start fact rotation
     const factInterval = setInterval(rotateFacts, 3000);
     
+    // Start loading progress animation
+    animateLoadingProgress();
+    
     // Hide preloader after page loads
     window.addEventListener('load', function() {
         setTimeout(() => {
             hidePreloader();
             clearInterval(factInterval);
-        }, 2000); // Show preloader for at least 2 seconds
+        }, 3000); // Show preloader for at least 3 seconds
     });
     
-    // Fallback: hide preloader after 5 seconds even if page doesn't fully load
+    // Fallback: hide preloader after 6 seconds even if page doesn't fully load
     setTimeout(() => {
         hidePreloader();
         clearInterval(factInterval);
-    }, 5000);
+    }, 6000);
 
     // Initialize all charts and visualizations with improved styles
     initExperienceTimelineChart();
