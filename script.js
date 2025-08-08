@@ -1,27 +1,25 @@
 // Preloader functionality
 function hidePreloader() {
     const preloader = document.getElementById('preloader');
-    if (preloader) {
-        preloader.classList.add('hidden');
-        setTimeout(() => {
-            preloader.style.display = 'none';
-        }, 500);
-    }
+    if (!preloader) return;
+    preloader.classList.add('hidden');
+    setTimeout(() => { preloader.style.display = 'none'; }, 500);
 }
 
-// Wait for DOM to load
 document.addEventListener('DOMContentLoaded', function() {
-    // Hide preloader after page loads
-    window.addEventListener('load', function() {
-        setTimeout(() => {
-            hidePreloader();
-        }, 3000); // Show preloader for at least 3 seconds
-    });
-    
-    // Fallback: hide preloader after 5 seconds even if page doesn't fully load
-    setTimeout(() => {
-        hidePreloader();
-    }, 5000);
+    const MIN_DISPLAY_MS = 900; // snappier but visible
+    const MAX_WAIT_MS = 4000;   // hard fallback
+    const startTime = Date.now();
+
+    const onLoaded = () => {
+        const elapsed = Date.now() - startTime;
+        const remaining = Math.max(0, MIN_DISPLAY_MS - elapsed);
+        setTimeout(hidePreloader, remaining);
+        window.removeEventListener('load', onLoaded);
+    };
+
+    window.addEventListener('load', onLoaded);
+    setTimeout(hidePreloader, MAX_WAIT_MS);
 
     // Initialize all charts and visualizations with improved styles
     initExperienceTimelineChart();
