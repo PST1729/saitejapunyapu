@@ -9,6 +9,73 @@ document.addEventListener('DOMContentLoaded', function() {
     const jarvisSend = document.getElementById('jarvis-send');
     const jarvisMessages = document.getElementById('jarvis-messages');
 
+    // Ensure auto-open functionality is set up
+    setupAutoOpen();
+
+    // Auto-open setup function
+    function setupAutoOpen() {
+        // Check if this is the user's first visit (using localStorage)
+        const hasVisitedBefore = localStorage.getItem('jarvisShown');
+        
+        // Mobile detection
+        function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+                   window.innerWidth <= 768;
+        }
+
+        if (!hasVisitedBefore) {
+            // Random delay between 10-15 seconds
+            const delay = Math.random() * 5000 + 10000;
+            
+            setTimeout(function() {
+                // Open Jarvis using the global function
+                if (typeof window.toggleJarvis === 'function') {
+                    window.toggleJarvis();
+                } else {
+                    // Fallback: directly open Jarvis
+                    if (jarvisContainer && jarvisToggle) {
+                        jarvisContainer.style.display = 'flex';
+                        jarvisToggle.style.display = 'none';
+                        
+                        // Prevent body scroll on mobile when Jarvis is open
+                        if (isMobileDevice()) {
+                            document.body.classList.add('jarvis-open');
+                        }
+                        
+                        // Only auto-focus on desktop to prevent mobile keyboard from opening
+                        if (!isMobileDevice()) {
+                            if (jarvisInput) jarvisInput.focus();
+                        }
+                    }
+                }
+
+                // Set flag that Jarvis has been shown
+                localStorage.setItem('jarvisShown', 'true');
+                
+                console.log('Jarvis auto-opened for first-time visitor after', Math.round(delay/1000), 'seconds');
+            }, delay);
+        }
+    }
+
+    // Global function to reset Jarvis auto-open (for testing purposes)
+    window.resetJarvisAutoOpen = function() {
+        localStorage.removeItem('jarvisShown');
+        console.log('Jarvis auto-open reset. Refresh the page to test.');
+        alert('Jarvis auto-open has been reset! Refresh the page to see it auto-open after 10-15 seconds.');
+    };
+
+    // Global function to check if user is first-time visitor
+    window.checkJarvisStatus = function() {
+        const hasVisitedBefore = localStorage.getItem('jarvisShown');
+        if (hasVisitedBefore) {
+            console.log('User has visited before - Jarvis will NOT auto-open');
+            alert('You have visited before. Jarvis will NOT auto-open. Use resetJarvisAutoOpen() to reset.');
+        } else {
+            console.log('User is first-time visitor - Jarvis WILL auto-open');
+            alert('You are a first-time visitor! Jarvis will auto-open after 10-15 seconds.');
+        }
+    };
+
     // Knowledge base about Sai Teja
     const knowledgeBase = {
         name: "Sai Teja Punyapu",
@@ -507,23 +574,3 @@ const response = await fetch("/.netlify/functions/jarvis", {
                     jarvisMessages.appendChild(suggestionMessage);
                 }, 1000);
             });
-
-// Auto-open Jarvis after 10-15 seconds (as requested)
-setTimeout(function() {
-    // Check if this is the user's first visit (using localStorage)
-    const hasVisitedBefore = localStorage.getItem('jarvisShown');
-    
-    // Mobile detection
-    function isMobileDevice() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-               window.innerWidth <= 768;
-    }
-
-    if (!hasVisitedBefore) {
-        // Open Jarvis
-        toggleJarvis();
-
-        // Set flag that Jarvis has been shown
-        localStorage.setItem('jarvisShown', 'true');
-    }
-}, Math.random() * 5000 + 10000); // Random delay between 10-15 seconds
