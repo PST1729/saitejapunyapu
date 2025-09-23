@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
             technologies: "3+"
         },
         contact: {
-            email: "punyapusaiteja@gmail.com",
-            phone: "+91 8555012058",
+            email: "saiteja.punyapu@utdallas.edu",
+            phone: "+1 945 238 1168",
             linkedin: "Sai Teja Punyapu"
         },
         education: [
@@ -286,29 +286,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Contact information queries
         if (lowerQuery.includes('email') || lowerQuery.includes('mail')) {
-            return `Sai Teja's email is <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a>`;
+            return `Teja's email is <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a>`;
         }
 
 
 
         if (lowerQuery.includes('phone') || lowerQuery.includes('call') || lowerQuery.includes('contact number')) {
-            return `Sai Teja's phone number is <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a>`;
+            return `Teja's phone number is <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a>`;
         }
 
         if (lowerQuery.includes('linkedin') || lowerQuery.includes('social media')) {
-            return `You can find Sai Teja on LinkedIn as <a href="https://www.linkedin.com/in/connect-saiteja/" target="_blank">${knowledgeBase.contact.linkedin}</a>`;
+            return `You can find Teja on LinkedIn as <a href="https://www.linkedin.com/in/connect-saiteja/" target="_blank">${knowledgeBase.contact.linkedin}</a>`;
         }
 
         // Resume queries
         if (lowerQuery.includes('resume') || lowerQuery.includes('cv')) {
-            return `You can view Sai Teja's resume <a href="${knowledgeBase.resume}" target="_blank">here</a>.`;
+            return `You can view Teja's resume <a href="${knowledgeBase.resume}" target="_blank">here</a>.`;
         }
 
         // Education queries
         if (lowerQuery.includes('education') || lowerQuery.includes('study') || 
             lowerQuery.includes('university') || lowerQuery.includes('college') || 
             lowerQuery.includes('degree')) {
-            let response = "Sai Teja's educational background includes:<br>";
+            let response = "Teja's educational background includes:<br>";
             knowledgeBase.education.forEach(edu => {
                 response += `• <span class="highlight">${edu.institution}</span>: ${edu.degree} ${edu.period}`;
                 if (edu.gpa) response += ` | CGPA: ${edu.gpa}`;
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lowerQuery.includes('job') || lowerQuery.includes('position') || 
             lowerQuery.includes('employment')) {
 
-            let response = "Sai Teja is currently working as:<br>";
+            let response = "Teja is currently working as:<br>";
             knowledgeBase.currentPositions.forEach(pos => {
                 response += `• <span class="highlight">${pos.role}</span> at ${pos.company} (${pos.period})<br>`;
             });
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (lowerQuery.includes('skill') || lowerQuery.includes('expertise') || 
             lowerQuery.includes('proficient') || lowerQuery.includes('know')) {
 
-            let response = "Sai Teja's skills include:<br><br>";
+            let response = "Teja's skills include:<br><br>";
 
             response += "<span class='highlight'>Tools & Technologies:</span><br>";
             response += knowledgeBase.skills.tools.join(", ") + "<br><br>";
@@ -359,7 +359,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Explicitly trace what we're returning for debugging
             console.log("Handling as a PROJECT query");
 
-            let response = "Some of Sai Teja's notable projects include:<br>";
+            let response = "Some of Teja's notable projects include:<br>";
             knowledgeBase.projects.forEach(project => {
                 response += `• <span class="highlight">${project.name}</span>: ${project.description}<br>`;
             });
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lowerQuery.includes('employment') || lowerQuery.includes('services') || 
             lowerQuery.includes('work with')) {
 
-            return `If you're interested in hiring Sai Teja or discussing potential opportunities, please reach out via email at <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a> or phone at <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a>. You can also view his complete resume <a href="${knowledgeBase.resume}" target="_blank">here</a>.`;
+            return `If you're interested in hiring Teja or discussing potential opportunities, please reach out via email at <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a> or phone at <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a>. You can also view his complete resume <a href="${knowledgeBase.resume}" target="_blank">here</a>.`;
         }
 
         return null; // No local answer found
@@ -406,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 messages: [
                     {
                         role: "system",
-                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Business Analyst and Product Owner with expertise in data analytics and product management. You help answer questions about Sai Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. Here is information about Sai Teja:
+                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Business Analyst and Product Owner with expertise in data analytics and product management. You help answer questions about Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. Here is information about Teja:
 
 Name: Sai Teja Punyapu
 Title: Business Analyst and Product Owner
@@ -455,8 +455,8 @@ Projects:
 - Bassu Plantations: UI design for an indoor plants delivery application
 
 Contact:
-- Email: punyapusaiteja@gmail.com
-- Phone: +91 8555012058
+- Email: saiteja.punyapu@utdallas.edu
+- Phone: +1 945 238 1168
 - LinkedIn: Sai Teja Punyapu
 
 Resume: https://drive.google.com/file/d/1qgavdAyTF4uGqzS9E0RJAUqFobJIXYAh/preview`
@@ -500,18 +500,18 @@ const response = await fetch("/.netlify/functions/jarvis", {
 
                         // Fallback response in case of API failure
                         removeLoadingIndicator();
-                        addMessage("I'm sorry, I'm having trouble connecting to my knowledge center right now. Can you try asking something simple like contact information or about Sai's experience?", 'assistant');
+                        addMessage("I'm sorry, I'm having trouble connecting to my knowledge center right now. Can you try asking something simple like contact information or about Teja's experience?", 'assistant');
                     }
                 }
 
                 // Initialize with a welcome message (already in HTML)
                 // Add auto-suggestions for common questions
                 const suggestions = [
-                    "What's Sai's experience?",
-                    "Tell me about Sai's skills",
-                    "How can I contact Sai?",
-                    "Can you share the Portfolio of Sai?",
-                    "What's Sai's educational background?"
+                    "What's Teja's experience?",
+                    "Tell me about Teja's skills",
+                    "How can I contact Teja?",
+                    "Can you share the Portfolio of Teja?",
+                    "What's Teja's educational background?"
                 ];
 
                 // Add suggestion chips after a short delay
