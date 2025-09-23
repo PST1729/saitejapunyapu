@@ -9,7 +9,7 @@
     --accent-color: #ff6b6b;
 }
 
-/* Preloader Styles - Water Filling Loader */
+/* Preloader Styles - Cyber Grid Scanner */
 .preloader {
     position: fixed;
     inset: 0;
@@ -27,53 +27,54 @@
     visibility: hidden;
 }
 
-.loader {
-    position: relative;
-    width: min(90vw, 420px);
-    height: auto;
+/* Full Screen Cyber Grid Scanner */
+.cyber-grid-fullscreen {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: none;
+    background: transparent;
 }
 
-.loader svg { width: 100%; height: 100%; display: block; }
-
-.loader text {
-    font-family: Arial, sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    text-anchor: middle;
-    dominant-baseline: middle;
+.cyber-grid-fullscreen::before,
+.cyber-grid-fullscreen::after {
+    content: '';
+    position: absolute;
+    background: #3b82f6;
+    animation: cyberScan 2s linear infinite;
 }
 
-.loader-outline {
-    fill: none;
-    stroke: var(--primary-blue);
-    stroke-width: 2.5;
-    paint-order: stroke fill;
+.cyber-grid-fullscreen::before {
+    width: 2px;
+    height: 100vh;
+    left: 0;
+    animation-name: cyberScanH;
 }
 
-.loader-bg { fill: var(--chart-bg); }
-
-.wave { fill: var(--primary-blue); }
-.waves { transform: translateX(0); animation: rise 1.8s ease-in-out infinite alternate; }
-.wave.front { opacity: 0.95; animation: waveMove 2.8s linear infinite; }
-.wave.back { opacity: 0.55; animation: waveMove 3.6s linear infinite reverse; }
-
-@keyframes waveMove {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-160px); }
+.cyber-grid-fullscreen::after {
+    width: 100vw;
+    height: 2px;
+    top: 0;
+    animation-name: cyberScanV;
+    animation-delay: 1s;
 }
 
-@keyframes rise {
-    0% { transform: translateY(8px); }
-    100% { transform: translateY(-10px); }
+@keyframes cyberScanH {
+    0% { left: 0; }
+    100% { left: calc(100vw - 2px); }
 }
 
-@media (max-width: 480px) {
-    .loader { width: min(92vw, 360px); }
+@keyframes cyberScanV {
+    0% { top: 0; }
+    100% { top: calc(100vh - 2px); }
 }
 
 /* Respect reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
-    .waves, .wave.front, .wave.back { animation: none !important; }
+    .cyber-grid-fullscreen::before,
+    .cyber-grid-fullscreen::after { animation: none !important; }
     .preloader { transition: none; }
 }
 
