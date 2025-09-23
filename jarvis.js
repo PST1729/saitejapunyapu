@@ -74,17 +74,37 @@ document.addEventListener('DOMContentLoaded', function() {
         ]
     };
 
+    // Mobile detection
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+               window.innerWidth <= 768;
+    }
+
     // Toggle Jarvis visibility
     jarvisToggle.addEventListener('click', function() {
         jarvisContainer.style.display = 'flex';
         jarvisToggle.style.display = 'none';
-        jarvisInput.focus();
+        
+        // Prevent body scroll on mobile when Jarvis is open
+        if (isMobileDevice()) {
+            document.body.classList.add('jarvis-open');
+        }
+        
+        // Only auto-focus on desktop to prevent mobile keyboard from opening
+        if (!isMobileDevice()) {
+            jarvisInput.focus();
+        }
     });
 
     // Close Jarvis
     jarvisClose.addEventListener('click', function() {
         jarvisContainer.style.display = 'none';
         jarvisToggle.style.display = 'flex';
+        
+        // Restore body scroll on mobile when Jarvis is closed
+        if (isMobileDevice()) {
+            document.body.classList.remove('jarvis-open');
+        }
     });
 
     // Send message function
@@ -112,6 +132,14 @@ document.addEventListener('DOMContentLoaded', function() {
     jarvisInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
             sendMessage();
+        }
+    });
+
+    // Add mobile-friendly input focus behavior
+    jarvisInput.addEventListener('touchstart', function() {
+        // Only focus on mobile when user explicitly taps the input
+        if (isMobileDevice()) {
+            this.focus();
         }
     });
 
@@ -480,10 +508,16 @@ const response = await fetch("/.netlify/functions/jarvis", {
                 }, 1000);
             });
 
-// Auto-open Jarvis after 5 seconds
+// Auto-open Jarvis after 10-15 seconds (as requested)
 setTimeout(function() {
     // Check if this is the user's first visit (using localStorage)
     const hasVisitedBefore = localStorage.getItem('jarvisShown');
+    
+    // Mobile detection
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+               window.innerWidth <= 768;
+    }
 
     if (!hasVisitedBefore) {
         // Open Jarvis
@@ -492,4 +526,4 @@ setTimeout(function() {
         // Set flag that Jarvis has been shown
         localStorage.setItem('jarvisShown', 'true');
     }
-}, 5000);
+}, Math.random() * 5000 + 10000); // Random delay between 10-15 seconds

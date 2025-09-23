@@ -1046,8 +1046,21 @@ window.toggleJarvis = function() {
     jarvisContainer.style.display = 'flex';
     jarvisToggle.style.display = 'none';
 
-    // Focus the input
-    document.getElementById('jarvis-input').focus();
+    // Mobile detection
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+               window.innerWidth <= 768;
+    }
+
+    // Prevent body scroll on mobile when Jarvis is open
+    if (isMobileDevice()) {
+        document.body.classList.add('jarvis-open');
+    }
+
+    // Only auto-focus on desktop to prevent mobile keyboard from opening
+    if (!isMobileDevice()) {
+        document.getElementById('jarvis-input').focus();
+    }
 };
 
 
