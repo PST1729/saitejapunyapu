@@ -289,14 +289,21 @@ document.addEventListener('DOMContentLoaded', function() {
             return `Teja's email is <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a>`;
         }
 
-
-
         if (lowerQuery.includes('phone') || lowerQuery.includes('call') || lowerQuery.includes('contact number')) {
             return `Teja's phone number is <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a>`;
         }
 
         if (lowerQuery.includes('linkedin') || lowerQuery.includes('social media')) {
             return `You can find Teja on LinkedIn as <a href="https://www.linkedin.com/in/connect-saiteja/" target="_blank">${knowledgeBase.contact.linkedin}</a>`;
+        }
+
+        // General contact query
+        if (lowerQuery.includes('contact') || lowerQuery.includes('reach') || lowerQuery.includes('get in touch')) {
+            return `You can contact Teja through the following methods:<br><br>
+                    <strong>Email:</strong> <a href="mailto:${knowledgeBase.contact.email}">${knowledgeBase.contact.email}</a><br>
+                    <strong>Phone:</strong> <a href="tel:${knowledgeBase.contact.phone}">${knowledgeBase.contact.phone}</a><br>
+                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/connect-saiteja/" target="_blank">${knowledgeBase.contact.linkedin}</a><br><br>
+                    Feel free to reach out for professional inquiries, collaboration opportunities, or networking!`;
         }
 
         // Resume queries
@@ -406,7 +413,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 messages: [
                     {
                         role: "system",
-                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Business Analyst and Product Owner with expertise in data analytics and product management. You help answer questions about Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. Here is information about Teja:
+                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Business Analyst and Product Owner with expertise in data analytics and product management. You help answer questions about Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. 
+
+IMPORTANT: Always format your responses using HTML tags (like <strong> for bold, <br> for line breaks, <a> for links) instead of markdown formatting. Do NOT use markdown syntax like **bold** or [link](url). Use HTML formatting instead.
+
+Here is information about Teja:
 
 Name: Sai Teja Punyapu
 Title: Business Analyst and Product Owner
