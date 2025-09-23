@@ -51,8 +51,37 @@
                     <a href="#blog">Posts</a>
                     <a href="#subscribe">Subscribe</a>
                 </div>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
             </div>
         </nav>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-links">
+                <a href="#about">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
+                    About
+                </a>
+                <a href="#blog">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+                    </svg>
+                    Posts
+                </a>
+                <a href="#subscribe">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                    Subscribe
+                </a>
+            </div>
+        </div>
     </header>
 
     <!-- Main Blog Content -->
@@ -136,8 +165,346 @@
                         <p>AI agents are not just tools—they are partners in innovation, helping us navigate a world of growing complexity and opportunity.</p>
                     </div>
                 </div>
+
+                <!-- Article Footer -->
+                <footer class="article-footer">
+                    <div class="tags">
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">Artificial Intelligence</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Future of AI</span>
+                    </div>
+
+                    <div class="share-section">
+                        <h4>Share this article</h4>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="share-btn linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="share-btn facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="share-btn copy-link">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </footer>
             </article>
+
+            <!-- Author Bio -->
+            <section class="author-bio">
+                <div class="bio-content">
+                    <h3>About Sai Teja Punyapu</h3>
+                    <p>Business Analytics graduate student at UT Dallas with hands-on experience in product ownership, data analysis, and agile practices. Passionate about AI/ML and sharing knowledge through writing and mentoring.</p>
+                    <div class="bio-links">
+                        <a href="https://www.linkedin.com/in/connect-saiteja/" class="bio-link">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/PST1729" class="bio-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="mailto:punyapusaiteja@gmail.com" class="bio-link">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="../index.html" class="bio-link">
+                            <i class="fas fa-globe"></i> Portfolio
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter Subscription -->
+            <section class="newsletter-section" id="subscribe">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest insights on AI, data science, and technology delivered to your inbox.</p>
+                    <form class="newsletter-form" action="https://formspree.io/f/xpwgjqjg" method="POST">
+                        <p class="hidden">
+                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <input type="email" name="email" placeholder="Enter your email" required />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+
         </div>
     </main>
+
+    <!-- Footer -->
+    <footer class="blog-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSX4klChWraNpDxYoLdPbiH_TTYY9tsI3F_N8NtX_pGGoGJnoPqO5jWAMzcLyi9vb2G2hS9-96-O9Dc4RNVxIdCouU3IOdcARiQYXFex2jgegEjBHgErlB-iA4yJAQMtvRA0dAMtwoIl35b1b3BcC9jzLkNGNOV_xJgRtnyyMdUvrkyAg7cM2HHu-ZWhoy/s500/st%20logo.jpg" alt="ST Logo">
+                        <h3>Sai Teja Punyapu</h3>
+                    </div>
+                    <p class="footer-description">
+                        Sharing insights on AI, data science, and technology through practical guides and real-world applications.
+                    </p>
+                    <div class="social-links-footer">
+                        <a href="https://www.linkedin.com/in/connect-saiteja/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/PST1729"><i class="fab fa-github"></i></a>
+                        <a href="mailto:punyapusaiteja@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://medium.com/@punyapusaiteja"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Blog</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html#blog">All Posts</a></li>
+                        <li><a href="#subscribe">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Portfolio</a></li>
+                        <li><a href="mailto:punyapusaiteja@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2025 Sai Teja Punyapu. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Common JavaScript -->
+    <script src="blog-scripts.js"></script>
+
+    <!-- Custom Styles -->
+    <style>
+        /* Custom styles for enhanced visual hierarchy and readability */
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            color: white;
+            box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+        }
+
+        .highlight-box h3 {
+            color: white;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            border-left: 5px solid #0984e3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            color: white;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+            border-left: 5px solid #e17055;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            color: white;
+        }
+
+        .success-box {
+            background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+            border-left: 5px solid #00a085;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            color: white;
+        }
+
+        .conclusion-box {
+            background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+            color: white;
+            box-shadow: 0 10px 40px rgba(108, 92, 231, 0.3);
+        }
+
+        .conclusion-box h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+
+        .code-block {
+            background: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            overflow-x: auto;
+        }
+
+        .code-block h4 {
+            color: #61dafb;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .article-content h2 {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .article-content h3 {
+            color: #2d3436;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .article-content h3::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .highlight-box, .info-box, .warning-box, .success-box, .conclusion-box {
+                margin-left: -20px;
+                margin-right: -20px;
+                border-radius: 0;
+            }
+
+            .article-content h3::before {
+                display: none;
+            }
+        }
+    </style>
+
+    <!-- Custom JavaScript -->
+    <script>
+        function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileNav = document.getElementById('mobileNav');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+
+            if (!mobileNav.contains(event.target) && !menuBtn.contains(event.target)) {
+                mobileNav.classList.remove('active');
+            }
+        });
+
+        // Close mobile menu when window is resized to desktop
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                document.getElementById('mobileNav').classList.remove('active');
+            }
+        });
+
+        // Enhanced reading experience with progress tracking
+        document.addEventListener('DOMContentLoaded', function() {
+            // Reading progress indicator
+            const article = document.querySelector('.article-content');
+            const progressBar = document.createElement('div');
+            progressBar.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 3px;
+                background: linear-gradient(90deg, #667eea, #764ba2);
+                z-index: 1000;
+                transition: width 0.3s ease;
+            `;
+            document.body.appendChild(progressBar);
+
+            // Update progress on scroll
+            window.addEventListener('scroll', function() {
+                const articleRect = article.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                const articleHeight = article.offsetHeight;
+                const scrolled = Math.max(0, -articleRect.top);
+                const progress = Math.min(100, (scrolled / (articleHeight - windowHeight)) * 100);
+
+                if (progress >= 0) {
+                    progressBar.style.width = progress + '%';
+                }
+            });
+
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Enhanced share functionality
+            const shareButtons = document.querySelectorAll('.share-btn');
+            const articleTitle = document.querySelector('.article-title').textContent;
+            const articleUrl = window.location.href;
+
+            shareButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    if (this.classList.contains('twitter')) {
+                        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(articleTitle)}&url=${encodeURIComponent(articleUrl)}`, '_blank');
+                    } else if (this.classList.contains('linkedin')) {
+                        window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}`, '_blank');
+                    } else if (this.classList.contains('facebook')) {
+                        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}`, '_blank');
+                    } else if (this.classList.contains('copy-link')) {
+                        navigator.clipboard.writeText(articleUrl).then(() => {
+                            // Visual feedback for copy action
+                            const originalIcon = this.innerHTML;
+                            this.innerHTML = '<i class="fas fa-check"></i>';
+                            setTimeout(() => {
+                                this.innerHTML = originalIcon;
+                            }, 2000);
+                        });
+                    }
+                });
+            });
+
+            console.log('Enhanced blog post loaded successfully!');
+        });
+    </script>
 </body>
 </html> 
