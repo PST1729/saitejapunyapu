@@ -1,6 +1,5 @@
 // netlify/functions/jarvis.js
-
-const fetch = require("node-fetch");
+// Uses native fetch (Node 18+, supported by Netlify Functions)
 
 exports.handler = async function(event, context) {
   // CORS headers - THIS IS THE KEY FIX
