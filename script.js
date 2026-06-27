@@ -51,11 +51,18 @@ function initExperienceTimelineChart() {
     const experiences = [
 
         {
+            company: 'Conifer Health Solutions',
+            role: 'Data Engineer Intern',
+            logo: 'https://tbcdn.talentbrew.com/company/1127/gst_v1_0/img/logos/logo-conifer-health.webp',
+            start: '2026-06-01',
+            end: today
+        },
+        {
             company: 'Kovalty Technologies',
             role: 'Associate Product Owner',
             logo:'https://blogger.googleusercontent.com/img/a/AVvXsEjCzD74LmdC2EvvN93wElF4BNzANEWi8wp94TU33iTvxr78XtrDan2WQs5WEwNL6sQHFSK2bI9ltOf7qULVjs3Ev4qQhqepWEc9y1aIu0Jb-Ec_w5qXh4zuMT3nT3IpZ_YSX3ZskVwpPdY8qCuYC01cgYTtol--GMgdSaCVZC2Q67OSVancYvqDqELR3QfR',
             start: '2024-09-01',
-            end: '2025-08-01'
+            end: '2025-05-31'
         },
         {
             company: 'FinanceOps.AI',

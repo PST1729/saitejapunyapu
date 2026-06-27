@@ -79,13 +79,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Knowledge base about Sai Teja
     const knowledgeBase = {
         name: "Sai Teja Punyapu",
-        title: "Business Analyst and Product Owner",
-        expertise: ["Data Analytics", "Product Management", "Business Analysis", "AI"],
+        title: "Data Engineer Intern & Business Analyst",
+        expertise: ["Data Engineering", "Data Analytics", "Product Management", "Business Analysis", "AI"],
         experience: {
-            years: "2+",
+            years: "3+",
             projects: "10+",
-            certifications: "4+",
-            technologies: "3+"
+            certifications: "17+",
+            technologies: "10+"
         },
         contact: {
             email: "saiteja.punyapu@utdallas.edu",
@@ -99,30 +99,47 @@ document.addEventListener('DOMContentLoaded', function() {
             { institution: "KKR Gowtham", degree: "Schooling", period: "– 2018" }
         ],
         currentPositions: [
-
-            { role: "Associate Product Owner", company: "Kovalty Technologies", period: "Sep 2024 - Present", 
-              description: ["Managing product requirements and feature prioritization", 
-                           "Conducting stakeholder analysis and requirements gathering", 
-                           "Implementing agile methodologies for efficient product delivery"] }
+            { role: "Data Engineer Intern", company: "Conifer Health Solutions", period: "Jun 2026 - Present",
+              description: ["Building and maintaining data pipelines for healthcare revenue cycle management",
+                           "Supporting analytics workflows and data infrastructure for enterprise clients"] }
         ],
         previousPositions: [
-            { role: "Business Analyst", company: "FinanceOps.AI", period: "Dec 2023 - Sep 2024", 
-              description: ["Built an AI bot managing thousands of delinquent accounts with no manual intervention", 
-                           "Improved forecasting and operational efficiency through KPI dashboards", 
+            { role: "Associate Product Owner", company: "Kovalty Technologies", period: "Sep 2024 - May 2025",
+              description: ["Managed product requirements and feature prioritization",
+                           "Delivered ML-powered features boosting client engagement by 28%",
+                           "Led Agile ceremonies across 8 teams"] },
+            { role: "Business Analyst", company: "FinanceOps.AI", period: "Jan 2023 - Aug 2024",
+              description: ["Built an AI bot managing thousands of delinquent accounts with no manual intervention",
+                           "Improved forecasting and operational efficiency through KPI dashboards",
                            "Supported both strategic initiatives and automation efforts"] },
-            { role: "Product Intern", company: "HighRadius", period: "May 2023 - Dec 2023", 
-              description: ["Built ML model for Order Amount Forecasting in the H2H Program", 
-                           "Conducted UAT and automated test cases for better QA efficiency", 
+            { role: "Product Intern", company: "HighRadius", period: "May 2023 - Dec 2023",
+              description: ["Built ML model for Order Amount Forecasting in the H2H Program",
+                           "Conducted UAT and automated test cases for better QA efficiency",
                            "Used Python, Jira, and dashboards for reporting and validation"] },
-            { role: "Design & Creative Intern", company: "Metaverse Simplified", period: "Apr 2022 - Apr 2023", 
-              description: ["Created 200+ designs reaching 1M+ views", 
-                           "Built a reusable template library", 
+            { role: "Design & Creative Intern", company: "Metaverse Simplified", period: "Apr 2022 - Apr 2023",
+              description: ["Created 200+ designs reaching 1M+ views",
+                           "Built a reusable template library",
                            "Collaborated closely on brand-building and visual direction"] }
+        ],
+        clubLeadership: [
+            { role: "President", organization: "AI Biz Club · UTD", period: "Feb 2026 - Present",
+              description: "Leading club vision, AI-focused events, and campus partnerships. Previously Founding Team Event Officer (Oct 2025 - Jan 2026)." },
+            { role: "Event Officer", organization: "The Product Base Club · UTD", period: "Sep 2025 - Present",
+              description: "Planning product management events, workshops, and networking sessions." },
+            { role: "Student Brand Ambassador", organization: "MS Business Analytics & AI · UT Dallas", period: "Sep 2025 - Present",
+              description: "Representing the MS BA & AI program and engaging prospective students." },
+            { role: "SOC Officer", organization: "Project Management Club · UT Dallas", period: "Sep 2025 - Present",
+              description: "Supporting Student Organization Council operations and club logistics." }
+        ],
+        certifications: [
+            { name: "Microsoft Ambassador", issuer: "UT Dallas", url: "https://badges.parchment.com/public/assertions/jHVxyGB2TsmDCEsphV5NCQ" },
+            { name: "McKinsey.org Forward Program", issuer: "McKinsey.org", url: "https://www.credly.com/badges/c891ae2b-7486-4d02-9f6c-a45eeeef92d4/linked_in_profile" },
+            { name: "Certified Scrum Product Owner (CSPO)", issuer: "Scrum Alliance", url: "https://certification.scrumalliance.org/accounts/1771134-sai-teja-punyapu/certifications/2101497-cspo" }
         ],
         skills: {
             programming: "English is the new programming language*",
             tools: ["Python", "SQL", "Tableau", "PowerBI", "Excel", "Jira", "Figma", "Azure"],
-            core: ["Data Analysis", "Product Management", "Business Requirements", "User Stories", 
+            core: ["Data Engineering", "Data Analysis", "Product Management", "Business Requirements", "User Stories",
                    "Agile", "ML", "AI", "UX Design", "UI Design"]
         },
         resume: "https://drive.google.com/file/d/1qgavdAyTF4uGqzS9E0RJAUqFobJIXYAh/preview",
@@ -328,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Experience-related queries
         if (lowerQuery.includes('experience') || lowerQuery.includes('work') || 
             lowerQuery.includes('job') || lowerQuery.includes('position') || 
-            lowerQuery.includes('employment')) {
+            lowerQuery.includes('employment') || lowerQuery.includes('intern')) {
 
             let response = "Teja is currently working as:<br>";
             knowledgeBase.currentPositions.forEach(pos => {
@@ -340,6 +357,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 response += `• <span class="highlight">${pos.role}</span> at ${pos.company} (${pos.period})<br>`;
             });
 
+            return response;
+        }
+
+        // Club leadership queries
+        if (lowerQuery.includes('club') || lowerQuery.includes('leadership') ||
+            lowerQuery.includes('president') || lowerQuery.includes('campus') ||
+            lowerQuery.includes('organization') || lowerQuery.includes('ai biz')) {
+
+            let response = "Teja's campus leadership roles include:<br>";
+            knowledgeBase.clubLeadership.forEach(club => {
+                response += `• <span class="highlight">${club.role}</span> at ${club.organization} (${club.period})<br>`;
+            });
+            return response;
+        }
+
+        // Certification queries
+        if (lowerQuery.includes('certification') || lowerQuery.includes('certificate') ||
+            lowerQuery.includes('credential') || lowerQuery.includes('badge') ||
+            lowerQuery.includes('microsoft ambassador') || lowerQuery.includes('mckinsey')) {
+
+            let response = "Teja holds 17+ certifications. Recent highlights include:<br>";
+            knowledgeBase.certifications.forEach(cert => {
+                response += `• <span class="highlight">${cert.name}</span> (${cert.issuer}) — <a href="${cert.url}" target="_blank">View Credential</a><br>`;
+            });
             return response;
         }
 
@@ -379,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lowerQuery.includes('tell me about') || lowerQuery.includes('info') || 
             lowerQuery.includes('introduce') || lowerQuery.includes('bio')) {
 
-            return `${knowledgeBase.name} is a ${knowledgeBase.title} with expertise in ${knowledgeBase.expertise.join(", ")}. He has ${knowledgeBase.experience.years} years of experience and has completed ${knowledgeBase.experience.projects} projects. Currently, he's working as a ${knowledgeBase.currentPositions[0].role} at ${knowledgeBase.currentPositions[0].company} and as a ${knowledgeBase.currentPositions[1].role} at ${knowledgeBase.currentPositions[1].company}.`;
+            return `${knowledgeBase.name} is a ${knowledgeBase.title} with expertise in ${knowledgeBase.expertise.join(", ")}. He has ${knowledgeBase.experience.years} years of experience and has completed ${knowledgeBase.experience.projects} projects. Currently, he's a ${knowledgeBase.currentPositions[0].role} at ${knowledgeBase.currentPositions[0].company} and President of the AI Biz Club at UTD.`;
         }
 
         // Contact/hire services
@@ -413,49 +454,55 @@ document.addEventListener('DOMContentLoaded', function() {
                 messages: [
                     {
                         role: "system",
-                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Business Analyst and Product Owner with expertise in data analytics and product management. You help answer questions about Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. 
+                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Data Engineer Intern and MS Business Analytics student with expertise in data engineering, analytics, and product management. You help answer questions about Teja, his experience, skills, projects, campus leadership, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. 
 
 IMPORTANT: Always format your responses using HTML tags (like <strong> for bold, <br> for line breaks, <a> for links) instead of markdown formatting. Do NOT use markdown syntax like **bold** or [link](url). Use HTML formatting instead.
 
 Here is information about Teja:
 
 Name: Sai Teja Punyapu
-Title: Business Analyst and Product Owner
-Expertise: Data Analytics, Product Management, Business Analysis, AI
-Experience: 2+ years experience, 10+ projects completed, 4+ certifications, 3+ technologies
+Title: Data Engineer Intern & Business Analyst
+Expertise: Data Engineering, Data Analytics, Product Management, Business Analysis, AI
+Experience: 3+ years experience, 10+ projects completed, 17+ certifications, 10+ technologies
 Education: 
 - UT Dallas: MS AI & Business Analytics (Fall 2025 – Spring 2027)
 - KIIT University: BTech in Computer Science (2020-2024, CGPA: 8.57)
 - SASI Institute: High School (2018-2020, Grade: 9.86)
 - KKR Gowtham: Schooling (till 2018)
 
-Current Positions:
-- Associate Product Owner at Kovalty Technologies - Sep 2024 - Aug 2025
-• Delivered AI/ML-powered features end-to-end, boosting client engagement by 28% via intelligent personaliza-
-tion and automated business insights.
-• Prioritized and managed a backlog of 50+ data science initiatives, reducing time-to-market for ML solutions by
-35% while aligning with key business OKRs.
-• Drove development of analytics dashboards that enhanced stakeholder KPI visibility and cut manual reporting
-time by 70%, enabling real-time, data-driven decisions.
-• Led Agile ceremonies across 8 teams, reducing rework and improving on-time delivery across sprints.
+Current Position:
+- Data Engineer Intern at Conifer Health Solutions (Jun 2026 - Present)
+• Building and maintaining data pipelines for healthcare revenue cycle management
+• Supporting analytics workflows and data infrastructure for enterprise healthcare clients
 
 Previous Positions:
+- Associate Product Owner at Kovalty Technologies (Sep 2024 - May 2025)
+• Delivered AI/ML-powered features end-to-end, boosting client engagement by 28%
+• Prioritized and managed a backlog of 50+ data science initiatives
+• Led Agile ceremonies across 8 teams
 - Business Analyst at FinanceOps.AI (Jan 2023 - Aug 2024)
-• Increased $500K in AR recovery by identifying delinquency patterns and streamlining dunning workflows
-through data-driven analysis.
-• Built financial dashboards that boosted cash flow forecast accuracy by 50%.
-• Spearheaded UAT for multiple enterprise clients and introduced automation, cutting testing time by 90%
+• Increased $500K in AR recovery through data-driven analysis
+• Built financial dashboards that boosted cash flow forecast accuracy by 50%
+• Spearheaded UAT automation, cutting testing time by 90%
 - Product Intern at HighRadius (May 2023 - Dec 2023)
-• Developed and executed 100+ automated tests using Selenium and Postman to streamline regression testing.
-• Maintained test cases for a web application, ensuring 95% coverage across critical modules.
+• Developed and executed 100+ automated tests using Selenium and Postman
 - Design & Creative Intern at Metaverse Simplified (Apr 2022 - Apr 2023)
-  * Created 200+ designs reaching 1M+ views
-  * Built a reusable template library
-  * Collaborated closely on brand-building and visual direction
+• Created 200+ designs reaching 1M+ views
+
+Campus Leadership:
+- President, AI Biz Club · UTD (Feb 2026 - Present) — previously Founding Team Event Officer
+- Event Officer, The Product Base Club · UTD (Sep 2025 - Present)
+- Student Brand Ambassador, MS Business Analytics & AI · UT Dallas (Sep 2025 - Present)
+- SOC Officer, Project Management Club · UT Dallas (Sep 2025 - Present)
+
+Recent Certifications:
+- Microsoft Ambassador (UT Dallas) — https://badges.parchment.com/public/assertions/jHVxyGB2TsmDCEsphV5NCQ
+- McKinsey.org Forward Program — https://www.credly.com/badges/c891ae2b-7486-4d02-9f6c-a45eeeef92d4/linked_in_profile
+- Certified Scrum Product Owner (CSPO) — Scrum Alliance
 
 Skills:
 - Tools & Technologies: Python, SQL, Tableau, PowerBI, Excel, Jira, Figma, Azure
-- Core Skills: Data Analysis, Product Management, Business Requirements, User Stories, Agile, ML, AI, UX Design, UI Design
+- Core Skills: Data Engineering, Data Analysis, Product Management, Business Requirements, User Stories, Agile, ML, AI, UX Design, UI Design
 
 Projects:
 - Voyage: Travel together, Stress never
