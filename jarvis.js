@@ -121,16 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
                            "Built a reusable template library",
                            "Collaborated closely on brand-building and visual direction"] }
         ],
-        clubLeadership: [
-            { role: "President", organization: "AI Biz Club · UTD", period: "Feb 2026 - Present",
-              description: "Leading club vision, AI-focused events, and campus partnerships. Previously Founding Team Event Officer (Oct 2025 - Jan 2026)." },
-            { role: "Event Officer", organization: "The Product Base Club · UTD", period: "Sep 2025 - Present",
-              description: "Planning product management events, workshops, and networking sessions." },
-            { role: "Student Brand Ambassador", organization: "MS Business Analytics & AI · UT Dallas", period: "Sep 2025 - Present",
-              description: "Representing the MS BA & AI program and engaging prospective students." },
-            { role: "SOC Officer", organization: "Project Management Club · UT Dallas", period: "Sep 2025 - Present",
-              description: "Supporting Student Organization Council operations and club logistics." }
-        ],
         certifications: [
             { name: "Microsoft Ambassador", issuer: "UT Dallas", url: "https://badges.parchment.com/public/assertions/jHVxyGB2TsmDCEsphV5NCQ" },
             { name: "McKinsey.org Forward Program", issuer: "McKinsey.org", url: "https://www.credly.com/badges/c891ae2b-7486-4d02-9f6c-a45eeeef92d4/linked_in_profile" },
@@ -360,18 +350,6 @@ document.addEventListener('DOMContentLoaded', function() {
             return response;
         }
 
-        // Club leadership queries
-        if (lowerQuery.includes('club') || lowerQuery.includes('leadership') ||
-            lowerQuery.includes('president') || lowerQuery.includes('campus') ||
-            lowerQuery.includes('organization') || lowerQuery.includes('ai biz')) {
-
-            let response = "Teja's campus leadership roles include:<br>";
-            knowledgeBase.clubLeadership.forEach(club => {
-                response += `• <span class="highlight">${club.role}</span> at ${club.organization} (${club.period})<br>`;
-            });
-            return response;
-        }
-
         // Certification queries
         if (lowerQuery.includes('certification') || lowerQuery.includes('certificate') ||
             lowerQuery.includes('credential') || lowerQuery.includes('badge') ||
@@ -420,7 +398,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lowerQuery.includes('tell me about') || lowerQuery.includes('info') || 
             lowerQuery.includes('introduce') || lowerQuery.includes('bio')) {
 
-            return `${knowledgeBase.name} is a ${knowledgeBase.title} with expertise in ${knowledgeBase.expertise.join(", ")}. He has ${knowledgeBase.experience.years} years of experience and has completed ${knowledgeBase.experience.projects} projects. Currently, he's a ${knowledgeBase.currentPositions[0].role} at ${knowledgeBase.currentPositions[0].company} and President of the AI Biz Club at UTD.`;
+            return `${knowledgeBase.name} is a ${knowledgeBase.title} with expertise in ${knowledgeBase.expertise.join(", ")}. He has ${knowledgeBase.experience.years} years of experience and has completed ${knowledgeBase.experience.projects} projects. Currently, he's a ${knowledgeBase.currentPositions[0].role} at ${knowledgeBase.currentPositions[0].company}.`;
         }
 
         // Contact/hire services
@@ -454,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 messages: [
                     {
                         role: "system",
-                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Data Engineer Intern and MS Business Analytics student with expertise in data engineering, analytics, and product management. You help answer questions about Teja, his experience, skills, projects, campus leadership, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. 
+                        content: `You are Jarvis, the personal AI assistant of Sai Teja Punyapu, a Data Engineer Intern and MS Business Analytics student with expertise in data engineering, analytics, and product management. You help answer questions about Teja, his experience, skills, projects, and anything related to his professional life. Be concise, helpful, and personable. Always respond in 1-3 paragraphs maximum. 
 
 IMPORTANT: Always format your responses using HTML tags (like <strong> for bold, <br> for line breaks, <a> for links) instead of markdown formatting. Do NOT use markdown syntax like **bold** or [link](url). Use HTML formatting instead.
 
@@ -488,12 +466,6 @@ Previous Positions:
 • Developed and executed 100+ automated tests using Selenium and Postman
 - Design & Creative Intern at Metaverse Simplified (Apr 2022 - Apr 2023)
 • Created 200+ designs reaching 1M+ views
-
-Campus Leadership:
-- President, AI Biz Club · UTD (Feb 2026 - Present) — previously Founding Team Event Officer
-- Event Officer, The Product Base Club · UTD (Sep 2025 - Present)
-- Student Brand Ambassador, MS Business Analytics & AI · UT Dallas (Sep 2025 - Present)
-- SOC Officer, Project Management Club · UT Dallas (Sep 2025 - Present)
 
 Recent Certifications:
 - Microsoft Ambassador (UT Dallas) — https://badges.parchment.com/public/assertions/jHVxyGB2TsmDCEsphV5NCQ
