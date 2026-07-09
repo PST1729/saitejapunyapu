@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Building with Google's ADK: A Guide to Agentic Development - Sai Teja Punyapu</title>
+    <meta name="description" content="A hands-on guide to Google's Agent Development Kit (ADK) — how to design multi-agent systems with tools, orchestration, memory, and production-ready workflows.">
+    <meta name="keywords" content="Google ADK, Agent Development Kit, agentic AI, multi-agent systems, LLM agents, Google AI, autonomous agents, Sai Teja Punyapu">
+
+    <meta property="og:title" content="Building with Google's ADK: A Guide to Agentic Development">
+    <meta property="og:description" content="How Google's Agent Development Kit lets you design, orchestrate, and deploy multi-agent systems with tools, memory, and real workflows.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://saitejapunyapu.com/blogs/google-adk-agentic-development.html">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https://saitejapunyapu.com/blogs/google-adk-agentic-development.html">
+    <meta name="author" content="Sai Teja Punyapu">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Building with Google's ADK: A Guide to Agentic Development">
+    <meta name="twitter:description" content="A hands-on guide to Google's Agent Development Kit for multi-agent AI systems.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Building with Google's ADK: A Guide to Agentic Development",
+      "author": { "@type": "Person", "name": "Sai Teja Punyapu", "url": "https://saitejapunyapu.com" },
+      "datePublished": "2026-07-05",
+      "dateModified": "2026-07-05",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+      "publisher": { "@type": "Person", "name": "Sai Teja Punyapu" },
+      "mainEntityOfPage": "https://saitejapunyapu.com/blogs/google-adk-agentic-development.html"
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="../saitejapunyapu.png">
+    <link rel="stylesheet" href="blog-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="blog-header">
+        <nav class="blog-nav">
+            <div class="nav-left">
+                <a href="../index.html" class="back-home">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="#" class="blog-logo">
+                    <img src="../saitejapunyapu.png" alt="ST Logo">
+                    <span>Sai Teja's Blog</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="blog-nav-links">
+                    <a href="#subscribe">Subscribe</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="blog-main">
+        <div class="blog-container">
+            <article class="blog-article">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="category">Agentic AI</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 9 min read</span>
+                    </div>
+                    <h1 class="article-title">Building with Google's ADK: A Guide to Agentic Development</h1>
+                    <p class="article-subtitle">How the Agent Development Kit (ADK) turns LLMs from chatbots into systems that plan, use tools, and collaborate</p>
+                    <div class="author-info">
+                        <img src="../saitejapunyapu.png" alt="Sai Teja" class="author-avatar">
+                        <div class="author-details">
+                            <strong>Sai Teja Punyapu</strong>
+                            <span>July 5, 2026</span>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80" alt="Agentic AI development illustration">
+                    <div class="image-caption">Agentic development moves beyond single prompts into orchestrated, tool-using AI systems</div>
+                </div>
+
+                <div class="article-content">
+                    <p class="lead">If 2024 was the year of chatbots and 2025 was the year of copilots, 2026 is unmistakably the year of <strong>agents</strong>. Google's Agent Development Kit (ADK) is one of the most practical frameworks I've worked with for building agentic systems — not demos, but workflows that actually reason, call tools, and hand off tasks between specialized agents.</p>
+
+                    <p>This post walks through what ADK is, why it matters, and how to think about building agentic applications the right way.</p>
+
+                    <h2>What Is the Agent Development Kit (ADK)?</h2>
+                    <p>ADK is Google's open-source framework for building <strong>agentic applications</strong> on top of large language models. Instead of treating an LLM as a single-turn Q&amp;A endpoint, ADK gives you primitives to define:</p>
+                    <ul>
+                        <li><strong>Agents</strong> — specialized roles with instructions and capabilities</li>
+                        <li><strong>Tools</strong> — functions the agent can call (APIs, databases, search, code execution)</li>
+                        <li><strong>Orchestration</strong> — how agents route, delegate, and loop until a goal is met</li>
+                        <li><strong>Memory &amp; sessions</strong> — context that persists across turns</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <h3><i class="fas fa-robot"></i> Agentic vs. Non-Agentic</h3>
+                        <ul>
+                            <li><strong>Non-agentic:</strong> User asks → model answers in one shot</li>
+                            <li><strong>Agentic:</strong> User gives a goal → agent plans → uses tools → evaluates → iterates → delivers result</li>
+                        </ul>
+                    </div>
+
+                    <h2>Why ADK Over a Raw API Call?</h2>
+                    <p>Calling Gemini (or any LLM) directly works for simple tasks. But production agentic systems need structure:</p>
+                    <ol>
+                        <li><strong>Tool grounding</strong> — the model must know what it can and cannot do</li>
+                        <li><strong>Deterministic control flow</strong> — you need guardrails when the model hallucinates a tool call</li>
+                        <li><strong>Multi-agent decomposition</strong> — one "super-agent" gets expensive and unreliable; specialized agents are cheaper and more accurate</li>
+                        <li><strong>Observability</strong> — you need to trace every tool invocation for debugging</li>
+                    </ol>
+                    <p>ADK packages these concerns into a coherent development model instead of reinventing them in every project.</p>
+
+                    <h2>Core Building Blocks</h2>
+
+                    <h3>1. The Root Agent</h3>
+                    <p>Every ADK app starts with a root agent — the entry point that receives the user's goal. The root agent either solves the task directly or delegates to sub-agents. Think of it as a project manager, not a specialist.</p>
+
+                    <h3>2. Sub-Agents (Specialists)</h3>
+                    <p>Sub-agents handle narrow domains: a <em>Research Agent</em> that searches the web, a <em>Data Agent</em> that queries SQL, a <em>Writer Agent</em> that drafts output. Each has its own system prompt, tools, and constraints.</p>
+
+                    <div class="info-box">
+                        <p><strong>Design tip:</strong> If you can't describe an agent's job in one sentence, split it into two agents. Overloaded agents make poor decisions.</p>
+                    </div>
+
+                    <h3>3. Tools</h3>
+                    <p>Tools are Python functions (or remote services) registered with the agent. When the model decides it needs external data, it emits a structured tool call. ADK executes the function and feeds the result back into the conversation loop.</p>
+
+                    <div class="code-block">
+                        <h4>Example: A simple weather tool</h4>
+                        <pre style="color:#a9dc76;margin:0;"><code>def get_weather(city: str) -> dict:
+    """Returns current weather for a given city."""
+    # call weather API
+    return {"city": city, "temp_f": 72, "condition": "sunny"}</code></pre>
+                    </div>
+                    <p>The agent sees the function signature and docstring as part of its context. Good tool descriptions are the difference between reliable and chaotic agent behavior.</p>
+
+                    <h3>4. Orchestration Patterns</h3>
+                    <p>ADK supports several orchestration models:</p>
+                    <ul>
+                        <li><strong>Sequential</strong> — Agent A completes, passes output to Agent B</li>
+                        <li><strong>Parallel</strong> — multiple agents work simultaneously, results merged</li>
+                        <li><strong>Loop</strong> — agent iterates until a stop condition (e.g., "answer is verified")</li>
+                        <li><strong>Handoff</strong> — root agent dynamically routes to the best specialist</li>
+                    </ul>
+
+                    <h2>A Real-World Pattern: Research → Analyze → Report</h2>
+                    <p>Here's a workflow I've used for analytics projects:</p>
+                    <ol>
+                        <li><strong>Research Agent</strong> — searches documentation, pulls relevant API specs</li>
+                        <li><strong>Data Agent</strong> — runs SQL queries against a warehouse, returns structured results</li>
+                        <li><strong>Analyst Agent</strong> — interprets the data, identifies trends and anomalies</li>
+                        <li><strong>Report Agent</strong> — formats findings into a stakeholder-ready summary</li>
+                    </ol>
+                    <p>Each agent has 2–4 tools max. The root agent orchestrates the pipeline and handles errors (e.g., if the Data Agent's query fails, it retries with a simplified query).</p>
+
+                    <div class="warning-box">
+                        <p><strong>Common mistake:</strong> Giving one agent access to every tool. The model gets confused about which tool to use and starts making unnecessary calls. Principle of least privilege applies to agents too.</p>
+                    </div>
+
+                    <h2>Memory and Sessions</h2>
+                    <p>Agentic apps are rarely single-turn. ADK's session model lets you maintain conversation history, user preferences, and intermediate results across interactions. For longer workflows, consider:</p>
+                    <ul>
+                        <li><strong>Short-term memory</strong> — current session context (recent messages, tool outputs)</li>
+                        <li><strong>Working memory</strong> — scratchpad the agent writes to during multi-step tasks</li>
+                        <li><strong>Long-term memory</strong> — vector store or database for facts that persist across sessions</li>
+                    </ul>
+
+                    <h2>Deployment Considerations</h2>
+                    <p>ADK apps can run locally for development and deploy to Google Cloud (Vertex AI Agent Engine) for production. Key production concerns:</p>
+                    <ul>
+                        <li><strong>Rate limiting</strong> — cap tool calls per session to prevent runaway loops</li>
+                        <li><strong>Cost controls</strong> — set max tokens and max iterations per request</li>
+                        <li><strong>Human-in-the-loop</strong> — for high-stakes actions (sending emails, modifying data), require user approval before tool execution</li>
+                        <li><strong>Logging</strong> — trace every agent handoff and tool call for auditability</li>
+                    </ul>
+
+                    <h2>ADK vs. Other Agent Frameworks</h2>
+                    <p>How does ADK compare?</p>
+                    <ul>
+                        <li><strong>LangGraph</strong> — more graph-oriented, great for complex state machines; steeper learning curve</li>
+                        <li><strong>CrewAI</strong> — role-based teams out of the box; less flexible for custom orchestration</li>
+                        <li><strong>AutoGen</strong> — strong multi-agent conversation patterns; Microsoft ecosystem</li>
+                        <li><strong>ADK</strong> — tight Gemini integration, clean Python API, built for Google Cloud deployment</li>
+                    </ul>
+                    <p>If you're already in the Google ecosystem (Vertex AI, BigQuery, Cloud Run), ADK is the natural choice. If you're model-agnostic, LangGraph or CrewAI may fit better.</p>
+
+                    <div class="success-box">
+                        <p>Start small: one agent, two tools, one clear goal. Get that working reliably before adding sub-agents and orchestration. Agentic systems fail when you over-engineer before validating the basics.</p>
+                    </div>
+
+                    <h2>Getting Started</h2>
+                    <ol>
+                        <li>Install ADK: <code>pip install google-adk</code></li>
+                        <li>Define a root agent with a clear instruction</li>
+                        <li>Register 1–2 tools with good docstrings</li>
+                        <li>Run locally with the ADK dev server</li>
+                        <li>Iterate on prompts and tool descriptions until behavior is reliable</li>
+                        <li>Add sub-agents only when the root agent is consistently overwhelmed</li>
+                    </ol>
+
+                    <div class="conclusion-box">
+                        <h3>The Bottom Line</h3>
+                        <p>Agentic development isn't about making chatbots smarter — it's about building systems that <em>act</em>. ADK gives you the scaffolding: agents, tools, orchestration, and deployment. The hard part is still design: choosing the right decomposition, writing clear instructions, and knowing when an agent should stop and ask a human.</p>
+                        <p>That's the skill that separates agentic demos from agentic products.</p>
+                    </div>
+                </div>
+
+                <footer class="article-footer">
+                    <div class="tags">
+                        <span class="tag">Google ADK</span>
+                        <span class="tag">Agentic AI</span>
+                        <span class="tag">Multi-Agent Systems</span>
+                        <span class="tag">LLM</span>
+                    </div>
+                    <div class="share-section">
+                        <h4>Share this article</h4>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="share-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="share-btn copy-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <section class="author-bio">
+                <div class="bio-content">
+                    <h3>About Sai Teja Punyapu</h3>
+                    <p>Data Engineer Intern at Conifer Health Solutions and MS Business Analytics &amp; AI student at UT Dallas. Passionate about agentic AI, data engineering, and building tools that actually ship.</p>
+                    <div class="bio-links">
+                        <a href="https://www.linkedin.com/in/connect-saiteja/" class="bio-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="https://github.com/PST1729" class="bio-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="../index.html" class="bio-link"><i class="fas fa-globe"></i> Portfolio</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter-section" id="subscribe">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest insights on AI, data science, and technology delivered to your inbox.</p>
+                    <form class="newsletter-form" action="https://formspree.io/f/xpwgjqjg" method="POST">
+                        <input type="email" name="email" placeholder="Enter your email" required />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="blog-footer">
+        <div class="footer-container">
+            <div class="footer-bottom">
+                <div class="copyright"><p>&copy; 2026 Sai Teja Punyapu. All rights reserved.</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <script src="blog-scripts.js"></script>
+    <style>
+        .highlight-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 30px 0; color: white; }
+        .info-box { background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%); border-left: 5px solid #0984e3; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .warning-box { background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%); border-left: 5px solid #e17055; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .success-box { background: linear-gradient(135deg, #00b894 0%, #00a085 100%); border-left: 5px solid #00a085; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .conclusion-box { background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%); border-radius: 15px; padding: 30px; margin: 40px 0; color: white; }
+        .code-block { background: #1e1e1e; border-radius: 10px; padding: 20px; margin: 25px 0; overflow-x: auto; }
+        .code-block h4 { color: #61dafb; margin-bottom: 15px; }
+        .article-content h2 { background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-top: 40px; margin-bottom: 20px; }
+    </style>
+</body>
+</html>

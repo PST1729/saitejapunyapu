@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Claude Code: Slash Commands That Changed How I Build - Sai Teja Punyapu</title>
+    <meta name="description" content="A practical guide to Claude Code slash commands — /compact, /clear, /model, custom commands, and workflows that make AI-assisted development faster and more reliable.">
+    <meta name="keywords" content="Claude Code, slash commands, AI coding, Anthropic, developer tools, AI assistant, terminal coding, Sai Teja Punyapu">
+
+    <meta property="og:title" content="Claude Code: Slash Commands That Changed How I Build">
+    <meta property="og:description" content="Master Claude Code's slash commands for faster, more focused AI-assisted development.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://saitejapunyapu.com/blogs/claude-code-slash-commands.html">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="https://saitejapunyapu.com/blogs/claude-code-slash-commands.html">
+    <meta name="author" content="Sai Teja Punyapu">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Claude Code: Slash Commands That Changed How I Build">
+    <meta name="twitter:description" content="A practical guide to Claude Code slash commands for real development workflows.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Claude Code: Slash Commands That Changed How I Build",
+      "author": { "@type": "Person", "name": "Sai Teja Punyapu", "url": "https://saitejapunyapu.com" },
+      "datePublished": "2026-07-08",
+      "dateModified": "2026-07-08",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+      "publisher": { "@type": "Person", "name": "Sai Teja Punyapu" },
+      "mainEntityOfPage": "https://saitejapunyapu.com/blogs/claude-code-slash-commands.html"
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="../saitejapunyapu.png">
+    <link rel="stylesheet" href="blog-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="blog-header">
+        <nav class="blog-nav">
+            <div class="nav-left">
+                <a href="../index.html" class="back-home">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                    <span>Home</span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="#" class="blog-logo">
+                    <img src="../saitejapunyapu.png" alt="ST Logo">
+                    <span>Sai Teja's Blog</span>
+                </a>
+            </div>
+            <div class="nav-right">
+                <div class="blog-nav-links">
+                    <a href="#subscribe">Subscribe</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="blog-main">
+        <div class="blog-container">
+            <article class="blog-article">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="category">Developer Tools</span>
+                        <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                    <h1 class="article-title">Claude Code: Slash Commands That Changed How I Build</h1>
+                    <p class="article-subtitle">The slash commands you actually need — and the workflows that make AI-assisted coding feel like a superpower</p>
+                    <div class="author-info">
+                        <img src="../saitejapunyapu.png" alt="Sai Teja" class="author-avatar">
+                        <div class="author-details">
+                            <strong>Sai Teja Punyapu</strong>
+                            <span>July 8, 2026</span>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="featured-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80" alt="Developer coding with AI assistant">
+                    <div class="image-caption">Slash commands turn Claude Code from a chat interface into a structured development workflow</div>
+                </div>
+
+                <div class="article-content">
+                    <p class="lead">I've tried most AI coding tools out there. Claude Code stuck — not because the model is smarter (though it often is), but because of <strong>slash commands</strong>. They give you precise control over context, mode, and behavior without leaving the terminal. Once you learn them, going back to a plain chat window feels like coding without keyboard shortcuts.</p>
+
+                    <p>This is the guide I wish I had on day one: every slash command that matters, when to use it, and the workflows that actually save time.</p>
+
+                    <h2>What Are Slash Commands?</h2>
+                    <p>In Claude Code, anything starting with <code>/</code> is a slash command — a built-in instruction that changes how the session behaves. Unlike typing a natural language request, slash commands are deterministic: they do exactly one thing, every time.</p>
+
+                    <div class="highlight-box">
+                        <h3><i class="fas fa-terminal"></i> Why Slash Commands Matter</h3>
+                        <ul>
+                            <li><strong>Predictable</strong> — same input, same behavior</li>
+                            <li><strong>Fast</strong> — no need to explain what you want in prose</li>
+                            <li><strong>Context-aware</strong> — many commands operate on your codebase directly</li>
+                            <li><strong>Composable</strong> — chain them into repeatable workflows</li>
+                        </ul>
+                    </div>
+
+                    <h2>Essential Built-In Commands</h2>
+
+                    <h3>/help</h3>
+                    <p>Lists all available slash commands and custom commands in your project. Run this first in any new session. Claude Code evolves quickly — <code>/help</code> is always the source of truth.</p>
+
+                    <h3>/clear</h3>
+                    <p>Wipes the conversation history and starts fresh. Use this when:</p>
+                    <ul>
+                        <li>You're switching to a completely different task</li>
+                        <li>The conversation has gone off-track and context is polluted</li>
+                        <li>You want to reduce token usage mid-session</li>
+                    </ul>
+                    <p><strong>Pro tip:</strong> Don't clear mid-debug. The model often needs the error history to fix the issue. Clear only after the task is done or abandoned.</p>
+
+                    <h3>/compact</h3>
+                    <p>This is the command I use most. It summarizes the conversation history into a condensed form, freeing up context window space while preserving key decisions and code changes.</p>
+                    <p>Use <code>/compact</code> when:</p>
+                    <ul>
+                        <li>You've been working on a large feature and the context is getting full</li>
+                        <li>The model starts "forgetting" earlier decisions</li>
+                        <li>You want to continue the same task but need breathing room</li>
+                    </ul>
+
+                    <div class="info-box">
+                        <p><strong>/clear vs. /compact:</strong> <code>/clear</code> deletes everything. <code>/compact</code> keeps the essence. If you're mid-feature, always prefer <code>/compact</code>.</p>
+                    </div>
+
+                    <h3>/model</h3>
+                    <p>Switches the underlying model (e.g., between Sonnet and Opus variants). Use Opus for complex architectural decisions and Sonnet for faster iteration on smaller tasks. Switching mid-session lets you optimize cost vs. capability.</p>
+
+                    <h3>/cost</h3>
+                    <p>Shows token usage and estimated cost for the current session. Run this periodically on long sessions — agentic loops can burn through tokens fast if you're not watching.</p>
+
+                    <h3>/memory</h3>
+                    <p>Manages Claude Code's persistent memory — facts about your project, preferences, and conventions that carry across sessions. This is how you teach Claude Code things like "we use tabs not spaces" or "always run tests before committing."</p>
+
+                    <h3>/init</h3>
+                    <p>Generates a <code>CLAUDE.md</code> file for your project — a context document that Claude Code reads at the start of every session. It captures project structure, conventions, and key commands. Run <code>/init</code> once when onboarding a new repo.</p>
+
+                    <div class="code-block">
+                        <h4>Example CLAUDE.md snippet</h4>
+                        <pre style="color:#a9dc76;margin:0;"><code># Project: saitejapunyapu.com
+- Static site hosted on Netlify
+- No build step — edit HTML/CSS/JS directly
+- Jarvis chatbot uses netlify/functions/jarvis.js
+- Always update sitemap.xml when adding pages</code></pre>
+                    </div>
+
+                    <h3>/review</h3>
+                    <p>Asks Claude to review your recent changes like a code reviewer — checking for bugs, style issues, and missed edge cases. I run <code>/review</code> before every commit on non-trivial changes.</p>
+
+                    <h3>/diff</h3>
+                    <p>Shows the git diff of your current changes. Useful when you've lost track of what Claude modified and want a quick audit before committing.</p>
+
+                    <h2>File and Code Commands</h2>
+
+                    <h3>/add &amp; /remove</h3>
+                    <p>Explicitly add or remove files from Claude's context. By default, Claude Code is smart about what it reads, but sometimes you need to point it at a specific file:</p>
+                    <ul>
+                        <li><code>/add src/api/handler.py</code> — include this file in context</li>
+                        <li><code>/remove node_modules/</code> — exclude a directory</li>
+                    </ul>
+
+                    <h3>/grep</h3>
+                    <p>Search the codebase for a pattern without leaving Claude Code. Faster than switching to another terminal when you're mid-conversation and need to find where something is defined.</p>
+
+                    <h2>Custom Slash Commands</h2>
+                    <p>This is where Claude Code gets really powerful. You can define your own commands in <code>.claude/commands/</code> as markdown files. Each file becomes a <code>/command-name</code> you can invoke.</p>
+
+                    <div class="code-block">
+                        <h4>Example: .claude/commands/deploy-check.md</h4>
+                        <pre style="color:#a9dc76;margin:0;"><code>Check this project is ready to deploy:
+1. Verify no console.log statements in production code
+2. Check all meta tags use saitejapunyapu.com domain
+3. Confirm sitemap.xml includes all pages
+4. Run git status and summarize uncommitted changes</code></pre>
+                    </div>
+                    <p>Now you type <code>/deploy-check</code> and Claude runs that checklist every time. This is how you turn repeated workflows into one-keystroke operations.</p>
+
+                    <h3>Custom Command Ideas That Work</h3>
+                    <ul>
+                        <li><code>/pr-summary</code> — generate a pull request description from git diff</li>
+                        <li><code>/seo-check</code> — audit a page's meta tags, headings, and schema markup</li>
+                        <li><code>/test-gen</code> — generate unit tests for the currently focused file</li>
+                        <li><code>/explain</code> — explain the selected code block like you're a junior dev</li>
+                        <li><code>/commit</code> — stage changes and write a conventional commit message</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <p><strong>Keep custom commands focused.</strong> A command that does 10 things is harder to debug than three commands that each do one thing well. Start with 2–3 commands for your most repeated workflows.</p>
+                    </div>
+
+                    <h2>Workflows I Use Daily</h2>
+
+                    <h3>The Feature Build Loop</h3>
+                    <ol>
+                        <li><code>/init</code> (first time only) — generate CLAUDE.md</li>
+                        <li>Describe the feature in natural language</li>
+                        <li>Let Claude implement</li>
+                        <li><code>/review</code> — catch issues before I test</li>
+                        <li>Test manually, report bugs in natural language</li>
+                        <li><code>/compact</code> — when context gets heavy</li>
+                        <li><code>/commit</code> or manual git commit</li>
+                    </ol>
+
+                    <h3>The Debug Loop</h3>
+                    <ol>
+                        <li>Paste the error message</li>
+                        <li>Claude investigates (don't <code>/clear</code> — it needs the error trail)</li>
+                        <li><code>/diff</code> — verify the fix didn't break anything else</li>
+                        <li><code>/review</code> — sanity check</li>
+                    </ol>
+
+                    <h3>The Content Update Loop</h3>
+                    <p>For my portfolio site, I have a custom <code>/site-update</code> command that reminds Claude to update index.html, sitemap.xml, and jarvis.js knowledge base whenever content changes. One command, three files, zero forgotten updates.</p>
+
+                    <h2>Tips for Getting the Most Out of Slash Commands</h2>
+                    <ul>
+                        <li><strong>Learn 5 commands first:</strong> <code>/help</code>, <code>/clear</code>, <code>/compact</code>, <code>/review</code>, <code>/init</code></li>
+                        <li><strong>Build custom commands for repeated tasks</strong> — if you do it more than twice, make it a slash command</li>
+                        <li><strong>Keep CLAUDE.md updated</strong> — it's the single highest-ROI file in any Claude Code project</li>
+                        <li><strong>Watch /cost on long sessions</strong> — compact early, clear when switching tasks</li>
+                        <li><strong>Don't over-command</strong> — natural language is still great for exploratory work; slash commands are for structured operations</li>
+                    </ul>
+
+                    <div class="success-box">
+                        <p>The difference between someone who "tried Claude Code" and someone who ships with it daily comes down to slash commands. They're the keyboard shortcuts of AI-assisted development — invisible until you learn them, then impossible to live without.</p>
+                    </div>
+
+                    <div class="conclusion-box">
+                        <h3>Start Here</h3>
+                        <p>Open Claude Code in your current project. Run <code>/help</code>. Then <code>/init</code>. Then build one custom command for something you do every day. That's it — you'll feel the difference immediately.</p>
+                    </div>
+                </div>
+
+                <footer class="article-footer">
+                    <div class="tags">
+                        <span class="tag">Claude Code</span>
+                        <span class="tag">Slash Commands</span>
+                        <span class="tag">AI Coding</span>
+                        <span class="tag">Developer Tools</span>
+                    </div>
+                    <div class="share-section">
+                        <h4>Share this article</h4>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="share-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="share-btn copy-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </footer>
+            </article>
+
+            <section class="author-bio">
+                <div class="bio-content">
+                    <h3>About Sai Teja Punyapu</h3>
+                    <p>Data Engineer Intern at Conifer Health Solutions and MS Business Analytics &amp; AI student at UT Dallas. Building with AI tools daily and writing about what actually works.</p>
+                    <div class="bio-links">
+                        <a href="https://www.linkedin.com/in/connect-saiteja/" class="bio-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        <a href="https://github.com/PST1729" class="bio-link"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="../index.html" class="bio-link"><i class="fas fa-globe"></i> Portfolio</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter-section" id="subscribe">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest insights on AI, data science, and technology delivered to your inbox.</p>
+                    <form class="newsletter-form" action="https://formspree.io/f/xpwgjqjg" method="POST">
+                        <input type="email" name="email" placeholder="Enter your email" required />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="blog-footer">
+        <div class="footer-container">
+            <div class="footer-bottom">
+                <div class="copyright"><p>&copy; 2026 Sai Teja Punyapu. All rights reserved.</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+    <script src="blog-scripts.js"></script>
+    <style>
+        .highlight-box { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 25px; margin: 30px 0; color: white; }
+        .info-box { background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%); border-left: 5px solid #0984e3; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .warning-box { background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%); border-left: 5px solid #e17055; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .success-box { background: linear-gradient(135deg, #00b894 0%, #00a085 100%); border-left: 5px solid #00a085; border-radius: 8px; padding: 20px; margin: 25px 0; color: white; }
+        .conclusion-box { background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%); border-radius: 15px; padding: 30px; margin: 40px 0; color: white; }
+        .code-block { background: #1e1e1e; border-radius: 10px; padding: 20px; margin: 25px 0; overflow-x: auto; }
+        .code-block h4 { color: #61dafb; margin-bottom: 15px; }
+        .article-content h2 { background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-top: 40px; margin-bottom: 20px; }
+        .article-content code { background: #f1f3f5; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</body>
+</html>

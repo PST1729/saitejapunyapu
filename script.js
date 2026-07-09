@@ -130,7 +130,7 @@ function initExperienceTimelineChart() {
                 x: {
                     type: 'time',
                     min: '2022-02-01',
-                    max: '2025-08-31',
+                    max: '2027-01-31',
                     time: {
                         unit: 'year',
                         tooltipFormat: 'MMM yyyy'

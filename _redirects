@@ -1,0 +1,10 @@
+# Pretty URL redirects for blogs
+/blogs/ai-agents              /blogs/ai-agents.html              200
+/blogs/ai-jobs-reinvention-future-work  /blogs/ai-jobs-reinvention-future-work.html  200
+/blogs/english-the-new-coding-language  /blogs/english-the-new-coding-language.html  200
+/blogs/claude-code-slash-commands       /blogs/claude-code-slash-commands.html       200
+/blogs/google-adk-agentic-development   /blogs/google-adk-agentic-development.html   200
+
+# Redirect old domain (if configured as alias, Netlify handles at domain level)
+# Force trailing consistency
+/sitemap.xml                  /sitemap.xml                     200
