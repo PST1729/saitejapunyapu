@@ -48,6 +48,16 @@ function initExperienceTimelineChart() {
 
     const today = new Date().toISOString().split('T')[0]; // Gets today's date in 'YYYY-MM-DD'
 
+    // Ensure ongoing roles are visible on the timeline (min ~4 months visual span)
+    function getChartEnd(start, end) {
+        if (end !== today) return end;
+        const startDate = new Date(start);
+        const minEnd = new Date(startDate);
+        minEnd.setMonth(minEnd.getMonth() + 4);
+        const todayDate = new Date(today);
+        return (minEnd > todayDate ? minEnd : todayDate).toISOString().split('T')[0];
+    }
+
     const experiences = [
 
         {
@@ -96,7 +106,8 @@ function initExperienceTimelineChart() {
             backgroundColor: colors,
             borderColor: '#fff',
             borderWidth: 1,
-            data: experiences.map(e => ({ x: [e.start, e.end], y: e.company })),
+            barMinLength: 48,
+            data: experiences.map(e => ({ x: [e.start, getChartEnd(e.start, e.end)], y: e.company })),
         }]
     };
 
@@ -112,11 +123,11 @@ function initExperienceTimelineChart() {
                 tooltip: {
                     callbacks: {
                         label: function(context) {
-                            const { x: [start, end], y } = context.raw;
+                            const { x: [start], y } = context.raw;
                             const experience = experiences.find(e => e.company === y);
                             const options = { year: 'numeric', month: 'short' };
                             const startDate = new Date(start).toLocaleDateString(undefined, options);
-                            const endDate = end === today ? 'Present' : new Date(end).toLocaleDateString(undefined, options);
+                            const endDate = experience.end === today ? 'Present' : new Date(experience.end).toLocaleDateString(undefined, options);
                             return `${experience.role}\n${startDate} – ${endDate}`;
                         },
                         afterLabel: function(context) {
@@ -130,7 +141,7 @@ function initExperienceTimelineChart() {
                 x: {
                     type: 'time',
                     min: '2022-02-01',
-                    max: '2027-01-31',
+                    max: getChartEnd(today, today),
                     time: {
                         unit: 'year',
                         tooltipFormat: 'MMM yyyy'
