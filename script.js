@@ -954,11 +954,6 @@ window.addEventListener('resize', function() {
 });
 
 
-function toggleResumePopup() {
-    const popup = document.getElementById("resume-popup");
-    popup.classList.toggle("hidden");
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     const slider = document.querySelector('.certificates-slider');
     const cards = document.querySelectorAll('.certificate-card');
