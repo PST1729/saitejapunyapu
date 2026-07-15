@@ -1051,89 +1051,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Make toggleJarvis function global so it can be called from HTML
-window.toggleJarvis = function() {
-    const jarvisContainer = document.querySelector('.jarvis-container');
-    const jarvisToggle = document.getElementById('jarvis-toggle');
+// Jarvis temporarily disabled (Safe Browsing / social-engineering review)
+window.toggleJarvis = function() {};
 
-    jarvisContainer.style.display = 'flex';
-    jarvisToggle.style.display = 'none';
-
-    // Mobile detection
-    function isMobileDevice() {
-        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-               window.innerWidth <= 768;
-    }
-
-    // Prevent body scroll on mobile when Jarvis is open
-    if (isMobileDevice()) {
-        document.body.classList.add('jarvis-open');
-    }
-
-    // Only auto-focus on desktop to prevent mobile keyboard from opening
-    if (!isMobileDevice()) {
-        document.getElementById('jarvis-input').focus();
-    }
-};
-
-
-
-// Business Card Auto-Flip Functionality
-let isFlipped = false;
-let autoFlipInterval;
-
-function flipCard() {
-    const businessCard = document.getElementById('businessCard');
-    if (businessCard) {
-        isFlipped = !isFlipped;
-        if (isFlipped) {
-            businessCard.classList.add('flipped');
-        } else {
-            businessCard.classList.remove('flipped');
-        }
-    }
-}
-
-function startAutoFlip() {
-    // Clear any existing interval
-    if (autoFlipInterval) {
-        clearInterval(autoFlipInterval);
-    }
-
-    // Start auto-flip every 10 seconds
-    autoFlipInterval = setInterval(flipCard, 3000);
-}
-
-function stopAutoFlip() {
-    if (autoFlipInterval) {
-        clearInterval(autoFlipInterval);
-        autoFlipInterval = null;
-    }
-}
-
-// Initialize auto-flip when page loads
+// Business card flip disabled — QR / "Know More" card back removed from homepage
 document.addEventListener('DOMContentLoaded', function() {
-    startAutoFlip();
-
-    const cardContainer = document.querySelector('.card-container');
-    if (cardContainer) {
-        // Pause auto-flip on hover
-        cardContainer.addEventListener('mouseenter', stopAutoFlip);
-
-        // Resume auto-flip when hover ends
-        cardContainer.addEventListener('mouseleave', startAutoFlip);
-    }
-});
-
-// Optional: Manual click to flip
-document.addEventListener('DOMContentLoaded', function() {
-    const businessCard = document.getElementById('businessCard');
-    if (businessCard) {
-        businessCard.addEventListener('click', function() {
-            flipCard();
-            // Restart the auto-flip timer after manual flip
-            stopAutoFlip();
-            setTimeout(startAutoFlip, 1000);
-        });
-    }
+    document.querySelectorAll('.business-card').forEach(function(card) {
+        card.classList.remove('flipped');
+        card.style.cursor = 'default';
+        card.style.pointerEvents = 'none';
+    });
 });
