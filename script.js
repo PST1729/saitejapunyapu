@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', onLoaded);
     setTimeout(hidePreloader, MAX_WAIT_MS);
 
-    // Initialize all charts and visualizations with improved styles
-    initExperienceTimelineChart();
-    initEducationTimelineChart();
-    initSkillsCharts();
+    // Initialize charts safely so one failure doesn't blank the whole page
+    try { initExperienceTimelineChart(); } catch (e) { console.error('Experience chart failed:', e); }
+    try { initEducationTimelineChart(); } catch (e) { console.error('Education chart failed:', e); }
+    try { initSkillsCharts(); } catch (e) { console.error('Skills charts failed:', e); }
 
     // Setup view switching for sections with multiple views
     setupViewSwitchers();
