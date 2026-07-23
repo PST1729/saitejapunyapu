@@ -1,0 +1,3754 @@
+[
+  {
+    "company": "Emirates",
+    "description": "International airline with student discounts on flights. Students can get: Up to 10% off Economy, 5% off Premium/Business Class.",
+    "note": "Up to 10% off Economy, 5% off Premium/Business Class.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.emirates.com/english/special-offers/student-special-fares/",
+    "domain": "emirates.com"
+  },
+  {
+    "company": "ElevenReader",
+    "description": "Turn notes and textbooks into natural AI audio and podcasts. Students can get: 1 year of ElevenReader Ultra free ($99 value).",
+    "note": "1 year of ElevenReader Ultra free ($99 value).",
+    "category": "Design & Creative",
+    "claimLink": "https://elevenreader.io/students",
+    "domain": "elevenreader.io"
+  },
+  {
+    "company": "Educative",
+    "description": "Interactive coding courses with browser-based environments. Students can get: 6 months free (70+ courses) + 30% off on Plans.",
+    "note": "6 months free (70+ courses) + 30% off on Plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.educative.io/github-students",
+    "domain": "educative.io"
+  },
+  {
+    "company": "Duolingo",
+    "description": "Learn 40+ languages through gamified lessons and challenges. Students can get: Free 1 Week Super Trial.",
+    "note": "Free 1 Week Super Trial.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.duolingo.com/super",
+    "domain": "duolingo.com"
+  },
+  {
+    "company": "Drime",
+    "description": "500GB secure cloud storage for students and educators. Students can get: Free 500GB cloud storage.",
+    "note": "Free 500GB cloud storage.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://drime.cloud/solutions/education",
+    "domain": "drime.cloud"
+  },
+  {
+    "company": "Doppler",
+    "description": "Manage environment variables and secrets securely across teams. Students can get: Free Team subscription while student.",
+    "note": "Free Team subscription while student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.doppler.com/secretsops-for-students",
+    "domain": "doppler.com"
+  },
+  {
+    "company": "DigitalOcean",
+    "description": "Scalable cloud hosting for deploying and managing web applications. Students can get: $200 platform credit for 1 year.",
+    "note": "$200 platform credit for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.digitalocean.com/github-students",
+    "domain": "digitalocean.com"
+  },
+  {
+    "company": "DevCycle",
+    "description": "Feature flag management and rollout control for development teams. Students can get: Free Starter plan for 1 year.",
+    "note": "Free Starter plan for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://devcycle.com/github-education",
+    "domain": "devcycle.com"
+  },
+  {
+    "company": "Desearch",
+    "description": "AI search APIs for web & Twitter/X data. Students can get: $5 free credits on signup.",
+    "note": "$5 free credits on signup.",
+    "category": "AI & Productivity",
+    "claimLink": "https://desearch.ai/",
+    "domain": "desearch.ai"
+  },
+  {
+    "company": "DeepScan",
+    "description": "Detect and fix JavaScript code issues with static analysis. Students can get: Free 6-month trial while student.",
+    "note": "Free 6-month trial while student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://deepscan.io/github-student-pack/",
+    "domain": "deepscan.io"
+  },
+  {
+    "company": "Deepnote",
+    "description": "Collaborate in Jupyter notebooks for data and analytics work. Students can get: Free Team plan with unlimited projects.",
+    "note": "Free Team plan with unlimited projects.",
+    "category": "AI & Productivity",
+    "claimLink": "https://deepnote.com/github-student-pack",
+    "domain": "deepnote.com"
+  },
+  {
+    "company": "Datadog",
+    "description": "Monitor infrastructure and logs in cloud applications. Students can get: Free Datadog Pro account via GitHub Student Developer Pack.",
+    "note": "Free Datadog Pro account via GitHub Student Developer Pack.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://education.github.com/pack",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "DataCamp",
+    "description": "Learn data and AI skills through interactive, guided practice. Students can get: 3 months of free subscription access.",
+    "note": "3 months of free subscription access.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.datacamp.com/github-students",
+    "domain": "datacamp.com"
+  },
+  {
+    "company": "Dashlane",
+    "description": "Store and autofill passwords securely across devices. Students can get: Free Dashlane Premium for 1 year ($65 value).",
+    "note": "Free Dashlane Premium for 1 year ($65 value).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.dashlane.com/students",
+    "domain": "dashlane.com"
+  },
+  {
+    "company": "DailyBot",
+    "description": "Automate daily standups and team check-ins across chat platforms. Students can get: Free Business plan for 10 users for 6 months.",
+    "note": "Free Business plan for 10 users for 6 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.dailybot.com/programs/github-students",
+    "domain": "dailybot.com"
+  },
+  {
+    "company": "Coveralls",
+    "description": "Code coverage tracking for GitHub repositories. Students can get: Free via GitHub Student Pack.",
+    "note": "Free via GitHub Student Pack.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://coveralls.io/github-students",
+    "domain": "coveralls.io"
+  },
+  {
+    "company": "Coursera Plus",
+    "description": "Unlimited access to courses, certificates, and degree programs. Students can get: Free 7-day trial + Up to 40% off on the first 3 months.",
+    "note": "Free 7-day trial + Up to 40% off on the first 3 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.coursera.org/courseraplus",
+    "domain": "coursera.org"
+  },
+  {
+    "company": "Confluence",
+    "description": "Team collaboration wiki and knowledge base for documentation. Students can get: 75% off for students via Student Beans.",
+    "note": "75% off for students via Student Beans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/atlassian",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "ConfigCat",
+    "description": "Manage feature flags to control releases and experiments easily. Students can get: Free Pro plan while student.",
+    "note": "Free Pro plan while student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://configcat.com/student/",
+    "domain": "configcat.com"
+  },
+  {
+    "company": "CodeScene",
+    "description": "Analyze code quality and identify technical debt in projects. Students can get: Free Student account.",
+    "note": "Free Student account.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://codescene.com/github-students",
+    "domain": "codescene.com"
+  },
+  {
+    "company": "Codedex",
+    "description": "Gamified coding lessons to learn Python, web development and more. Students can get: Free 6 months of premium Club membership.",
+    "note": "Free 6 months of premium Club membership.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.codedex.io/github-students",
+    "domain": "codedex.io"
+  },
+  {
+    "company": "Codecov",
+    "description": "Measure and track code coverage across test suites. Students can get: Free access for public & private repos.",
+    "note": "Free access for public & private repos.",
+    "category": "AI & Productivity",
+    "claimLink": "https://about.codecov.io/for/education/",
+    "domain": "about.codecov.io"
+  },
+  {
+    "company": "Coda",
+    "description": "All-in-one workspace combining docs, tables, workflows, and AI. Students can get: Free Pro or 80% off Pro/Team plan for a year.",
+    "note": "Free Pro or 80% off Pro/Team plan for a year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://coda.io/form/Coda-for-Students-Teachers_dllac_PLukj",
+    "domain": "coda.io"
+  },
+  {
+    "company": "Cloudflare",
+    "description": "Serverless platform for building, deploying, and scaling applications. Students can get: 1 year free Cloudflare Workers Paid Plan.",
+    "note": "1 year free Cloudflare Workers Paid Plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.cloudflare.com/students/",
+    "domain": "cloudflare.com"
+  },
+  {
+    "company": "ClickUp",
+    "description": "All-in-one project management and productivity platform. Students can get: Contact for student discount.",
+    "note": "Contact for student discount.",
+    "category": "AI & Productivity",
+    "claimLink": "https://clickup.com",
+    "domain": "clickup.com"
+  },
+  {
+    "company": "CleanShot X",
+    "description": "Capture and annotate screenshots and screen recordings on Mac. Students can get: 30% educational discount.",
+    "note": "30% educational discount.",
+    "category": "AI & Productivity",
+    "claimLink": "https://cleanshot.com/edu",
+    "domain": "cleanshot.com"
+  },
+  {
+    "company": "Clean Clip",
+    "description": "Fast clipboard manager for Mac with pinning and search features. Students can get: 30% off with education email (Mac).",
+    "note": "30% off with education email (Mac).",
+    "category": "AI & Productivity",
+    "claimLink": "https://cleanclip.cc/students",
+    "domain": "cleanclip.cc"
+  },
+  {
+    "company": "Claude Pro",
+    "description": "AI assistant for writing, reasoning, and coding efficiently. Students can get: Free Access at Select Universities.",
+    "note": "Free Access at Select Universities.",
+    "category": "AI & Productivity",
+    "claimLink": "https://claude.com/solutions/education",
+    "domain": "claude.com"
+  },
+  {
+    "company": "Chaos",
+    "description": "Student-priced Chaos Education Collections for rendering and visualization. Students can get: Up to 80% off Chaos student licenses.",
+    "note": "Up to 80% off Chaos student licenses.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.chaos.com/education/students",
+    "domain": "chaos.com"
+  },
+  {
+    "company": "CARTO",
+    "description": "Analyze and visualize location data with interactive maps. Students can get: Free account upgrades and premium features for 2 years.",
+    "note": "Free account upgrades and premium features for 2 years.",
+    "category": "AI & Productivity",
+    "claimLink": "https://docs.carto.com/faqs/carto-for-education#what-is-the-process-for-getting-a-carto-student-account",
+    "domain": "docs.carto.com"
+  },
+  {
+    "company": "Canva",
+    "description": "Design platform for creating graphics, videos, and social media posts. Students can get: Free for students through their school or campus.",
+    "note": "Free for students through their school or campus.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.canva.com/education/students/",
+    "domain": "canva.com"
+  },
+  {
+    "company": "Camber",
+    "description": "Cloud platform for testing, computing, and analysis projects. Students can get: Free Student plan: 200 CPU hrs, 75GB Storage, 200 LLM msgs.",
+    "note": "Free Student plan: 200 CPU hrs, 75GB Storage, 200 LLM msgs.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.cambercloud.com/github-student-pack",
+    "domain": "cambercloud.com"
+  },
+  {
+    "company": "Bubble",
+    "description": "Full-stack platform to build web apps and AI agents without code. Students can get: 30% discount on all paid plans and workload tiers 1 & 2.",
+    "note": "30% discount on all paid plans and workload tiers 1 & 2.",
+    "category": "AI & Productivity",
+    "claimLink": "https://bubble.io/",
+    "domain": "bubble.io"
+  },
+  {
+    "company": "BrowserStack",
+    "description": "Test websites on 2000+ real browsers and mobile devices. Students can get: Free Automate Mobile Plan for 1 year.",
+    "note": "Free Automate Mobile Plan for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.browserstack.com/github-students",
+    "domain": "browserstack.com"
+  },
+  {
+    "company": "Bootstrap Studio",
+    "description": "Drag-and-drop builder for responsive websites. Students can get: Free license while student.",
+    "note": "Free license while student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://education.github.com/pack#:~:text=About%20Bootstrap%20Studio",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "BoltAI",
+    "description": "Native macOS AI assistant integrating GPT into your workflow. Students can get: 50% off first year, plus 40% off on renewal (stacked).",
+    "note": "50% off first year, plus 40% off on renewal (stacked).",
+    "category": "AI & Productivity",
+    "claimLink": "https://boltai.com/",
+    "domain": "boltai.com"
+  },
+  {
+    "company": "Blockchair",
+    "description": "Access blockchain data and insights via public APIs. Students can get: 100K free API requests for 1 year.",
+    "note": "100K free API requests for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://blockchair.com/student-pack",
+    "domain": "blockchair.com"
+  },
+  {
+    "company": "Blinkist",
+    "description": "Read or listen to short summaries of nonfiction books and podcasts. Students can get: 40% off Blinkist annual plan.",
+    "note": "40% off Blinkist annual plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/blinkist?offer=0-student-discount-64f7cdfc-e23e-495f-9199-ad78163e53de",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Blender",
+    "description": "Free 3D modeling and animation software for design and VFX. Students can get: Free open-source 3D creation suite.",
+    "note": "Free open-source 3D creation suite.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.blender.org/",
+    "domain": "blender.org"
+  },
+  {
+    "company": "Blackfire",
+    "description": "Profile code performance and identify bottlenecks in applications. Students can get: Free Developer subscription.",
+    "note": "Free Developer subscription.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.blackfire.io/students",
+    "domain": "blackfire.io"
+  },
+  {
+    "company": "BlackBerry QNX",
+    "description": "Real-time embedded operating system for automotive and industrial use. Students can get: Free academic license.",
+    "note": "Free academic license.",
+    "category": "AI & Productivity",
+    "claimLink": "https://blackberry.qnx.com/en/company/qnx-in-education",
+    "domain": "blackberry.qnx.com"
+  },
+  {
+    "company": "Bitbucket",
+    "description": "Git code repository with unlimited private repos and collaborators. Students can get: Free unlimited private repositories for students.",
+    "note": "Free unlimited private repositories for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://bitbucket.org/product/education",
+    "domain": "bitbucket.org"
+  },
+  {
+    "company": "Beautiful.ai",
+    "description": "Generative AI presentation maker for professional slides in minutes. Students can get: Free Pro for 1 year ($144 value).",
+    "note": "Free Pro for 1 year ($144 value).",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.beautiful.ai/education",
+    "domain": "beautiful.ai"
+  },
+  {
+    "company": "Basecamp",
+    "description": "Project management tool for organizing tasks, teams, and communication. Students can get: 100% free accounts for teachers/students.",
+    "note": "100% free accounts for teachers/students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://basecamp.com/discounts",
+    "domain": "basecamp.com"
+  },
+  {
+    "company": "Babbel",
+    "description": "Learn languages quickly with conversation-based lessons and review sessions. Students can get: 65% off 3 months of lessons.",
+    "note": "65% off 3 months of lessons.",
+    "category": "Education & Learning",
+    "claimLink": "https://get.babbel.com/discount_student_ame-usa_en",
+    "domain": "get.babbel.com"
+  },
+  {
+    "company": "B&H Photo Video",
+    "description": "Retailer for professional photo, video, and creative gear. Students can get: Discounted pricing for students.",
+    "note": "Discounted pricing for students.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.bhphotovideo.com/find/eduAdvantage.jsp",
+    "domain": "bhphotovideo.com"
+  },
+  {
+    "company": "Axure",
+    "description": "Tool for creating interactive wireframes and high-fidelity prototypes. Students can get: Free 1-year Axure RP license - renewable annually.",
+    "note": "Free 1-year Axure RP license - renewable annually.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.axure.com/edu",
+    "domain": "axure.com"
+  },
+  {
+    "company": "AWS Educate",
+    "description": "Self-paced cloud computing courses with labs and a student job board. Students can get: Free AWS learning + self-paced tracks.",
+    "note": "Free AWS learning + self-paced tracks.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://aws.amazon.com/education/awseducate/",
+    "domain": "aws.amazon.com"
+  },
+  {
+    "company": "Avid Pro Tools",
+    "description": "Professional software for music production and sound engineering. Students can get: Discounted education pricing.",
+    "note": "Discounted education pricing.",
+    "category": "Science & Research",
+    "claimLink": "https://www.avid.com/academic-eligibility",
+    "domain": "avid.com"
+  },
+  {
+    "company": "Autodesk",
+    "description": "Professional 3D design, modeling, and engineering software suite. Students can get: Renewable 1-year subscription across Autodesk products.",
+    "note": "Renewable 1-year subscription across Autodesk products.",
+    "category": "Science & Research",
+    "claimLink": "https://www.autodesk.com/education/edu-software/overview",
+    "domain": "autodesk.com"
+  },
+  {
+    "company": "Aura AI",
+    "description": "Generate professional AI videos using top models like Veo, Sora and more. Students can get: 30% discount on premium plans.",
+    "note": "30% discount on premium plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://auraai.app/student-discount",
+    "domain": "auraai.app"
+  },
+  {
+    "company": "AT&T Student",
+    "description": "Student wireless savings via participating AT&T programs. Students can get: Student plans from $10/mo + benefits based on your school.",
+    "note": "Student plans from $10/mo + benefits based on your school.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.att.com/verification/signaturehub/#student",
+    "domain": "att.com"
+  },
+  {
+    "company": "AstraSecurity",
+    "description": "Website security suite with malware scanning, firewall, and protection tools. Students can get: 6-month website firewall and scanner access.",
+    "note": "6-month website firewall and scanner access.",
+    "category": "Security & Privacy",
+    "claimLink": "https://www.getastra.com/github-student-developer-pack",
+    "domain": "getastra.com"
+  },
+  {
+    "company": "Asana",
+    "description": "Manage team projects with lists, boards, and timelines. Students can get: Free 12-month Starter plan.",
+    "note": "Free 12-month Starter plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://asana.com/industry/students",
+    "domain": "asana.com"
+  },
+  {
+    "company": "Arrow",
+    "description": "Exclusive discounts on electronic components, sensors, and development boards. Students can get: 20% off via Student Beans.",
+    "note": "20% off via Student Beans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/arrow",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Arduino",
+    "description": "Build and test IoT projects with open-source hardware boards. Students can get: Free Cloud for 6 months & hardware discounts.",
+    "note": "Free Cloud for 6 months & hardware discounts.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.arduino.cc/education/github-students",
+    "domain": "arduino.cc"
+  },
+  {
+    "company": "Appwrite",
+    "description": "Build secure backends for web and mobile apps. Students can get: Free Pro plan until graduation ($300/yr value).",
+    "note": "Free Pro plan until graduation ($300/yr value).",
+    "category": "AI & Productivity",
+    "claimLink": "https://appwrite.io/education",
+    "domain": "appwrite.io"
+  },
+  {
+    "company": "Apple TV+",
+    "description": "Stream Apple Originals included with Apple Music Student plan. Students can get: Free with Apple Music Student.",
+    "note": "Free with Apple Music Student.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.apple.com/apple-music/",
+    "domain": "apple.com"
+  },
+  {
+    "company": "Apple Music",
+    "description": "Stream 100M+ songs with offline playback and curated playlists. Students can get: 1 month free, then ~50% off for up to 48 months.",
+    "note": "1 month free, then ~50% off for up to 48 months.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://offers.applemusic.apple/student-offer",
+    "domain": "offers.applemusic.apple"
+  },
+  {
+    "company": "Apple Education",
+    "description": "Student pricing on Macs, iPads, and accessories. Students can get: Up to 10% off Macs iPads and accessories.",
+    "note": "Up to 10% off Macs iPads and accessories.",
+    "category": "AI & Productivity",
+    "claimLink": "https://student-redirect.studentoffersteam.workers.dev/apple",
+    "domain": "student-redirect.studentoffersteam.workers.dev"
+  },
+  {
+    "company": "Appfigures",
+    "description": "Track app downloads, performance, and rankings across app stores. Students can get: Free universal analytics and performance reports for 1 year.",
+    "note": "Free universal analytics and performance reports for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://appfigures.com/landing/github-student",
+    "domain": "appfigures.com"
+  },
+  {
+    "company": "Apify",
+    "description": "Build and run web scrapers, crawlers, and data extraction bots at scale in the cloud. Students can get: 50% off paid plans for 4 months.",
+    "note": "50% off paid plans for 4 months.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://apify.com/resources/universities",
+    "domain": "apify.com"
+  },
+  {
+    "company": "AnyDesk",
+    "description": "Remote desktop software for accessing and controlling computers securely. Students can get: Free access for unlimited private use.",
+    "note": "Free access for unlimited private use.",
+    "category": "AI & Productivity",
+    "claimLink": "https://anydesk.com/en/students",
+    "domain": "anydesk.com"
+  },
+  {
+    "company": "Antares",
+    "description": "Suite of professional vocal processing tools including Auto-Tune. Students can get: Student discounts via Studentbeans (availability varies).",
+    "note": "Student discounts via Studentbeans (availability varies).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/antares",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Amtrak",
+    "description": "Save on train tickets across the US with a valid student ID. Students can get: Save 15% on Amtrak fares when booking 1 day ahead.",
+    "note": "Save 15% on Amtrak fares when booking 1 day ahead.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.amtrak.com/student-discounts",
+    "domain": "amtrak.com"
+  },
+  {
+    "company": "Alibaba Cloud",
+    "description": "Cloud platform - free student server, 100+ courses & certs. Students can get: Free ECS server for 1 year + courses.",
+    "note": "Free ECS server for 1 year + courses.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.alibabacloud.com/en/developer/students",
+    "domain": "alibabacloud.com"
+  },
+  {
+    "company": "AlgoExpert",
+    "description": "Practice coding problems and algorithms for interviews. Students can get: Free 20 coding interview questions + 10% off on all products.",
+    "note": "Free 20 coding interview questions + 10% off on all products.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.algoexpert.io/github-students",
+    "domain": "algoexpert.io"
+  },
+  {
+    "company": "Akiflow",
+    "description": "Centralize tasks from every app into a single calendar view. Students can get: Exclusive student discount (Contact Support).",
+    "note": "Exclusive student discount (Contact Support).",
+    "category": "AI & Productivity",
+    "claimLink": "https://akiflow.com/pricing#:~:text=University%20student%20or%20researcher%3F",
+    "domain": "akiflow.com"
+  },
+  {
+    "company": "Airtable",
+    "description": "Collaborative database platform for organizing and managing projects. Students can get: 120-day free Team trial + 6-24 months free on approval.",
+    "note": "120-day free Team trial + 6-24 months free on approval.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://support.airtable.com/docs/nonprofit-and-educational-plans-faqs#applying-for-discounted-airtable-plans",
+    "domain": "support.airtable.com"
+  },
+  {
+    "company": "AiApply",
+    "description": "AI tools to auto-apply for jobs and generate tailored resumes. Students can get: 40% discount on Premium.",
+    "note": "40% discount on Premium.",
+    "category": "AI & Productivity",
+    "claimLink": "https://aiapply.co/en-GB/students",
+    "domain": "aiapply.co"
+  },
+  {
+    "company": "Affinity",
+    "description": "Professional photo, design, and layout apps free for everyone. Students can get: 100% Free for everyone.",
+    "note": "100% Free for everyone.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.affinity.studio/",
+    "domain": "affinity.studio"
+  },
+  {
+    "company": "Adafruit",
+    "description": "Electronics platform for building smart hardware and IoT devices. Students can get: 1 year of Adafruit IO+ & hardware discounts.",
+    "note": "1 year of Adafruit IO+ & hardware discounts.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.adafruit.com/github-students",
+    "domain": "adafruit.com"
+  },
+  {
+    "company": "1Password",
+    "description": "Manage passwords and sensitive credentials securely. Students can get: Free for 1 year, then 50% off.",
+    "note": "Free for 1 year, then 50% off.",
+    "category": "AI & Productivity",
+    "claimLink": "https://1password.com/developers/students",
+    "domain": "1password.com"
+  },
+  {
+    "company": "1001 TVs",
+    "description": "Screen mirroring and sharing software for Mac and iOS. Students can get: 50% off first year (iOS).",
+    "note": "50% off first year (iOS).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.1001tvs.com/education/",
+    "domain": "1001tvs.com"
+  },
+  {
+    "company": "1001 Record",
+    "description": "Screen recorder for Mac with annotation features. Students can get: $9.99 for the first year.",
+    "note": "$9.99 for the first year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://1001record.com/educational-discount",
+    "domain": "1001record.com"
+  },
+  {
+    "company": ".TECH",
+    "description": "Domain extensions for tech startups, projects, and portfolios. Students can get: Free .TECH domain for 1 year.",
+    "note": "Free .TECH domain for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://get.tech/github-student-developer-pack",
+    "domain": "get.tech"
+  },
+  {
+    "company": "MongoDB",
+    "description": "Scalable NoSQL database for storing and managing application data. Students can get: $50 credits + MongoDB Compass + Free $150 certification.",
+    "note": "$50 credits + MongoDB Compass + Free $150 certification.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.mongodb.com/students",
+    "domain": "mongodb.com"
+  },
+  {
+    "company": "Monday.com",
+    "description": "Work OS for team collaboration, project management, and workflows. Students can get: Free Student Program for students.",
+    "note": "Free Student Program for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/monday-com",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Momen",
+    "description": "Build custom full-stack web apps and AI agents without writing a single line of code. Students can get: 50% off on Momen plans.",
+    "note": "50% off on Momen plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://momen.app/education",
+    "domain": "momen.app"
+  },
+  {
+    "company": "Miro",
+    "description": "Online collaborative whiteboard for brainstorming and workshops. Students can get: Free Education plan for 2 years.",
+    "note": "Free Education plan for 2 years.",
+    "category": "AI & Productivity",
+    "claimLink": "https://miro.com/education/",
+    "domain": "miro.com"
+  },
+  {
+    "company": "MiniMax",
+    "description": "Multimodal AI platform with text, voice, image, video & music generation. Students can get: 10% off on any Minimax Plan.",
+    "note": "10% off on any Minimax Plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://platform.minimax.io/subscribe/token-plan?code=76ilCzWK9X&source=link",
+    "domain": "platform.minimax.io"
+  },
+  {
+    "company": "Minecraft Education",
+    "description": "Game-based learning platform with coding, STEM, and teamwork lessons. Students can get: $5.04 per user/year for eligible educational institutions.",
+    "note": "$5.04 per user/year for eligible educational institutions.",
+    "category": "Education & Learning",
+    "claimLink": "https://edusupport.minecraft.net/hc/en-us/articles/360047119092-FAQ-Availability-Pricing-and-Licensing",
+    "domain": "edusupport.minecraft.net"
+  },
+  {
+    "company": "MindMac",
+    "description": "Minimal, privacy-first macOS ChatGPT client for students. Students can get: 55% off (7-day trial then $20/year).",
+    "note": "55% off (7-day trial then $20/year).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentappcentre.com/App/MindMac",
+    "domain": "studentappcentre.com"
+  },
+  {
+    "company": "Microsoft 365",
+    "description": "Cloud-based office suite including Word, Excel, and PowerPoint. Students can get: Free Office 365 A1 plan.",
+    "note": "Free Office 365 A1 plan.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.microsoft.com/education/products/office",
+    "domain": "microsoft.com"
+  },
+  {
+    "company": "Meta Blueprint",
+    "description": "Digital marketing courses and certifications from Meta. Students can get: Free courses + 30% off certifications.",
+    "note": "Free courses + 30% off certifications.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.facebookblueprint.com/",
+    "domain": "facebookblueprint.com"
+  },
+  {
+    "company": "Meshy AI",
+    "description": "Generate realistic 3D assets and textures from text or images. Students can get: Free Pro for 1 month then $5.99 for 12 months.",
+    "note": "Free Pro for 1 month then $5.99 for 12 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.meshy.ai/education",
+    "domain": "meshy.ai"
+  },
+  {
+    "company": "Maxon One",
+    "description": "Cinema 4D, Redshift, and more in a student plan. Students can get: 1-year student license at ~45% off.",
+    "note": "1-year student license at ~45% off.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.maxon.net/en/buy/plan-pricing-for-students",
+    "domain": "maxon.net"
+  },
+  {
+    "company": "Max",
+    "description": "Student offer for Max with access to HBO originals. Students can get: $5.49/mo with ads (50% off).",
+    "note": "$5.49/mo with ads (50% off).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.max.com/student",
+    "domain": "max.com"
+  },
+  {
+    "company": "MATLAB",
+    "description": "Numerical computing environment for engineering calculations. Students can get: Student Version starting from $49.",
+    "note": "Student Version starting from $49.",
+    "category": "Science & Research",
+    "claimLink": "https://www.mathworks.com/products/matlab/student.html",
+    "domain": "mathworks.com"
+  },
+  {
+    "company": "Mapbox",
+    "description": "Mapping APIs and location data tools for student projects. Students can get: Free Mapbox access for students.",
+    "note": "Free Mapbox access for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.mapbox.com/education",
+    "domain": "mapbox.com"
+  },
+  {
+    "company": "MacWhisper",
+    "description": "Transcribe audio on Mac using OpenAI Whisper and Nvidia Parakeet. Students can get: 30% off MacWhisper on request.",
+    "note": "30% off MacWhisper on request.",
+    "category": "Design & Creative",
+    "claimLink": "https://goodsnooze.gumroad.com/l/macwhisper",
+    "domain": "goodsnooze.gumroad.com"
+  },
+  {
+    "company": "Lunatask",
+    "description": "Private task manager with Pomodoro, habits, and mood tracking. Students can get: 50% off monthly and yearly plans.",
+    "note": "50% off monthly and yearly plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://lunatask.app/education",
+    "domain": "lunatask.app"
+  },
+  {
+    "company": "Lumion",
+    "description": "Rendering software for creating realistic 3D architectural visualizations. Students can get: Free 1-year student license - renewable.",
+    "note": "Free 1-year student license - renewable.",
+    "category": "AI & Productivity",
+    "claimLink": "https://lumion.com/product/educational-licenses",
+    "domain": "lumion.com"
+  },
+  {
+    "company": "LucidChart",
+    "description": "Create flowcharts and technical diagrams collaboratively online. Students can get: Free educational account.",
+    "note": "Free educational account.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.lucid.co/hc/en-us/articles/360049831771-Sign-up-for-a-free-Educational-account",
+    "domain": "help.lucid.co"
+  },
+  {
+    "company": "Lovable",
+    "description": "AI app builder for creating full-stack applications instantly. Students can get: 50% off Pro ($12.50/mo).",
+    "note": "50% off Pro ($12.50/mo).",
+    "category": "AI & Productivity",
+    "claimLink": "https://lovable.dev/students",
+    "domain": "lovable.dev"
+  },
+  {
+    "company": "Loom",
+    "description": "Screen recorder and video sharing for students and educators. Students can get: Up to 75% off Loom Business for education.",
+    "note": "Up to 75% off Loom Business for education.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.loom.com/use-case/education",
+    "domain": "loom.com"
+  },
+  {
+    "company": "Logitech G",
+    "description": "Save on Logitech G headsets, keyboards, and accessories. Students can get: 25% off gaming products.",
+    "note": "25% off gaming products.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.logitechg.com/en-us/programs/sheer-id",
+    "domain": "logitechg.com"
+  },
+  {
+    "company": "LocalStack",
+    "description": "Emulate AWS cloud services locally on your machine. Students can get: Free AWS emulator license.",
+    "note": "Free AWS emulator license.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.localstack.cloud/localstack-for-students",
+    "domain": "localstack.cloud"
+  },
+  {
+    "company": "Live2D",
+    "description": "Professional 2D modeling and animation software for VTubers and games. Students can get: 80% discount on Cubism PRO 3-Year Plan.",
+    "note": "80% discount on Cubism PRO 3-Year Plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://student.live2d.com/en/student-discount/",
+    "domain": "student.live2d.com"
+  },
+  {
+    "company": "LinkedIn Premium",
+    "description": "Access premium job tools, insights, and online professional learning resources. Students can get: Free 30-day LinkedIn Premium trial.",
+    "note": "Free 30-day LinkedIn Premium trial.",
+    "category": "Education & Learning",
+    "claimLink": "https://premium.linkedin.com/",
+    "domain": "premium.linkedin.com"
+  },
+  {
+    "company": "Linearity",
+    "description": "Vector design and animation software for Mac, iPad and iPhone. Students can get: 58% off Pro for students & educators.",
+    "note": "58% off Pro for students & educators.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.linearity.io/blog/education-pricing/",
+    "domain": "linearity.io"
+  },
+  {
+    "company": "Linear",
+    "description": "Issue tracking and project management tool for software teams. Students can get: Free for 1 year (Basic & Business plans).",
+    "note": "Free for 1 year (Basic & Business plans).",
+    "category": "AI & Productivity",
+    "claimLink": "https://linear.app/docs/billing-and-plans#education-program",
+    "domain": "linear.app"
+  },
+  {
+    "company": "Lightning AI",
+    "description": "Cloud platform for building, training, and deploying ML models. Students can get: 80% off Pro plan + 100 annual credits.",
+    "note": "80% off Pro plan + 100 annual credits.",
+    "category": "Education & Learning",
+    "claimLink": "https://lightning.ai/pricing",
+    "domain": "lightning.ai"
+  },
+  {
+    "company": "LambdaTest",
+    "description": "Cloud platform for cross-browser and OS compatibility testing. Students can get: Free Live Plan for 1 year.",
+    "note": "Free Live Plan for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.lambdatest.com/github-students",
+    "domain": "lambdatest.com"
+  },
+  {
+    "company": "Krita",
+    "description": "Free open-source painting and animation software for artists. Students can get: Free for everyone (Open source).",
+    "note": "Free for everyone (Open source).",
+    "category": "Design & Creative",
+    "claimLink": "https://krita.org/",
+    "domain": "krita.org"
+  },
+  {
+    "company": "Kiro for Students",
+    "description": "AI-native IDE with vibe coding and spec-driven development modes. Students can get: 1,000 credits/month free for 1 year.",
+    "note": "1,000 credits/month free for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://kiro.dev/students/",
+    "domain": "kiro.dev"
+  },
+  {
+    "company": "Kiro",
+    "description": "Agentic AI code editor with spec-driven development and vibe coding. Students can get: Free 1st month Pro + 50 free credits/mo on free tier.",
+    "note": "Free 1st month Pro + 50 free credits/mo on free tier.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://kiro.dev/pricing/",
+    "domain": "kiro.dev"
+  },
+  {
+    "company": "Julius AI",
+    "description": "AI-powered data analysis and statistical assistant for research. Students can get: 50% off subscription.",
+    "note": "50% off subscription.",
+    "category": "Science & Research",
+    "claimLink": "https://julius.ai/docs/account/discounts",
+    "domain": "julius.ai"
+  },
+  {
+    "company": "Jira Software",
+    "description": "Project tracking and agile management software for development teams. Students can get: 75% off for students via Student Beans.",
+    "note": "75% off for students via Student Beans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/atlassian",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Jira Service Management",
+    "description": "IT service management and customer support ticket system. Students can get: 75% off for students via Student Beans.",
+    "note": "75% off for students via Student Beans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/atlassian",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "JetBrains",
+    "description": "Professional IDEs for Java, Python, and more. Students can get: Free annual IDE subscription and more.",
+    "note": "Free annual IDE subscription and more.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.jetbrains.com/community/education/#students",
+    "domain": "jetbrains.com"
+  },
+  {
+    "company": "Jasper AI",
+    "description": "AI marketing co-pilot to generate on-brand content faster. Students can get: 20% off Jasper annual plan.",
+    "note": "20% off Jasper annual plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.jasper.ai/",
+    "domain": "jasper.ai"
+  },
+  {
+    "company": "InterviewCake",
+    "description": "Master coding interviews with structured algorithmic lessons. Students can get: Full access to prep course for 3 weeks.",
+    "note": "Full access to prep course for 3 weeks.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.interviewcake.com/github-students",
+    "domain": "interviewcake.com"
+  },
+  {
+    "company": "Intel Developer Tools",
+    "description": "Intel developer tools and learning resources for students. Students can get: Free Intel academic resources.",
+    "note": "Free Intel academic resources.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.intel.com/content/www/us/en/developer/topic-technology/edge-5g/academic-program/student.html",
+    "domain": "intel.com"
+  },
+  {
+    "company": "Imgbot",
+    "description": "Automatically compress and optimize images in GitHub repositories. Students can get: Free optimization for all your projects.",
+    "note": "Free optimization for all your projects.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://imgbot.net/github-students/",
+    "domain": "imgbot.net"
+  },
+  {
+    "company": "IconScout",
+    "description": "Access icons, illustrations, and 3D assets for design projects. Students can get: 60 premium icons per month for 1 year.",
+    "note": "60 premium icons per month for 1 year.",
+    "category": "Design & Creative",
+    "claimLink": "https://iconscout.com/github-students",
+    "domain": "iconscout.com"
+  },
+  {
+    "company": "Icons8",
+    "description": "Icons, photos, and music resources for creative design work. Students can get: 3 months free (icons photos music).",
+    "note": "3 months free (icons photos music).",
+    "category": "Design & Creative",
+    "claimLink": "https://icons8.com/github-students",
+    "domain": "icons8.com"
+  },
+  {
+    "company": "iCollections",
+    "description": "Organize Mac desktop icons, files, and folders visually. Students can get: 40% off licenses (Mac).",
+    "note": "40% off licenses (Mac).",
+    "category": "AI & Productivity",
+    "claimLink": "https://naarakstudio.com/icollections/store",
+    "domain": "naarakstudio.com"
+  },
+  {
+    "company": "IBM SkillsBuild",
+    "description": "Free digital skills platform with courses in AI, cloud, and more. Students can get: Free for all students.",
+    "note": "Free for all students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://skillsbuild.org/",
+    "domain": "skillsbuild.org"
+  },
+  {
+    "company": "IBM Cloud",
+    "description": "IBM cloud computing platform for servers and analytics. Students can get: Free tier + $200 credits.",
+    "note": "Free tier + $200 credits.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.ibm.com/products/cloud/free",
+    "domain": "ibm.com"
+  },
+  {
+    "company": "Humata",
+    "description": "Ask questions and summarize PDFs with AI-powered research assistant. Students can get: $1.99/month student plan.",
+    "note": "$1.99/month student plan.",
+    "category": "Science & Research",
+    "claimLink": "https://www.humata.ai/pricing",
+    "domain": "humata.ai"
+  },
+  {
+    "company": "Hulu",
+    "description": "Stream TV shows and films on the student discounted plan. Students can get: 30-day trial then $1.99/mo with ads.",
+    "note": "30-day trial then $1.99/mo with ads.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.myunidays.com/US/en-US/partners/hulu/view",
+    "domain": "myunidays.com"
+  },
+  {
+    "company": "Hugging Face",
+    "description": "AI model hub and community for machine learning models and datasets. Students can get: Free Hub for university students.",
+    "note": "Free Hub for university students.",
+    "category": "Education & Learning",
+    "claimLink": "https://huggingface.co/docs/hub/en/academia-hub",
+    "domain": "huggingface.co"
+  },
+  {
+    "company": "Honeybadger",
+    "description": "Monitor exceptions and uptime across applications and services. Students can get: Free Small plan for 1 year.",
+    "note": "Free Small plan for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.honeybadger.io/github-students/",
+    "domain": "honeybadger.io"
+  },
+  {
+    "company": "Highland 2",
+    "description": "Professional screenwriting and writing app with automatic formatting tools. Students can get: Free Highland 2 Pro for 1 year.",
+    "note": "Free Highland 2 Pro for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://highland2.app/students",
+    "domain": "highland2.app"
+  },
+  {
+    "company": "Hexagon",
+    "description": "Professional simulation and CAD software suite for design and learning. Students can get: Free access to Student Edition.",
+    "note": "Free access to Student Edition.",
+    "category": "Science & Research",
+    "claimLink": "https://hexagon.com/support-success/manufacturing-intelligence/design-engineering-support/student-editions",
+    "domain": "hexagon.com"
+  },
+  {
+    "company": "Hexagon",
+    "description": "Software for analyzing and visualizing geospatial and industrial data. Students can get: Free student editions of Hexagon MI tools.",
+    "note": "Free student editions of Hexagon MI tools.",
+    "category": "AI & Productivity",
+    "claimLink": "https://hexagon.com/support-success/manufacturing-intelligence/design-engineering-support/student-editions",
+    "domain": "hexagon.com"
+  },
+  {
+    "company": "Heroku",
+    "description": "Platform for deploying and running modern web apps and APIs. Students can get: $13/month platform credit for 24 months.",
+    "note": "$13/month platform credit for 24 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.heroku.com/github-students",
+    "domain": "heroku.com"
+  },
+  {
+    "company": "HazeOver",
+    "description": "Dim background windows on Mac to improve focus. Students can get: Free app license with minor updates.",
+    "note": "Free app license with minor updates.",
+    "category": "AI & Productivity",
+    "claimLink": "https://hazeover.com/github-students.html",
+    "domain": "hazeover.com"
+  },
+  {
+    "company": "Harvest",
+    "description": "Track billable hours, expenses, and invoices for every project. Students can get: 15% discount (Monthly) or 25% discount (Yearly).",
+    "note": "15% discount (Monthly) or 25% discount (Yearly).",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/harvest",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Hack The Box",
+    "description": "Cybersecurity penetration testing platform. Students can get: Discounted plans via Student Beans.",
+    "note": "Discounted plans via Student Beans.",
+    "category": "Security & Privacy",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/hack-the-box",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "H&M",
+    "description": "Student discounts on clothing via UNiDAYS or Student Beans. Students can get: 10% off via student partners.",
+    "note": "10% off via student partners.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/h-m",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Gurobi",
+    "description": "Optimization solver for complex engineering and business problems. Students can get: Free academic license.",
+    "note": "Free academic license.",
+    "category": "Science & Research",
+    "claimLink": "https://www.gurobi.com/academia/academic-program-and-licenses/",
+    "domain": "gurobi.com"
+  },
+  {
+    "company": "Grammarly",
+    "description": "AI writing assistant for grammar, clarity, and tone correction. Students can get: 50% off Grammarly via SheerID.",
+    "note": "50% off Grammarly via SheerID.",
+    "category": "AI & Productivity",
+    "claimLink": "https://support.grammarly.com/hc/articles/39623389691021-Grammarly-promo-offers-on-SheerID",
+    "domain": "support.grammarly.com"
+  },
+  {
+    "company": "GoRails",
+    "description": "Web development tutorials for Ruby, Rails, JavaScript, and modern tools. Students can get: Free access to all videos & lessons for 12 months.",
+    "note": "Free access to all videos & lessons for 12 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://gorails.com/github-students",
+    "domain": "gorails.com"
+  },
+  {
+    "company": "Google Colab Pro",
+    "description": "Cloud-based Jupyter notebooks for data science and ML. Students can get: Free 1-year Pro subscription.",
+    "note": "Free 1-year Pro subscription.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://colab.research.google.com/",
+    "domain": "colab.research.google.com"
+  },
+  {
+    "company": "GLM Coding Plan",
+    "description": "GLM-4.7 & GLM-5 AI coding models. Use via Claude Code, Cursor, Cline & more. Students can get: 10% off first subscription.",
+    "note": "10% off first subscription.",
+    "category": "AI & Productivity",
+    "claimLink": "https://z.ai/subscribe?ic=TIBE1RCESB",
+    "domain": "z.ai"
+  },
+  {
+    "company": "GitLens",
+    "description": "Supercharge VS Code with visual Git history, inline blame, and GitHub integrations. Students can get: 6 months free then 80% off.",
+    "note": "6 months free then 80% off.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.gitkraken.com/github-student-developer-pack-bundle",
+    "domain": "gitkraken.com"
+  },
+  {
+    "company": "GitKraken",
+    "description": "Git client with a visual interface for managing repositories. Students can get: 6 months free then 80% off of Pro plan.",
+    "note": "6 months free then 80% off of Pro plan.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.gitkraken.com/github-student-developer-pack",
+    "domain": "gitkraken.com"
+  },
+  {
+    "company": "GitHub Pages",
+    "description": "Host static websites directly from your GitHub repository. Students can get: 1 site per account + unlimited projects.",
+    "note": "1 site per account + unlimited projects.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://education.github.com/pack#:~:text=GitHub%20Pages-,About%20GitHub%20Pages,-Websites%20for%20you",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "GitHub Desktop",
+    "description": "Simplified Git workflow via desktop app for repositories. Students can get: Free GitHub Desktop for everyone.",
+    "note": "Free GitHub Desktop for everyone.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://desktop.github.com/",
+    "domain": "desktop.github.com"
+  },
+  {
+    "company": "GitHub Copilot",
+    "description": "AI-powered code completions for faster software development. Students can get: Free Copilot Student (sign-ups paused).",
+    "note": "Free Copilot Student (sign-ups paused).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://github.com/settings/education/benefits",
+    "domain": "github.com"
+  },
+  {
+    "company": "GitHub Community Exchange",
+    "description": "Showcase student projects and connect with open-source contributors. Students can get: Free community access.",
+    "note": "Free community access.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://education.github.com/pack#:~:text=About%20GitHub%20Community%20Exchange",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "GitHub Codespaces",
+    "description": "Cloud development environment for coding directly in the browser. Students can get: Free Pro access to cloud environments.",
+    "note": "Free Pro access to cloud environments.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://education.github.com/pack#:~:text=About%20GitHub%20Codespaces",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "GitHub Certification",
+    "description": "Free certification for GitHub Foundations or Copilot exam. Students can get: Free GitHub exam voucher.",
+    "note": "Free GitHub exam voucher.",
+    "category": "Education & Learning",
+    "claimLink": "https://education.github.com/experiences/foundations_certificate",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "GitHub Campus Experts",
+    "description": "Build student tech communities on campus with GitHub support. Students can get: Apply to join Campus Experts program while student.",
+    "note": "Apply to join Campus Experts program while student.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://github.com/education/students/campus-expert",
+    "domain": "github.com"
+  },
+  {
+    "company": "GitHub",
+    "description": "Host code, collaborate, and manage projects. Students can get: Free Github Pro while student.",
+    "note": "Free Github Pro while student.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://github.com/education/students",
+    "domain": "github.com"
+  },
+  {
+    "company": "GEICO",
+    "description": "Affordable car insurance for college and high school students with good grades. Students can get: Up to 15% good student discount + up to $200 savings.",
+    "note": "Up to 15% good student discount + up to $200 savings.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.geico.com/save/discounts/student-discounts/",
+    "domain": "geico.com"
+  },
+  {
+    "company": "Frontend Masters",
+    "description": "Advanced JavaScript and frontend engineering video lessons. Students can get: Free 6-month access to all courses.",
+    "note": "Free 6-month access to all courses.",
+    "category": "Science & Research",
+    "claimLink": "https://frontendmasters.com/welcome/github-student-developers/",
+    "domain": "frontendmasters.com"
+  },
+  {
+    "company": "FreeForStudents",
+    "description": "Global directory of verified student discounts and offers. Students can get: Student offers and discounts aggregator.",
+    "note": "Student offers and discounts aggregator.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://freeforstudents.org/",
+    "domain": "freeforstudents.org"
+  },
+  {
+    "company": "Framer",
+    "description": "Interactive design and prototyping platform with code export. Students can get: Free Basic plan ($120/yr) + 1,000 AI credits/month.",
+    "note": "Free Basic plan ($120/yr) + 1,000 AI credits/month.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.framer.com/education/students",
+    "domain": "framer.com"
+  },
+  {
+    "company": "Folk",
+    "description": "Lightweight CRM to manage relationships and contacts effortlessly. Students can get: 50% discount for students.",
+    "note": "50% discount for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.folk.app/",
+    "domain": "folk.app"
+  },
+  {
+    "company": "Flux",
+    "description": "Modern PCB design tool with AI assistance, real-time collaboration, and built-in simulation. Students can get: Free Pro Plan for students.",
+    "note": "Free Pro Plan for students.",
+    "category": "Science & Research",
+    "claimLink": "https://docs.flux.ai/faq/pricing#i-am-a-student-how-do-i-access-the-free-pro-plan:~:text=on%20%22Manage%20Plan%22.-,I%20am%20a%20student.%20How%20do%20I%20access%20the%20educational%20plan%3F,-Students%20get%20free",
+    "domain": "docs.flux.ai"
+  },
+  {
+    "company": "Flexibits Premium",
+    "description": "Unlock premium features for Fantastical calendar and Cardhop contacts apps. Students can get: 20% educational discount on request.",
+    "note": "20% educational discount on request.",
+    "category": "AI & Productivity",
+    "claimLink": "https://flexibits.com/pricing",
+    "domain": "flexibits.com"
+  },
+  {
+    "company": "Fireflies",
+    "description": "AI-powered notetaker that transcribes and summarizes meetings automatically. Students can get: 10% discount on Pro, Business, or Enterprise tiers.",
+    "note": "10% discount on Pro, Business, or Enterprise tiers.",
+    "category": "AI & Productivity",
+    "claimLink": "https://fireflies.ai/",
+    "domain": "fireflies.ai"
+  },
+  {
+    "company": "Figma",
+    "description": "Collaborative design platform for prototyping and interface design. Students can get: Free Pro plan ($20/mo value).",
+    "note": "Free Pro plan ($20/mo value).",
+    "category": "Design & Creative",
+    "claimLink": "https://www.figma.com/education/",
+    "domain": "figma.com"
+  },
+  {
+    "company": "Exa AI",
+    "description": "Developer search API powered by AI with free starter credits. Students can get: Free $10 search API credits.",
+    "note": "Free $10 search API credits.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://exa.ai/pricing",
+    "domain": "exa.ai"
+  },
+  {
+    "company": "Evernote",
+    "description": "Note-taking and task management tool for organizing your work. Students can get: 40% off Professional Annual plan.",
+    "note": "40% off Professional Annual plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://evernote.com/unidays",
+    "domain": "evernote.com"
+  },
+  {
+    "company": "TablePlus",
+    "description": "Modern database GUI tool for macOS and Windows. Students can get: 50% off for students.",
+    "note": "50% off for students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://tableplus.com/blog/2018/04/education-plan.html",
+    "domain": "tableplus.com"
+  },
+  {
+    "company": "Tableau Desktop",
+    "description": "Visual analytics platform for exploring and presenting data interactively. Students can get: Tableau Desktop Public Edition free.",
+    "note": "Tableau Desktop Public Edition free.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.tableau.com/academic/students",
+    "domain": "tableau.com"
+  },
+  {
+    "company": "SymfonyCasts",
+    "description": "Learn Symfony framework development through hands-on video tutorials. Students can get: 3 months free subscription.",
+    "note": "3 months free subscription.",
+    "category": "Education & Learning",
+    "claimLink": "https://symfonycasts.com/github-student",
+    "domain": "symfonycasts.com"
+  },
+  {
+    "company": "SurveyHero",
+    "description": "Create and share online surveys, polls, and questionnaires easily. Students can get: Student account - 100% free.",
+    "note": "Student account - 100% free.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.surveyhero.com/students",
+    "domain": "surveyhero.com"
+  },
+  {
+    "company": "Superhuman",
+    "description": "Blazing-fast email client with AI triage, shortcuts, and smart workflows. Students can get: Free 1 month + $10/month (67% off) on request.",
+    "note": "Free 1 month + $10/month (67% off) on request.",
+    "category": "AI & Productivity",
+    "claimLink": "https://superhuman.com/edu",
+    "domain": "superhuman.com"
+  },
+  {
+    "company": "Sunsama",
+    "description": "Plan your day calmly by combining tasks and calendar. Students can get: 50% off for students.",
+    "note": "50% off for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.sunsama.com/",
+    "domain": "sunsama.com"
+  },
+  {
+    "company": "Studentwowdeals",
+    "description": "Discover hundreds of exclusive student discounts on brands and local events. Students can get: Access to 500+ student discounts.",
+    "note": "Access to 500+ student discounts.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://studentwowdeals.com/",
+    "domain": "studentwowdeals.com"
+  },
+  {
+    "company": "StudentAI",
+    "description": "AI study toolkit with flashcards, quizzes, and citation helpers. Students can get: Free starter plan with 10,000 credits & 106+ AI study tools.",
+    "note": "Free starter plan with 10,000 credits & 106+ AI study tools.",
+    "category": "Science & Research",
+    "claimLink": "https://studentai.app/",
+    "domain": "studentai.app"
+  },
+  {
+    "company": "Student Edge",
+    "description": "Discount platform offering deals on tech, food, and fashion. Students can get: Student discounts provider and aggregator.",
+    "note": "Student discounts provider and aggregator.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://studentedge.org/deals",
+    "domain": "studentedge.org"
+  },
+  {
+    "company": "Student Beans",
+    "description": "Platform verifying student status for exclusive brand and product deals. Students can get: Student verification + discount portal.",
+    "note": "Student verification + discount portal.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.studentbeans.com/",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Student App Centre",
+    "description": "Curated platform featuring premium app deals and offers for students. Students can get: 100+ student discounts on apps.",
+    "note": "100+ student discounts on apps.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.studentappcentre.com/",
+    "domain": "studentappcentre.com"
+  },
+  {
+    "company": "Stripe",
+    "description": "Process online payments and manage transactions in your web applications. Students can get: Waived fees on first $1000 revenue.",
+    "note": "Waived fees on first $1000 revenue.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://education.github.com/pack#:~:text=Stripe-,About%20Stripe,-Web%20and%20mobile",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "Strava",
+    "description": "Track fitness activity with advanced performance metrics and route planning. Students can get: 30 days free, then 50% off Annual Subscription.",
+    "note": "30 days free, then 50% off Annual Subscription.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.strava.com/student",
+    "domain": "strava.com"
+  },
+  {
+    "company": "State Farm",
+    "description": "Auto insurance discounts for students with good grades. Students can get: Up to 25% good student discount.",
+    "note": "Up to 25% good student discount.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.statefarm.com/insurance/auto/discounts",
+    "domain": "statefarm.com"
+  },
+  {
+    "company": "Squarespace",
+    "description": "Website builder for creating professional sites and online stores. Students can get: 50% off your first year on any annual website plan.",
+    "note": "50% off your first year on any annual website plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.squarespace.com/students",
+    "domain": "squarespace.com"
+  },
+  {
+    "company": "SQLGate",
+    "description": "SQL IDE for writing and managing complex database queries. Students can get: Free Standard subscription for 1 year.",
+    "note": "Free Standard subscription for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.sqlgate.com/student-pack",
+    "domain": "sqlgate.com"
+  },
+  {
+    "company": "Spotify Premium Student",
+    "description": "Stream millions of ad-free songs with offline downloads for students. Students can get: Up to 50% off Premium (+ free Hulu in US).",
+    "note": "Up to 50% off Premium (+ free Hulu in US).",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.spotify.com/student/",
+    "domain": "spotify.com"
+  },
+  {
+    "company": "Spaceship",
+    "description": "Domain registrar with fast search and WHOIS privacy included. Students can get: 40% off .com domains with code COM67.",
+    "note": "40% off .com domains with code COM67.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.spaceship.com/domains/com/",
+    "domain": "spaceship.com"
+  },
+  {
+    "company": "Spaces for macOS",
+    "description": "Window management tool for boosting concentration on Mac. Students can get: Spaces Pro lifetime for $6.99.",
+    "note": "Spaces Pro lifetime for $6.99.",
+    "category": "AI & Productivity",
+    "claimLink": "https://spacesformac.xyz/#pricing",
+    "domain": "spacesformac.xyz"
+  },
+  {
+    "company": "SlideCoach",
+    "description": "Practice and improve presentations with AI coach. Students can get: 2000 credits for 1 year (40 AI presentation sessions).",
+    "note": "2000 credits for 1 year (40 AI presentation sessions).",
+    "category": "AI & Productivity",
+    "claimLink": "https://slidecoach.ai/en/education",
+    "domain": "slidecoach.ai"
+  },
+  {
+    "company": "Slack",
+    "description": "Team communication platform for collaboration and project discussions. Students can get: 85% off on Pro or Business Plans via educational institution.",
+    "note": "85% off on Pro or Business Plans via educational institution.",
+    "category": "AI & Productivity",
+    "claimLink": "https://slack.com/help/articles/206646877-Apply-for-the-Slack-for-Education-discount",
+    "domain": "slack.com"
+  },
+  {
+    "company": "Skillshare",
+    "description": "Learn creative and business skills through thousands of online classes. Students can get: Free 1-week Skillshare trial.",
+    "note": "Free 1-week Skillshare trial.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.skillshare.com/en/membership",
+    "domain": "skillshare.com"
+  },
+  {
+    "company": "Sketchy",
+    "description": "Visual mnemonics for medical and pre-med exam prep. Students can get: 20% off for groups of 10+ students.",
+    "note": "20% off for groups of 10+ students.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.sketchy.com/student-groups",
+    "domain": "sketchy.com"
+  },
+  {
+    "company": "Sketch",
+    "description": "Professional design tool for creating and sharing digital interfaces. Students can get: Free Education plan (macOS).",
+    "note": "Free Education plan (macOS).",
+    "category": "Design & Creative",
+    "claimLink": "https://www.sketch.com/education/",
+    "domain": "sketch.com"
+  },
+  {
+    "company": "SimpleAnalytics",
+    "description": "Privacy-friendly analytics platform without cookies, personal tracking, or complexity. Students can get: Free Starter plan for 1 year + 100k page views per month.",
+    "note": "Free Starter plan for 1 year + 100k page views per month.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.simpleanalytics.com/students",
+    "domain": "simpleanalytics.com"
+  },
+  {
+    "company": "SheerID",
+    "description": "Identity verification platform for student, teacher, and military discounts. Students can get: Student verification provider for brand offers.",
+    "note": "Student verification provider for brand offers.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://shop.sheerid.com/",
+    "domain": "shop.sheerid.com"
+  },
+  {
+    "company": "Shapr3D",
+    "description": "Intuitive 3D modeling software built for tablets and stylus use. Students can get: Free 1-year educational license (renewable yearly).",
+    "note": "Free 1-year educational license (renewable yearly).",
+    "category": "Design & Creative",
+    "claimLink": "https://www.shapr3d.com/education",
+    "domain": "shapr3d.com"
+  },
+  {
+    "company": "Setapp",
+    "description": "Access 240+ curated Mac and iOS apps for students. Students can get: 20% off Mac + iOS annual plan.",
+    "note": "20% off Mac + iOS annual plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://app.setapp.com/educational-discount",
+    "domain": "app.setapp.com"
+  },
+  {
+    "company": "Sentry",
+    "description": "Track errors and monitor application performance in real time. Students can get: Free 1 year: 50K errors, 5GB logs, $20 Seer credits/mo.",
+    "note": "Free 1 year: 50K errors, 5GB logs, $20 Seer credits/mo.",
+    "category": "AI & Productivity",
+    "claimLink": "https://sentry.io/for/education/",
+    "domain": "sentry.io"
+  },
+  {
+    "company": "Sendwich",
+    "description": "A simple, powerful tool for testing Apple Push Notifications (APNs). Students can get: Free 3 months of Starter plan.",
+    "note": "Free 3 months of Starter plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://sendwich.dev/",
+    "domain": "sendwich.dev"
+  },
+  {
+    "company": "Scrivener",
+    "description": "Long-form writing and research app for Mac and Windows. Students can get: 15% off educational license.",
+    "note": "15% off educational license.",
+    "category": "Science & Research",
+    "claimLink": "https://www.literatureandlatte.com/store/scrivener",
+    "domain": "literatureandlatte.com"
+  },
+  {
+    "company": "Scrimba",
+    "description": "Interactive frontend coding courses with live code editing. Students can get: Free 1 month Scrimba Pro (40+ courses).",
+    "note": "Free 1 month Scrimba Pro (40+ courses).",
+    "category": "AI & Productivity",
+    "claimLink": "https://scrimba.com/github-education",
+    "domain": "scrimba.com"
+  },
+  {
+    "company": "Screen Studio",
+    "description": "Record polished demo or tutorial videos with ease. Students can get: 40% off Screen Studio license.",
+    "note": "40% off Screen Studio license.",
+    "category": "Education & Learning",
+    "claimLink": "https://screen.studio/license/request-educational-discount",
+    "domain": "screen.studio"
+  },
+  {
+    "company": "SciSpace",
+    "description": "AI research assistant for reading, annotating, and summarizing papers. Students can get: Up to 40% off plans and add-on credits via Discount Codes.",
+    "note": "Up to 40% off plans and add-on credits via Discount Codes.",
+    "category": "Science & Research",
+    "claimLink": "https://scispace.com/",
+    "domain": "scispace.com"
+  },
+  {
+    "company": "Scira",
+    "description": "AI assistant for research, writing, and workflow automation. Students can get: Scira Pro at $5/month.",
+    "note": "Scira Pro at $5/month.",
+    "category": "Science & Research",
+    "claimLink": "https://scira.ai/pricing",
+    "domain": "scira.ai"
+  },
+  {
+    "company": "Samsung",
+    "description": "Student pricing on phones, laptops, and wearable devices. Students can get: Save up to 30% Off - offer varies by country.",
+    "note": "Save up to 30% Off - offer varies by country.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.samsung.com/us/shop/offer-program/education/",
+    "domain": "samsung.com"
+  },
+  {
+    "company": "Roboflow",
+    "description": "Computer vision platform for building and deploying ML models. Students can get: Additional platform credits for students.",
+    "note": "Additional platform credits for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://research.roboflow.com/credits",
+    "domain": "research.roboflow.com"
+  },
+  {
+    "company": "Rhino3D",
+    "description": "3D modeling software for industrial design and architecture. Students can get: Save up to 80% on commercial Rhino license.",
+    "note": "Save up to 80% on commercial Rhino license.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.rhino3d.com/edu/",
+    "domain": "rhino3d.com"
+  },
+  {
+    "company": "Requestly",
+    "description": "Intercept, modify, and test HTTP requests and APIs easily. Students can get: Professional plan free for 1 year ($270 value).",
+    "note": "Professional plan free for 1 year ($270 value).",
+    "category": "AI & Productivity",
+    "claimLink": "https://requestly.io/github-student-pack/",
+    "domain": "requestly.io"
+  },
+  {
+    "company": "Replit",
+    "description": "AI app-building workspace for coding, deploying, and collaboration. Students can get: 50% off Replit Core ($10/month).",
+    "note": "50% off Replit Core ($10/month).",
+    "category": "AI & Productivity",
+    "claimLink": "https://replit.com/edu/students",
+    "domain": "replit.com"
+  },
+  {
+    "company": "Red Hat Academy",
+    "description": "Enterprise Linux and open-source technologies. Students can get: 50% off certification exams.",
+    "note": "50% off certification exams.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.redhat.com/en/services/training/red-hat-academy",
+    "domain": "redhat.com"
+  },
+  {
+    "company": "Reclaim AI",
+    "description": "Smart calendar that schedules tasks, meetings, and habits automatically. Students can get: 50% off for 12 months.",
+    "note": "50% off for 12 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://reclaim.ai/pricing/education-discount",
+    "domain": "reclaim.ai"
+  },
+  {
+    "company": "Raycast",
+    "description": "MacOS launcher with AI and workflow automation. Students can get: 50% off Raycast Pro plan.",
+    "note": "50% off Raycast Pro plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://raycastapp.typeform.com/to/hSoIknLJ",
+    "domain": "raycastapp.typeform.com"
+  },
+  {
+    "company": "QT",
+    "description": "Framework for building cross-platform GUI and mobile applications. Students can get: Free educational license.",
+    "note": "Free educational license.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.qt.io/qt-educational-license",
+    "domain": "qt.io"
+  },
+  {
+    "company": "PTC Creo",
+    "description": "Professional 3D CAD software for mechanical and industrial design. Students can get: Free Creo University Edition.",
+    "note": "Free Creo University Edition.",
+    "category": "Science & Research",
+    "claimLink": "https://www.ptc.com/en/products/education/free-software/creo-college-download",
+    "domain": "ptc.com"
+  },
+  {
+    "company": "ProWritingAid",
+    "description": "Grammar checker and style editor to improve your writing. Students can get: 20% student discount.",
+    "note": "20% student discount.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentappcentre.com/App/ProWritingAid",
+    "domain": "studentappcentre.com"
+  },
+  {
+    "company": "Progressive",
+    "description": "Student auto insurance discounts and safe driving rewards. Students can get: Save up to 5% or more on car insurance.",
+    "note": "Save up to 5% or more on car insurance.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.progressive.com/answers/student-information/",
+    "domain": "progressive.com"
+  },
+  {
+    "company": "Prezi",
+    "description": "Dynamic presentation tool with engaging zoomable canvas. Students can get: Free Basic plan or special EDU pricing starting at $4/month.",
+    "note": "Free Basic plan or special EDU pricing starting at $4/month.",
+    "category": "AI & Productivity",
+    "claimLink": "https://prezi.com/pricing/edu/",
+    "domain": "prezi.com"
+  },
+  {
+    "company": "Postman",
+    "description": "API platform for building, testing, and documenting APIs. Students can get: Free Student Expert API certification.",
+    "note": "Free Student Expert API certification.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://academy.postman.com/path/postman-api-fundamentals-student-expert",
+    "domain": "academy.postman.com"
+  },
+  {
+    "company": "PopSQL",
+    "description": "Collaborative SQL editor for writing, sharing, and analyzing queries. Students can get: Free Premium subscription.",
+    "note": "Free Premium subscription.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://popsql.com/github-students",
+    "domain": "popsql.com"
+  },
+  {
+    "company": "PomoDone",
+    "description": "Pomodoro timer to manage tasks and boost concentration. Students can get: Free Lite plan for 2 years.",
+    "note": "Free Lite plan for 2 years.",
+    "category": "AI & Productivity",
+    "claimLink": "https://theroundpie.com/roundpie-timer-for-students.html?utm_source=beamer&utm_medium=standalone&utm_campaign=Pomodoro-Timer-for-Students-with-GitHub&utm_content=imagelink",
+    "domain": "theroundpie.com"
+  },
+  {
+    "company": "Polypane",
+    "description": "Browser for testing responsive designs across multiple devices. Students can get: Free license for 1 year.",
+    "note": "Free license for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://polypane.app/github-students/",
+    "domain": "polypane.app"
+  },
+  {
+    "company": "POEditor",
+    "description": "Translate and manage localization projects with collaborative tools. Students can get: Free Plus plan for 1 year.",
+    "note": "Free Plus plan for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://poeditor.com/register/github_education",
+    "domain": "poeditor.com"
+  },
+  {
+    "company": "Perplexity Pro",
+    "description": "AI-powered search engine with cited answers. Students can get: Education Pro for $10/month.",
+    "note": "Education Pro for $10/month.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.perplexity.ai/onboarding?login-source=studentLandingPage",
+    "domain": "perplexity.ai"
+  },
+  {
+    "company": "Peacock",
+    "description": "Stream sports, movies, and Peacock Originals on ad-supported plans. Students can get: $1.99/mo for 12 months (66% off).",
+    "note": "$1.99/mo for 12 months (66% off).",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/peacock",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Pdf Pals",
+    "description": "Chat with PDFs using AI for faster study help. Students can get: 50% off for students.",
+    "note": "50% off for students.",
+    "category": "Education & Learning",
+    "claimLink": "https://pdfpals.com/",
+    "domain": "pdfpals.com"
+  },
+  {
+    "company": "Paramount+",
+    "description": "Stream movies, series, and sports with Essential or Premium plans. Students can get: 50% off any plan for 1 year.",
+    "note": "50% off any plan for 1 year.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://services.sheerid.com/verify/682635507e27651996a8f25d/",
+    "domain": "services.sheerid.com"
+  },
+  {
+    "company": "Pandora",
+    "description": "Ad-free personalized music streaming and offline listening. Students can get: 60-day free trial, then $5.99/month (up to 4 years).",
+    "note": "60-day free trial, then $5.99/month (up to 4 years).",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.pandora.com/legal/subscription/student-discount",
+    "domain": "pandora.com"
+  },
+  {
+    "company": "Pagecord",
+    "description": "Minimal blogging app for effortless note-taking and publishing. Students can get: 50% off Pagecord Premium.",
+    "note": "50% off Pagecord Premium.",
+    "category": "AI & Productivity",
+    "claimLink": "https://blog.pagecord.com/announcing-the-pagecord-discount-for-students",
+    "domain": "blog.pagecord.com"
+  },
+  {
+    "company": "Pageclip",
+    "description": "Form backend for collecting submissions from static websites. Students can get: Free basic plan while student.",
+    "note": "Free basic plan while student.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://pageclip.co/github-students",
+    "domain": "pageclip.co"
+  },
+  {
+    "company": "Otter.ai",
+    "description": "AI transcription and meeting notes tool with real-time collaboration. Students can get: 20% off on Otter Pro Monthly and Annual plans.",
+    "note": "20% off on Otter Pro Monthly and Annual plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://otter.ai/pricing",
+    "domain": "otter.ai"
+  },
+  {
+    "company": "Oracle Cloud",
+    "description": "Cloud infrastructure and platform services with free tier. Students can get: Free tier + $300 credits.",
+    "note": "Free tier + $300 credits.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.oracle.com/cloud/free/",
+    "domain": "oracle.com"
+  },
+  {
+    "company": "OpenSauced",
+    "description": "Track open-source contributions and discover developer opportunities. Students can get: Free courses + tools.",
+    "note": "Free courses + tools.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://education.github.com/experiences/intro_to_open_source",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "OpenCV University",
+    "description": "Master computer vision and AI with official OpenCV certification courses. Students can get: 30% discount on official courses.",
+    "note": "30% discount on official courses.",
+    "category": "Education & Learning",
+    "claimLink": "https://opencv.org/university/student-offer-opencv-university/",
+    "domain": "opencv.org"
+  },
+  {
+    "company": "OpenCode Go",
+    "description": "Open-source AI coding API - Kimi K2.5, MiniMax M2.5/M2.7 & GLM-5 models. Students can get: First month $5, then $10/mo (regular pricing).",
+    "note": "First month $5, then $10/mo (regular pricing).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://opencode.ai/go",
+    "domain": "opencode.ai"
+  },
+  {
+    "company": "OpenAI Codex",
+    "description": "OpenAI's AI coding partner that reads, writes and debugs code. Students can get: $100 in Codex Credits for Students.",
+    "note": "$100 in Codex Credits for Students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://chatgpt.com/codex/students",
+    "domain": "chatgpt.com"
+  },
+  {
+    "company": "OnTheHub",
+    "description": "Platform offering discounted software licenses for students and educators. Students can get: Up to 95% off academic software for students.",
+    "note": "Up to 95% off academic software for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://onthehub.com/",
+    "domain": "onthehub.com"
+  },
+  {
+    "company": "Octicons",
+    "description": "Official open-source GitHub icon set for developers. Students can get: Access to open-source icon library.",
+    "note": "Access to open-source icon library.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://primer.style/octicons/",
+    "domain": "primer.style"
+  },
+  {
+    "company": "Obsidian",
+    "description": "Knowledge base and note-taking app with linked notes. Students can get: 40% off Sync and Publish for students.",
+    "note": "40% off Sync and Publish for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.obsidian.md/discounts",
+    "domain": "help.obsidian.md"
+  },
+  {
+    "company": "NY Times",
+    "description": "Digital news and magazine platform with articles and podcasts. Students can get: Student plan ~$1/week + free access via partnered schools.",
+    "note": "Student plan ~$1/week + free access via partnered schools.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.nytimes.com/activate-access/edu-access",
+    "domain": "nytimes.com"
+  },
+  {
+    "company": "Notion Templates",
+    "description": "Pre-built Notion templates for courses, hackathons, and portfolios. Students can get: Free 7 template collection.",
+    "note": "Free 7 template collection.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.notion.com/templates/collections/github-student-developer-pack",
+    "domain": "notion.com"
+  },
+  {
+    "company": "Notion",
+    "description": "Connected workspace for notes, docs, databases, and project management. Students can get: Free Plus plan with Notion AI trial.",
+    "note": "Free Plus plan with Notion AI trial.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.notion.com/product/notion-for-education",
+    "domain": "notion.com"
+  },
+  {
+    "company": "Notepad.exe",
+    "description": "Minimal macOS note app with markdown, sync, and quick capture. Students can get: 100% Free annual subscription.",
+    "note": "100% Free annual subscription.",
+    "category": "AI & Productivity",
+    "claimLink": "https://notepadexe.com/education/discount/",
+    "domain": "notepadexe.com"
+  },
+  {
+    "company": "Newegg",
+    "description": "Online marketplace for computer components and tech accessories. Students can get: Student Store with curated discounts.",
+    "note": "Student Store with curated discounts.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.newegg.com/students",
+    "domain": "newegg.com"
+  },
+  {
+    "company": "New Relic",
+    "description": "Track app performance and errors in cloud infrastructure. Students can get: Free while student ($300/month value).",
+    "note": "Free while student ($300/month value).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://newrelic.com/students",
+    "domain": "newrelic.com"
+  },
+  {
+    "company": "Navicat",
+    "description": "Database management tool for connecting databases visually. Students can get: Free 1-year NFR license for students.",
+    "note": "Free 1-year NFR license for students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.navicat.com/en/sponsorship/education/student",
+    "domain": "navicat.com"
+  },
+  {
+    "company": "Namecheap",
+    "description": "Domain registration and hosting tools for developers and students. Students can get: Free .me domain + SSL for 1 year.",
+    "note": "Free .me domain + SSL for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://nc.me/",
+    "domain": "nc.me"
+  },
+  {
+    "company": "Name.com",
+    "description": "Register a free custom domain from 15 available extension options. Students can get: Free domain + SSL + privacy protection for 1 year.",
+    "note": "Free domain + SSL + privacy protection for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.name.com/partner/github-students",
+    "domain": "name.com"
+  },
+  {
+    "company": "MUBI",
+    "description": "Curated streaming platform for international and classic films. Students can get: Free 2 months then discounted monthly rate (~%35 Off).",
+    "note": "Free 2 months then discounted monthly rate (~%35 Off).",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://mubi.com/en/us/student",
+    "domain": "mubi.com"
+  },
+  {
+    "company": "MS Visual Studio",
+    "description": "Free developer tools, cloud services and training from Microsoft. Students can get: VS Community IDE + $200 Azure credit + Pluralsight access.",
+    "note": "VS Community IDE + $200 Azure credit + Pluralsight access.",
+    "category": "Education & Learning",
+    "claimLink": "https://visualstudio.microsoft.com/dev-essentials/",
+    "domain": "visualstudio.microsoft.com"
+  },
+  {
+    "company": "Morgen",
+    "description": "Consolidate calendars, tasks, and scheduling into one unified interface. Students can get: 25% off Morgen Pro forever.",
+    "note": "25% off Morgen Pro forever.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.morgen.so/pricing#:~:text=Academic%2C%20Student%20%26%20Nonprofit%20Discounts",
+    "domain": "morgen.so"
+  },
+  {
+    "company": "Monomail",
+    "description": "Minimal email app focused on clarity, speed, and distraction-free use. Students can get: 40% off Monomail for students.",
+    "note": "40% off Monomail for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://monomail.co/pricing",
+    "domain": "monomail.co"
+  },
+  {
+    "company": "Overleaf",
+    "description": "Collaborative online LaTeX editor for writing research papers and theses. Students can get: Student plan - up to 56% off Standard pricing.",
+    "note": "Student plan - up to 56% off Standard pricing.",
+    "category": "Science & Research",
+    "claimLink": "https://www.overleaf.com/user/subscription/plans?plan=student&period=monthly",
+    "domain": "overleaf.com"
+  },
+  {
+    "company": "Overflow",
+    "description": "User flow design tool for presenting and sharing interactive designs. Students can get: Educational discount on Pro plan.",
+    "note": "Educational discount on Pro plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://overflow.io/pricing/",
+    "domain": "overflow.io"
+  },
+  {
+    "company": "Zeplin",
+    "description": "Design handoff tool connecting Figma designs to developers with specs and code. Students can get: Free Basic 3-project plan for 1 year.",
+    "note": "Free Basic 3-project plan for 1 year.",
+    "category": "Design & Creative",
+    "claimLink": "https://zeplin.io/students/",
+    "domain": "zeplin.io"
+  },
+  {
+    "company": "Typeless",
+    "description": "AI dictation app turning voice into polished text across all platforms. Students can get: 50% off Pro plan.",
+    "note": "50% off Pro plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.typeless.com/students",
+    "domain": "typeless.com"
+  },
+  {
+    "company": "AgentRouter",
+    "description": "Unified API gateway for frontier models including Claude, GLM and more. Students can get: Up to $200 free credits - Claude, GLM & more API access.",
+    "note": "Up to $200 free credits - Claude, GLM & more API access.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://agentrouter.org/register?aff=K8iK",
+    "domain": "agentrouter.org"
+  },
+  {
+    "company": "FreeModel",
+    "description": "Free API access to frontier models from Claude, OpenAI and more. Students can get: Free $100+ credits for 15 days - Claude & GPT.",
+    "note": "Free $100+ credits for 15 days - Claude & GPT.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://freemodel.dev/invite/FRE-fec6fe32",
+    "domain": "freemodel.dev"
+  },
+  {
+    "company": "FreeLLMAPI",
+    "description": "Self-hosted proxy routing 60 LLMs across 11 free-tier providers. Students can get: 1B+ free LLM tokens/month across 60 models.",
+    "note": "1B+ free LLM tokens/month across 60 models.",
+    "category": "AI & Productivity",
+    "claimLink": "https://tashfeenahmed.github.io/freellmapi/",
+    "domain": "tashfeenahmed.github.io"
+  },
+  {
+    "company": "Chaos Pro Upgrade",
+    "description": "Upgrade discount for annual V-Ray, Corona, and Enscape licenses. Students can get: 30% off first annual commercial license.",
+    "note": "30% off first annual commercial license.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.chaos.com/education/student-to-professional",
+    "domain": "chaos.com"
+  },
+  {
+    "company": "Firecrawl",
+    "description": "Web search & scrape API that turns any site into clean, LLM-ready data. Students can get: 10,000 free credits for students.",
+    "note": "10,000 free credits for students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.firecrawl.dev/student-program",
+    "domain": "firecrawl.dev"
+  },
+  {
+    "company": "Reve",
+    "description": "AI image generation and editing tool for visual creative work. Students can get: 1 year free Pro plan.",
+    "note": "1 year free Pro plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://app.reve.com/community/students",
+    "domain": "app.reve.com"
+  },
+  {
+    "company": "Mobbin",
+    "description": "UI/UX pattern library for researching real app flows and screens. Students can get: 50% off Pro for up to 2 years.",
+    "note": "50% off Pro for up to 2 years.",
+    "category": "Design & Creative",
+    "claimLink": "https://mobbin.com/education",
+    "domain": "mobbin.com"
+  },
+  {
+    "company": "Command Code",
+    "description": "Terminal AI coding agent that builds, edits, and reviews codebases while learning your coding taste. Students can get: Go plan for $1/month with $10 in credits included.",
+    "note": "Go plan for $1/month with $10 in credits included.",
+    "category": "Education & Learning",
+    "claimLink": "https://commandcode.ai/pricing",
+    "domain": "commandcode.ai"
+  },
+  {
+    "company": "Exploratory.io",
+    "description": "Data analytics and visualization platform for exploring datasets. Students can get: Free Academic Plan for students and teachers.",
+    "note": "Free Academic Plan for students and teachers.",
+    "category": "AI & Productivity",
+    "claimLink": "https://exploratory.io/plan?plan=Community",
+    "domain": "exploratory.io"
+  },
+  {
+    "company": "Cryptolens",
+    "description": "Software licensing system for developers to manage license keys. Students can get: 10 free software licenses for student developers.",
+    "note": "10 free software licenses for student developers.",
+    "category": "AI & Productivity",
+    "claimLink": "https://app.cryptolens.io/user/githubstudent",
+    "domain": "app.cryptolens.io"
+  },
+  {
+    "company": "Malwarebytes",
+    "description": "Device security and malware protection for your computers and devices. Students can get: 50% off Malwarebytes plans for students.",
+    "note": "50% off Malwarebytes plans for students.",
+    "category": "Security & Privacy",
+    "claimLink": "https://www.malwarebytes.com/student-discount",
+    "domain": "malwarebytes.com"
+  },
+  {
+    "company": "Calm",
+    "description": "Meditation and sleep app with guided sessions for focus and relaxation. Students can get: 40% off annual plan for students.",
+    "note": "40% off annual plan for students.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.calm.com/c/education?slug=education&coupon=education&plan=yearly&campaignSlug=education&yearly_coupon=education&vanity_url=%2Feducation",
+    "domain": "calm.com"
+  },
+  {
+    "company": "LearnSQL",
+    "description": "Learn SQL with 129 interactive exercises. Free for students with school email. Students can get: Free SQL Basics course.",
+    "note": "Free SQL Basics course.",
+    "category": "Education & Learning",
+    "claimLink": "https://learnsql.com/for-students/",
+    "domain": "learnsql.com"
+  },
+  {
+    "company": "freeCodeCamp",
+    "description": "Learn to code for free with 3,000 hours of interactive lessons and verified certifications. Students can get: 100% free coding curriculum with certifications.",
+    "note": "100% free coding curriculum with certifications.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.freecodecamp.org/learn/",
+    "domain": "freecodecamp.org"
+  },
+  {
+    "company": "LeetCode Explore",
+    "description": "Practice coding with 4,150+ problems and structured interview prep guides. Students can get: Free practice problems and guided study plans.",
+    "note": "Free practice problems and guided study plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://leetcode.com/explore/",
+    "domain": "leetcode.com"
+  },
+  {
+    "company": "Gitpod",
+    "description": "Browser-based cloud development environment with VS Code Web integration. Students can get: Free $10 usage credit on cloud IDE.",
+    "note": "Free $10 usage credit on cloud IDE.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://app.gitpod.io/",
+    "domain": "app.gitpod.io"
+  },
+  {
+    "company": "Codecademy Pro Student",
+    "description": "Interactive coding courses with career paths and certificates. Students can get: 35% off Pro for college & high school students.",
+    "note": "35% off Pro for college & high school students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.codecademy.com/student-center",
+    "domain": "codecademy.com"
+  },
+  {
+    "company": "ACM Digital Library",
+    "description": "Computing publications, TechTalks, and O'Reilly courses for CS students. Students can get: $42/yr student membership + Digital Library Premium.",
+    "note": "$42/yr student membership + Digital Library Premium.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.acm.org/membership/join-acm",
+    "domain": "acm.org"
+  },
+  {
+    "company": "Aiven SQL Optimizer",
+    "description": "Paste your SQL and get AI-powered indexing recommendations to speed up queries. Students can get: Free SQL optimizer for PostgreSQL & MySQL.",
+    "note": "Free SQL optimizer for PostgreSQL & MySQL.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://aiven.io/tools/sql-query-optimizer",
+    "domain": "aiven.io"
+  },
+  {
+    "company": "Railway",
+    "description": "Deploy full-stack apps to the cloud with GitHub integration. Students can get: Free 30-day trial with $5 credit.",
+    "note": "Free 30-day trial with $5 credit.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://railway.com/new",
+    "domain": "railway.com"
+  },
+  {
+    "company": "Brain.fm",
+    "description": "Functional music for focus, work, and sleep. Students can get: 20% off - email .edu to support.",
+    "note": "20% off - email .edu to support.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.brain.fm/",
+    "domain": "brain.fm"
+  },
+  {
+    "company": "Gname",
+    "description": "Domain registrar offering .eu.cc and 100+ TLDs at discounted prices. Students can get: 3 free .eu.cc domain registrations ($0/yr).",
+    "note": "3 free .eu.cc domain registrations ($0/yr).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.gname.com/tld-eu-cc.html",
+    "domain": "gname.com"
+  },
+  {
+    "company": "Anthropic Academy",
+    "description": "Free AI courses from Anthropic on Claude, Claude Code, MCP, and more. Students can get: 17+ free AI courses (no code needed).",
+    "note": "17+ free AI courses (no code needed).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.anthropic.com/learn",
+    "domain": "anthropic.com"
+  },
+  {
+    "company": "Columbia+",
+    "description": "Online courses from Columbia University faculty on AI, coding, climate, and more. Students can get: 2 AI courses free via code ($99 each).",
+    "note": "2 AI courses free via code ($99 each).",
+    "category": "Education & Learning",
+    "claimLink": "https://plus.columbia.edu/course-catalog",
+    "domain": "plus.columbia.edu"
+  },
+  {
+    "company": "Envato Elements",
+    "description": "Subscription service for design assets including templates, graphics, fonts, photos, and video templates. Over 2 million creative assets for unlimited downloads. Students can get: 30% off for students.",
+    "note": "30% off for students.",
+    "category": "Design & Creative",
+    "claimLink": "https://elements.envato.com/pricing/students",
+    "domain": "elements.envato.com"
+  },
+  {
+    "company": "Enscape",
+    "description": "Real-time rendering plugin for ArchiCAD, Revit, SketchUp, and Rhino. Generates photorealistic visualizations and virtual walkthroughs directly within BIM and CAD software. Students can get: Free educational license for students.",
+    "note": "Free educational license for students.",
+    "category": "Science & Research",
+    "claimLink": "https://enscape3d.com/education/",
+    "domain": "enscape3d.com"
+  },
+  {
+    "company": "Vercel",
+    "description": "Deploy frontend apps and static sites with global CDN, HTTPS & CI/CD. Students can get: Free Hobby plan - no credit card needed.",
+    "note": "Free Hobby plan - no credit card needed.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://vercel.com/pricing",
+    "domain": "vercel.com"
+  },
+  {
+    "company": "Netlify",
+    "description": "Deploy and host web apps with previews, functions & global CDN. Students can get: Free forever - 300 credits/mo, no card.",
+    "note": "Free forever - 300 credits/mo, no card.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.netlify.com/pricing/",
+    "domain": "netlify.com"
+  },
+  {
+    "company": "Transloadit",
+    "description": "File uploading and encoding service for handling uploads, image processing, video transcoding, and document conversion. Integrate via REST API or SDKs. Students can get: Free 5 GB/month via GitHub Student Pack.",
+    "note": "Free 5 GB/month via GitHub Student Pack.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://transloadit.com/github-students/",
+    "domain": "transloadit.com"
+  },
+  {
+    "company": "Semaphore",
+    "description": "CI/CD platform offering $15/month in free credits for students and developers. Unlimited pipelines, parallel execution, and integrations with GitHub, GitLab, and Bitbucket. Students can get: $15/mo free credits for all users.",
+    "note": "$15/mo free credits for all users.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://semaphore.io/pricing",
+    "domain": "semaphore.io"
+  },
+  {
+    "company": "Red Hat Developer Sandbox",
+    "description": "Cloud dev sandbox for OpenShift, Kubernetes, and Red Hat learning. Students can get: 30-day free Developer Sandbox trial.",
+    "note": "30-day free Developer Sandbox trial.",
+    "category": "Education & Learning",
+    "claimLink": "https://developers.redhat.com/developer-sandbox",
+    "domain": "developers.redhat.com"
+  },
+  {
+    "company": "Mailgun",
+    "description": "Email API and SMTP relay service for sending, receiving, and tracking transactional emails. Students can get: Free plan: 100 emails/day.",
+    "note": "Free plan: 100 emails/day.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://mailgun.com/pricing",
+    "domain": "mailgun.com"
+  },
+  {
+    "company": "LingoHub",
+    "description": "Translation management platform for localizing apps, websites, and software. Students can get: 14-day free LingoHub trial.",
+    "note": "14-day free LingoHub trial.",
+    "category": "AI & Productivity",
+    "claimLink": "https://lingohub.com/pricing",
+    "domain": "lingohub.com"
+  },
+  {
+    "company": "Kodika",
+    "description": "No-code platform for building iOS and Android apps with drag-and-drop interface. Students can get: Free plan with 5 screens.",
+    "note": "Free plan with 5 screens.",
+    "category": "AI & Productivity",
+    "claimLink": "https://kodika.io/pricing",
+    "domain": "kodika.io"
+  },
+  {
+    "company": "Astah",
+    "description": "UML diagram editor for software architecture and design planning. Students can get: Free student license for Astah UML.",
+    "note": "Free student license for Astah UML.",
+    "category": "Design & Creative",
+    "claimLink": "https://astah.net/products/free-student-license/",
+    "domain": "astah.net"
+  },
+  {
+    "company": "Aiven SQL Optimizer",
+    "description": "Online SQL query optimizer with indexing and rewrite recommendations. Students can get: Free online SQL optimizer for PostgreSQL & MySQL.",
+    "note": "Free online SQL optimizer for PostgreSQL & MySQL.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://aiven.io/tools/sql-query-optimizer",
+    "domain": "aiven.io"
+  },
+  {
+    "company": "Crowdin",
+    "description": "Collaborative localization platform for translating apps, websites, and content. Students can get: Free Academic License for educational projects.",
+    "note": "Free Academic License for educational projects.",
+    "category": "AI & Productivity",
+    "claimLink": "https://crowdin.com/product/for-academic",
+    "domain": "crowdin.com"
+  },
+  {
+    "company": "GitLab for Education",
+    "description": "DevSecOps platform with version control, CI/CD pipelines, and built-in AI tools. Students can get: Free Ultimate plan for students and educators.",
+    "note": "Free Ultimate plan for students and educators.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://about.gitlab.com/solutions/education/",
+    "domain": "about.gitlab.com"
+  },
+  {
+    "company": "Docker Desktop",
+    "description": "Build, ship, and run containerized applications on your local machine. Students can get: Free Docker Desktop for individuals.",
+    "note": "Free Docker Desktop for individuals.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.docker.com/products/docker-desktop/",
+    "domain": "docker.com"
+  },
+  {
+    "company": "DaVinci Resolve",
+    "description": "Professional video editing color correction VFX motion graphics and audio post. Students can get: Free Hollywood-grade video editor.",
+    "note": "Free Hollywood-grade video editor.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "domain": "blackmagicdesign.com"
+  },
+  {
+    "company": "Autograph",
+    "description": "Professional motion graphics and VFX tool combining 2D and 3D in one workflow. Students can get: Free 2D/3D motion graphics app for all.",
+    "note": "Free 2D/3D motion graphics app for all.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.maxon.net/en/autograph",
+    "domain": "maxon.net"
+  },
+  {
+    "company": "Cavalry",
+    "description": "Professional real-time 2D animation tool with procedural rigs and Lottie export. Students can get: Free 2D animation software for everyone.",
+    "note": "Free 2D animation software for everyone.",
+    "category": "Design & Creative",
+    "claimLink": "https://cavalry.studio/en/#download",
+    "domain": "cavalry.studio"
+  },
+  {
+    "company": "Avira Prime",
+    "description": "Security suite with antivirus VPN password manager and optimization tools. Students can get: Free 3 months of all premium features.",
+    "note": "Free 3 months of all premium features.",
+    "category": "Security & Privacy",
+    "claimLink": "https://campaigns.avira.com/en/crm/trial/prime-trial-3m",
+    "domain": "campaigns.avira.com"
+  },
+  {
+    "company": "Marvel Rivals",
+    "description": "6v6 superhero team shooter with student College Perks rewards. Students can get: 10 free costumes + MVPs every season.",
+    "note": "10 free costumes + MVPs every season.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.marvelrivals.com/",
+    "domain": "marvelrivals.com"
+  },
+  {
+    "company": "Google Cloud Free Trial",
+    "description": "Build and deploy apps on Google Cloud with $300 in credits, valid for 90 days. Students can get: $300 free credit for new GCP accounts.",
+    "note": "$300 free credit for new GCP accounts.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://cloud.google.com/free/",
+    "domain": "cloud.google.com"
+  },
+  {
+    "company": "AWS Free Tier",
+    "description": "Cloud computing platform with always-free compute, storage, and serverless services for new customers. Students can get: $100-200 free credits for new AWS accounts.",
+    "note": "$100-200 free credits for new AWS accounts.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://aws.amazon.com/free/",
+    "domain": "aws.amazon.com"
+  },
+  {
+    "company": "Zyte",
+    "description": "Cloud-based web scraping and crawler management platform. Students can get: 1 Free Forever Scrapy Cloud Unit.",
+    "note": "1 Free Forever Scrapy Cloud Unit.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.zyte.com/scrapy-cloud-student-backpack/",
+    "domain": "zyte.com"
+  },
+  {
+    "company": "Zen Mode for macOS",
+    "description": "Minimalist distraction-free app for deep writing and focus. Students can get: $6.99 Zen Mode student plan.",
+    "note": "$6.99 Zen Mode student plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://zenmode.app/#pricing",
+    "domain": "zenmode.app"
+  },
+  {
+    "company": "Zed",
+    "description": "AI-powered code editor with real-time collaboration, edit predictions, and $10/month in AI token credits. Students can get: Free Zed Pro for 1 year.",
+    "note": "Free Zed Pro for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://zed.dev/education",
+    "domain": "zed.dev"
+  },
+  {
+    "company": "Zeabur",
+    "description": "Cloud platform for deploying and managing web applications. Students can get: 20% off first month via referral.",
+    "note": "20% off first month via referral.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://zeabur.com",
+    "domain": "zeabur.com"
+  },
+  {
+    "company": "YouTube Premium",
+    "description": "Ad-free YouTube with background play and YouTube Music access. Students can get: 1 month free, then ~50% off for up to 48 months.",
+    "note": "1 month free, then ~50% off for up to 48 months.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.youtube.com/premium/student",
+    "domain": "youtube.com"
+  },
+  {
+    "company": "YNAB",
+    "description": "Budgeting tool for managing expenses and building savings goals. Students can get: Free YNAB for 1 year.",
+    "note": "Free YNAB for 1 year.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.ynab.com/college",
+    "domain": "ynab.com"
+  },
+  {
+    "company": "Xojo",
+    "description": "Build cross-platform apps for desktop, web, and mobile easily. Students can get: Free Pro license while student.",
+    "note": "Free Pro license while student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.xojo.com/githubstudent/",
+    "domain": "xojo.com"
+  },
+  {
+    "company": "Xero",
+    "description": "Cloud accounting software to manage invoices, bank reconciliation, and bookkeeping. Students can get: Free 30-day trial for students.",
+    "note": "Free 30-day trial for students.",
+    "category": "Finance & Insurance",
+    "claimLink": "https://www.xero.com/educators/students/",
+    "domain": "xero.com"
+  },
+  {
+    "company": "Workona",
+    "description": "Turn chaotic browser tabs into organized, dedicated project workspaces. Students can get: 50% discount on individual Pro and Team subscriptions.",
+    "note": "50% discount on individual Pro and Team subscriptions.",
+    "category": "AI & Productivity",
+    "claimLink": "https://workona.com/help/subscriptions-billing/#edu-nonprofit",
+    "domain": "workona.com"
+  },
+  {
+    "company": "WorkingCopy",
+    "description": "Full-featured Git client for iPhone and iPad developers. Students can get: Free Pro while student.",
+    "note": "Free Pro while student.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://workingcopy.app/education/",
+    "domain": "workingcopy.app"
+  },
+  {
+    "company": "Wix",
+    "description": "Website builder with drag-and-drop editor for creating websites. Students can get: 50% off yearly premium for students.",
+    "note": "50% off yearly premium for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.wix.com/students",
+    "domain": "wix.com"
+  },
+  {
+    "company": "Wispr Flow",
+    "description": "High-speed AI dictation with smart formatting, auto-edits, and instant transcription. Students can get: 3 months free Pro Plan then 50% off.",
+    "note": "3 months free Pro Plan then 50% off.",
+    "category": "AI & Productivity",
+    "claimLink": "https://wisprflow.ai/students",
+    "domain": "wisprflow.ai"
+  },
+  {
+    "company": "Whimsical",
+    "description": "Collaborative workspace for docs, diagrams, and whiteboards. Students can get: Free Pro plan with a limit of 100 total AI actions.",
+    "note": "Free Pro plan with a limit of 100 total AI actions.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.whimsical.com/billing/pricing#:~:text=To%20apply%20for%20the%20education%20discount%2C",
+    "domain": "help.whimsical.com"
+  },
+  {
+    "company": "Weights & Biases",
+    "description": "Machine learning experiment tracking platform for researchers. Students can get: Free Pro for academic institutions.",
+    "note": "Free Pro for academic institutions.",
+    "category": "Education & Learning",
+    "claimLink": "https://wandb.ai/site/pricing/",
+    "domain": "wandb.ai"
+  },
+  {
+    "company": "Webflow",
+    "description": "No-code website builder with hosting and advanced design control. Students can get: Free annual CMS plan.",
+    "note": "Free annual CMS plan.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://webflow.com/solutions/classroom/student-application",
+    "domain": "webflow.com"
+  },
+  {
+    "company": "Walmart+",
+    "description": "Free delivery and student-exclusive Walmart+ savings. Students can get: 30-day trial then $6.47/mo (50% off Walmart+).",
+    "note": "30-day trial then $6.47/mo (50% off Walmart+).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.walmart.com/plus/student",
+    "domain": "walmart.com"
+  },
+  {
+    "company": "Vultr",
+    "description": "Cloud compute and VPS hosting provider with scalable cloud servers. Students can get: Free $300 Credits for new accounts.",
+    "note": "Free $300 Credits for new accounts.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.vultr.com/?ref=9884984-9J",
+    "domain": "vultr.com"
+  },
+  {
+    "company": "VS Code Education",
+    "description": "Browser-based coding platform with built-in lessons and assessments. Students can get: Free online coding learning environment.",
+    "note": "Free online coding learning environment.",
+    "category": "AI & Productivity",
+    "claimLink": "https://vscodeedu.com/",
+    "domain": "vscodeedu.com"
+  },
+  {
+    "company": "Visual Studio Community",
+    "description": "Cross-platform IDE for modern app, web, and cloud development. Students can get: Free Visual Studio Community.",
+    "note": "Free Visual Studio Community.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://visualstudio.microsoft.com/students/",
+    "domain": "visualstudio.microsoft.com"
+  },
+  {
+    "company": "Visual Studio Code",
+    "description": "Lightweight code editor with rich extensions for multiple languages. Students can get: Free coding packs (Java, Python or .NET).",
+    "note": "Free coding packs (Java, Python or .NET).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://code.visualstudio.com/",
+    "domain": "code.visualstudio.com"
+  },
+  {
+    "company": "Visme",
+    "description": "Create infographics, reports, and visual presentations easily. Students can get: 3 months free Starter plan access.",
+    "note": "3 months free Starter plan access.",
+    "category": "AI & Productivity",
+    "claimLink": "https://education.github.com/pack#:~:text=Visme-,About%20Visme,-The%20all%2Din",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "Vaadin",
+    "description": "Java framework for building modern web and enterprise applications. Students can get: Free Pro subscription license.",
+    "note": "Free Pro subscription license.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://vaadin.com/student-program",
+    "domain": "vaadin.com"
+  },
+  {
+    "company": "Unreal Engine",
+    "description": "Advanced 3D game engine for creating interactive experiences. Students can get: Free for students for their academic work and personal use.",
+    "note": "Free for students for their academic work and personal use.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.unrealengine.com/students-and-schools",
+    "domain": "unrealengine.com"
+  },
+  {
+    "company": "Unity Student",
+    "description": "Game development platform for building 2D, 3D, and VR experiences. Students can get: Free Unity Student plan.",
+    "note": "Free Unity Student plan.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://store.unity.com/academic/unity-student",
+    "domain": "store.unity.com"
+  },
+  {
+    "company": "UNiDAYS",
+    "description": "Student platform offering exclusive brand discounts on fashion and tech. Students can get: Student verification platform for exclusive brand discounts.",
+    "note": "Student verification platform for exclusive brand discounts.",
+    "category": "Discount Aggregator",
+    "claimLink": "https://www.myunidays.com/",
+    "domain": "myunidays.com"
+  },
+  {
+    "company": "Ulysses",
+    "description": "Markdown writing app for focused long-form writing and publishing. Students can get: $10.99 per 6-month plan.",
+    "note": "$10.99 per 6-month plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://ulysses.app/students/",
+    "domain": "ulysses.app"
+  },
+  {
+    "company": "Udemy",
+    "description": "Learn from global instructors through expert-led online courses. Students can get: 10-60% off via partner verifications.",
+    "note": "10-60% off via partner verifications.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.myunidays.com/US/en-US/partners/udemy-gb-oeecz/view",
+    "domain": "myunidays.com"
+  },
+  {
+    "company": "TryHackMe",
+    "description": "Learn cybersecurity through hands-on virtual labs. Students can get: 20% off annual subscriptions.",
+    "note": "20% off annual subscriptions.",
+    "category": "Security & Privacy",
+    "claimLink": "https://help.tryhackme.com/en/articles/6494960-student-discount",
+    "domain": "help.tryhackme.com"
+  },
+  {
+    "company": "Trello",
+    "description": "Visual project management and team organization with boards and cards. Students can get: 75% off for students via Student Beans.",
+    "note": "75% off for students via Student Beans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/atlassian",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Travis CI",
+    "description": "Continuous integration and testing platform for developers. Students can get: Free Private builds for students.",
+    "note": "Free Private builds for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.travis-ci.com/education",
+    "domain": "travis-ci.com"
+  },
+  {
+    "company": "Tower",
+    "description": "Git client with a powerful visual interface for developers. Students can get: Free Pro license while student.",
+    "note": "Free Pro license while student.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.git-tower.com/students",
+    "domain": "git-tower.com"
+  },
+  {
+    "company": "ToDiagram",
+    "description": "Convert JSON, YAML, and CSV data into visual diagrams. Students can get: Pro Plan including full editor access.",
+    "note": "Pro Plan including full editor access.",
+    "category": "AI & Productivity",
+    "claimLink": "https://todiagram.com/blog/todiagram-github-education",
+    "domain": "todiagram.com"
+  },
+  {
+    "company": "Tinder",
+    "description": "Dating app with student premium plans and unlimited features. Students can get: 50% off Plus/Gold Plans via UNiDAYS.",
+    "note": "50% off Plus/Gold Plans via UNiDAYS.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.myunidays.com/partners/tinder/view",
+    "domain": "myunidays.com"
+  },
+  {
+    "company": "ThemeIsle",
+    "description": "Premium WordPress themes for creating responsive websites. Students can get: Free Neve Agency WordPress theme for 1 year.",
+    "note": "Free Neve Agency WordPress theme for 1 year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://themeisle.com/github-students/",
+    "domain": "themeisle.com"
+  },
+  {
+    "company": "Testmail",
+    "description": "Automated email testing for app verification and workflows. Students can get: Free Essential plan with unlimited emails.",
+    "note": "Free Essential plan with unlimited emails.",
+    "category": "AI & Productivity",
+    "claimLink": "https://testmail.app/github-students",
+    "domain": "testmail.app"
+  },
+  {
+    "company": "Termius",
+    "description": "Secure SSH client for managing servers on desktop and mobile. Students can get: Free Pro/Team features while a student.",
+    "note": "Free Pro/Team features while a student.",
+    "category": "AI & Productivity",
+    "claimLink": "https://termius.com/education",
+    "domain": "termius.com"
+  },
+  {
+    "company": "Tella",
+    "description": "Professional screen recorder with custom layouts, instant editing, and 4K export. Students can get: Free Tella plan for students.",
+    "note": "Free Tella plan for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.tella.tv/for-education",
+    "domain": "tella.tv"
+  },
+  {
+    "company": "Target Circle Student",
+    "description": "Student membership for exclusive savings and same-day delivery. Students can get: Target Circle 360 at $4.99/mo (55% off).",
+    "note": "Target Circle 360 at $4.99/mo (55% off).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.target.com/l/target-circle-college-student-appreciation/-/N-6v01l",
+    "domain": "target.com"
+  },
+  {
+    "company": "Peloton",
+    "description": "Streaming fitness app with cycling, running and strength classes. Students can get: $6.99/mo App One + discounted App+ membership.",
+    "note": "$6.99/mo App One + discounted App+ membership.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.onepeloton.com/offers/specialpricing/student",
+    "domain": "onepeloton.com"
+  },
+  {
+    "company": "Clerk",
+    "description": "Authentication and user management with drop-in sign-in, sign-up, profile and B2B org UI for your apps. Students can get: Pro plan free ($240/yr) for your student years.",
+    "note": "Pro plan free ($240/yr) for your student years.",
+    "category": "Security & Privacy",
+    "claimLink": "https://clerk.com/github-student-developer-pack",
+    "domain": "clerk.com"
+  },
+  {
+    "company": "Boot.dev",
+    "description": "Learn backend development by writing real code - Python, Go, SQL, Docker, and algorithms in a gamified, project-based path. Students can get: 3 months free interactive membership.",
+    "note": "3 months free interactive membership.",
+    "category": "Education & Learning",
+    "claimLink": "https://education.github.com/pack#:~:text=About%20Boot%2Edev",
+    "domain": "education.github.com"
+  },
+  {
+    "company": "ClinePass",
+    "description": "Open-source AI coding agent with GLM-5.2, Minimax M3, DeepSeek, Kimi and more. Students can get: $1.99 first month.",
+    "note": "$1.99 first month.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://cline.bot/cline-pass",
+    "domain": "cline.bot"
+  },
+  {
+    "company": "Readwise",
+    "description": "Sync highlights from Kindle, books, and articles and get daily spaced-repetition reviews. Students can get: 50% off - email request required.",
+    "note": "50% off - email request required.",
+    "category": "AI & Productivity",
+    "claimLink": "https://readwise.io/pricing#:~:text=Yes%21%20We%20offer%20a%2050%25%20discount%20to%20students",
+    "domain": "readwise.io"
+  },
+  {
+    "company": "Jenni AI",
+    "description": "AI writing assistant for essays, research papers, and literature reviews. Students can get: 60% off Annual Plan.",
+    "note": "60% off Annual Plan.",
+    "category": "Science & Research",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/jenni-ai",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Nested Knowledge",
+    "description": "Systematic review and evidence synthesis platform for academic research. Students can get: Academic plans from $19.95/user/month.",
+    "note": "Academic plans from $19.95/user/month.",
+    "category": "Science & Research",
+    "claimLink": "https://about.nested-knowledge.com/academic-studentshome/",
+    "domain": "about.nested-knowledge.com"
+  },
+  {
+    "company": "Litmaps",
+    "description": "Citation-based tool for finding and visualizing academic research papers. Students can get: 75% off Pro with Educational License.",
+    "note": "75% off Pro with Educational License.",
+    "category": "Science & Research",
+    "claimLink": "https://www.litmaps.com/about/litmaps-for-students",
+    "domain": "litmaps.com"
+  },
+  {
+    "company": "Writer",
+    "description": "Agentic AI platform for on-brand writing, agents and team workflows. Students can get: 20% off Starter plan.",
+    "note": "20% off Starter plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://writer.com/plans/",
+    "domain": "writer.com"
+  },
+  {
+    "company": "Appy Pie",
+    "description": "AI app builder turning prompts into native iOS and Android apps. Students can get: 50% off first year.",
+    "note": "50% off first year.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.appypie.com/students-discounts-deals",
+    "domain": "appypie.com"
+  },
+  {
+    "company": "adidas",
+    "description": "Sportswear, sneakers and athletic gear from the world's largest European sports brand. Students can get: Up to 30% off full price items.",
+    "note": "Up to 30% off full price items.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/adidas",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "Levi's",
+    "description": "Iconic denim jeans, jackets and clothing from the original American jeans brand. Students can get: Up to 20% off sitewide.",
+    "note": "Up to 20% off sitewide.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.levi.com/US/en_US/cms/student",
+    "domain": "levi.com"
+  },
+  {
+    "company": "Nike",
+    "description": "Iconic sports footwear, apparel and gear trusted by athletes and sneakerheads worldwide. Students can get: Up to 15% off sitewide.",
+    "note": "Up to 15% off sitewide.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.nike.com/us/help/a/student-discount",
+    "domain": "nike.com"
+  },
+  {
+    "company": "Crocs",
+    "description": "Iconic clogs, slides and casual footwear known for comfort and bold colorways. Students can get: 25% off sitewide.",
+    "note": "25% off sitewide.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/crocs",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "PUMA",
+    "description": "Sportswear, footwear and accessories from one of the world's leading sports brands. Students can get: Up to 15% off sitewide.",
+    "note": "Up to 15% off sitewide.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/puma",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "FocuSee",
+    "description": "AI screen recorder that auto-zooms, adds captions and removes filler words from recordings. Students can get: 30% off all plans.",
+    "note": "30% off all plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://focusee.imobie.com/education-discount.html",
+    "domain": "focusee.imobie.com"
+  },
+  {
+    "company": "Altium Designer",
+    "description": "Industry-standard PCB and electronic circuit design software used by engineers worldwide. Students can get: Free 1-year student license, renewable yearly.",
+    "note": "Free 1-year student license, renewable yearly.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.altium.com/education/students",
+    "domain": "altium.com"
+  },
+  {
+    "company": "CST Studio Suite LE",
+    "description": "High-performance 3D electromagnetic field simulation software by Dassault Systèmes. Students can get: Free Learning Edition license for EM simulation.",
+    "note": "Free Learning Edition license for EM simulation.",
+    "category": "Science & Research",
+    "claimLink": "https://www.3ds.com/edu/education/students/solutions/cst-le",
+    "domain": "3ds.com"
+  },
+  {
+    "company": "Divisare",
+    "description": "Ad-free architecture archive with 25 years of contemporary projects and photography. Students can get: Free 1-year full access, then €18/yr.",
+    "note": "Free 1-year full access, then €18/yr.",
+    "category": "Design & Creative",
+    "claimLink": "https://divisare.com/subscriptions",
+    "domain": "divisare.com"
+  },
+  {
+    "company": "Bohrium",
+    "description": "AI academic search engine for scientists with 170M+ papers and citations. Students can get: 40% off monthly subscription plans.",
+    "note": "40% off monthly subscription plans.",
+    "category": "Science & Research",
+    "claimLink": "https://www.bohrium.com/en/assets?menu=upgrade",
+    "domain": "bohrium.com"
+  },
+  {
+    "company": "NaraRouter",
+    "description": "OpenAI-compatible API gateway for 34+ AI models via one endpoint. Students can get: Free 5M tokens/day (resets daily).",
+    "note": "Free 5M tokens/day (resets daily).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://router.bynara.id/register?ref=R45SCC6B",
+    "domain": "router.bynara.id"
+  },
+  {
+    "company": "Junior",
+    "description": "AI employee that joins your Slack or Teams, connects to 3,000+ tools and runs tasks autonomously. Students can get: $100 free AI credits.",
+    "note": "$100 free AI credits.",
+    "category": "AI & Productivity",
+    "claimLink": "https://junior.so/register",
+    "domain": "junior.so"
+  },
+  {
+    "company": "Superwhisper",
+    "description": "Voice-to-text app that dictates in any app on Mac, Windows and iOS. Students can get: 40% off Pro.",
+    "note": "40% off Pro.",
+    "category": "AI & Productivity",
+    "claimLink": "https://superwhisper.com/#pricing",
+    "domain": "superwhisper.com"
+  },
+  {
+    "company": "Deepgram",
+    "description": "Speech-to-text, text-to-speech and voice agent APIs for developers. Students can get: $200 free API credits.",
+    "note": "$200 free API credits.",
+    "category": "AI & Productivity",
+    "claimLink": "https://console.deepgram.com/signup",
+    "domain": "console.deepgram.com"
+  },
+  {
+    "company": "ZenMux",
+    "description": "OpenAI-compatible API gateway with 160+ models including free tier models. Students can get: Free access to Step 3.7 Flash, GLM 4.7 Flash, GLM 4.6V Flash.",
+    "note": "Free access to Step 3.7 Flash, GLM 4.7 Flash, GLM 4.6V Flash.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://zenmux.ai/models?sort=newest&keyword=free",
+    "domain": "zenmux.ai"
+  },
+  {
+    "company": "B.AI",
+    "description": "AI API platform with 50+ frontier models and OpenAI-compatible endpoint. Students can get: Up to 1M free credits on signup, no card required.",
+    "note": "Up to 1M free credits on signup, no card required.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://b.ai",
+    "domain": "b.ai"
+  },
+  {
+    "company": "Descript",
+    "description": "Edit video and podcasts by editing the transcript, powered by AI. Students can get: 50% off Hobbyist plan.",
+    "note": "50% off Hobbyist plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.descript.com/hc/en-us/articles/10255872422029",
+    "domain": "help.descript.com"
+  },
+  {
+    "company": "ThesisAI",
+    "description": "Draft 80-page academic papers with verified inline citations from one prompt. Students can get: 20% off Pro plan.",
+    "note": "20% off Pro plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.thesisai.io/coupon-code/",
+    "domain": "thesisai.io"
+  },
+  {
+    "company": "scite",
+    "description": "AI-powered research tool with Smart Citations - see if papers are supported or contradicted by later studies. Students can get: Up to 40% off via Student Beans.",
+    "note": "Up to 40% off via Student Beans.",
+    "category": "Science & Research",
+    "claimLink": "https://student-redirect.studentoffersteam.workers.dev/studentbeans/scite",
+    "domain": "student-redirect.studentoffersteam.workers.dev"
+  },
+  {
+    "company": "Dify",
+    "description": "No-code LLMOps platform for building AI apps, agents, and RAG pipelines. Students can get: Free Yearly Professional plan.",
+    "note": "Free Yearly Professional plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://dify.ai/education",
+    "domain": "dify.ai"
+  },
+  {
+    "company": "Logically",
+    "description": "AI writing suite with document editor, reference manager, and AI assistant. Students can get: 50% off Unlimited yearly plan (first year).",
+    "note": "50% off Unlimited yearly plan (first year).",
+    "category": "AI & Productivity",
+    "claimLink": "https://logically.app/pricing/",
+    "domain": "logically.app"
+  },
+  {
+    "company": "Paperguide",
+    "description": "All-in-one AI research platform for literature reviews, paper search, writing, and references. Students can get: 40% off with college email.",
+    "note": "40% off with college email.",
+    "category": "Science & Research",
+    "claimLink": "https://paperguide.ai/pricing/",
+    "domain": "paperguide.ai"
+  },
+  {
+    "company": "Consensus",
+    "description": "AI academic search engine searching 220M+ peer-reviewed papers with AI summaries. Students can get: Up to 40% off all paid plans.",
+    "note": "Up to 40% off all paid plans.",
+    "category": "Science & Research",
+    "claimLink": "https://consensus.app/pricing/",
+    "domain": "consensus.app"
+  },
+  {
+    "company": "Undermind",
+    "description": "AI research tool that deep-searches scientific literature, finding papers others miss. Students can get: 73% off Pro plan with academic pricing.",
+    "note": "73% off Pro plan with academic pricing.",
+    "category": "Science & Research",
+    "claimLink": "https://www.undermind.ai/#pricing",
+    "domain": "undermind.ai"
+  },
+  {
+    "company": "Udio",
+    "description": "AI music generation platform to create original songs from text prompts and style references. Students can get: 50% off for 6 months.",
+    "note": "50% off for 6 months.",
+    "category": "Design & Creative",
+    "claimLink": "https://www.udio.com/pricing",
+    "domain": "udio.com"
+  },
+  {
+    "company": "Notta",
+    "description": "AI transcription app for meetings, interviews, and lectures with summaries and action items. Students can get: 50% off Pro and Business plans.",
+    "note": "50% off Pro and Business plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://support.notta.ai/hc/en-us/articles/17418832708251-How-to-apply-for-Notta-educational-discount",
+    "domain": "support.notta.ai"
+  },
+  {
+    "company": "J.Crew",
+    "description": "American clothing brand for women, men, and kids - workwear, cashmere, denim, and more. Students can get: 15% off your purchase.",
+    "note": "15% off your purchase.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.jcrew.com/company/teacher-student-discount",
+    "domain": "jcrew.com"
+  },
+  {
+    "company": "Luminar Neo",
+    "description": "AI-powered photo editor with sky replacement, background removal, and retouching. Students can get: 50% off with student ID.",
+    "note": "50% off with student ID.",
+    "category": "Design & Creative",
+    "claimLink": "https://skylum.com/education-discount",
+    "domain": "skylum.com"
+  },
+  {
+    "company": "Lingvist",
+    "description": "AI language learning app covering 60+ language pairs with smart vocabulary algorithms. Students can get: 50% off subscription.",
+    "note": "50% off subscription.",
+    "category": "Education & Learning",
+    "claimLink": "https://lingvist.com/students/",
+    "domain": "lingvist.com"
+  },
+  {
+    "company": "Murf AI",
+    "description": "AI voice generator with 200+ voices in 30+ languages for voiceovers and videos. Students can get: 20% off any paid plan.",
+    "note": "20% off any paid plan.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.murf.ai/do-you-offer-any-discount",
+    "domain": "help.murf.ai"
+  },
+  {
+    "company": "Jotform",
+    "description": "Online form builder with 20,000+ templates, payments, e-signatures, and AI agents. Students can get: Up to 50% off paid plans + free unlimited survey responses.",
+    "note": "Up to 50% off paid plans + free unlimited survey responses.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.jotform.com/education/pricing/?apply=1",
+    "domain": "jotform.com"
+  },
+  {
+    "company": "Jitter",
+    "description": "Browser-based motion design tool for creating animations, GIFs, and Lottie files. Students can get: Free Pro plan.",
+    "note": "Free Pro plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://help.jitter.video/en/articles/6545337-jitter-for-education",
+    "domain": "help.jitter.video"
+  },
+  {
+    "company": "Milanote",
+    "description": "Visual workspace for creatives to organize projects, moodboards, and briefs. Students can get: 50% off paid plans.",
+    "note": "50% off paid plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.milanote.com/en/articles/3600867-can-i-have-a-discount",
+    "domain": "help.milanote.com"
+  },
+  {
+    "company": "HyperWrite",
+    "description": "AI writing assistant with web search, citations, and hundreds of writing tools. Students can get: 50% off monthly subscription.",
+    "note": "50% off monthly subscription.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.hyperwriteai.com/faq/does-hyperwrite-offer-a-student-discount",
+    "domain": "hyperwriteai.com"
+  },
+  {
+    "company": "mnml.ai",
+    "description": "AI architecture rendering tool for sketches, interiors, exteriors, and 3D models. Students can get: 30% off any plan.",
+    "note": "30% off any plan.",
+    "category": "Design & Creative",
+    "claimLink": "https://mnml.ai/education",
+    "domain": "mnml.ai"
+  },
+  {
+    "company": "AMC Theatres",
+    "description": "America's largest movie theater chain with IMAX, Dolby, and luxury recliners. Students can get: Up to 50% off tickets and concessions.",
+    "note": "Up to 50% off tickets and concessions.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.amctheatres.com/offers",
+    "domain": "amctheatres.com"
+  },
+  {
+    "company": "Aerolink",
+    "description": "Unified API gateway with managed keys, rolling usage limits, and cost ledger. Students can get: Free $60+ credits for 1 week - All Claude models via API.",
+    "note": "Free $60+ credits for 1 week - All Claude models via API.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://aerolink.lat/register?ref=YV7EIES",
+    "domain": "aerolink.lat"
+  },
+  {
+    "company": "Kickbacks.ai",
+    "description": "Passive income VS Code extension - earns ad revenue while AI tools think. Students can get: Earn while Claude Code thinks - up to $200/day.",
+    "note": "Earn while Claude Code thinks - up to $200/day.",
+    "category": "AI & Productivity",
+    "claimLink": "https://kickbacks.ai/",
+    "domain": "kickbacks.ai"
+  },
+  {
+    "company": "Lightning AI Models",
+    "description": "Access Claude, GPT, Gemini, DeepSeek and more via one unified API key. Students can get: 30M free tokens/month via model APIs.",
+    "note": "30M free tokens/month via model APIs.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://lightning.ai/models",
+    "domain": "lightning.ai"
+  },
+  {
+    "company": "Tavily",
+    "description": "Web search, extraction, and crawling API built for AI agents. Students can get: 4 months free on Project Plan ($120 value).",
+    "note": "4 months free on Project Plan ($120 value).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://tavily.com/",
+    "domain": "tavily.com"
+  },
+  {
+    "company": "Freebuff",
+    "description": "Ad-supported CLI coding agent with unlimited frontier models, no subscription. Students can get: Free CLI agent - unlimited DeepSeek & MiniMax models.",
+    "note": "Free CLI agent - unlimited DeepSeek & MiniMax models.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://freebuff.com/",
+    "domain": "freebuff.com"
+  },
+  {
+    "company": "Brik",
+    "description": "AI platform to create interactive design tools from text prompts. Students can get: 3 months Pro free.",
+    "note": "3 months Pro free.",
+    "category": "Design & Creative",
+    "claimLink": "https://brik.space/student",
+    "domain": "brik.space"
+  },
+  {
+    "company": "BluesMinds",
+    "description": "Unified AI API gateway - GPT-5.5, Gemini, Kimi K2.6, DeepSeek & more. Students can get: Free $100 credits - Gemini, GPT, DeepSeek & more API access.",
+    "note": "Free $100 credits - Gemini, GPT, DeepSeek & more API access.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://api.bluesminds.com/register?aff=JFfN",
+    "domain": "api.bluesminds.com"
+  },
+  {
+    "company": "DistroKid",
+    "description": "Distribute music to Spotify, Apple, TikTok and 150+ platforms. Students can get: 50% off first year ($12.49).",
+    "note": "50% off first year ($12.49).",
+    "category": "Design & Creative",
+    "claimLink": "https://distrokid.com/edu/",
+    "domain": "distrokid.com"
+  },
+  {
+    "company": "Qualcomm Academy",
+    "description": "Free courses on AI, 5G, Edge AI and more taught by Qualcomm engineers. Students can get: 25+ Free Courses on AI, 5G & More + Certificates.",
+    "note": "25+ Free Courses on AI, 5G & More + Certificates.",
+    "category": "AI & Productivity",
+    "claimLink": "https://academy.qualcomm.com/course-catalog?ByFormat=eLearning+-+FREE",
+    "domain": "academy.qualcomm.com"
+  },
+  {
+    "company": "Filmora",
+    "description": "AI video editor with timeline editing, effects, and 2.9M+ creative assets. Students can get: Up to 50% off Plans.",
+    "note": "Up to 50% off Plans.",
+    "category": "Design & Creative",
+    "claimLink": "https://filmora.wondershare.com/store/education.html",
+    "domain": "filmora.wondershare.com"
+  },
+  {
+    "company": "iAsk AI",
+    "description": "Ad-free AI search engine with source citing and document summarizer. Students can get: Free 1 Year Pro.",
+    "note": "Free 1 Year Pro.",
+    "category": "AI & Productivity",
+    "claimLink": "https://iask.ai/students",
+    "domain": "iask.ai"
+  },
+  {
+    "company": "NoteGPT",
+    "description": "AI tool for summarizing YouTube videos, PDFs, and notes. Students can get: Free 1 Month Pro.",
+    "note": "Free 1 Month Pro.",
+    "category": "AI & Productivity",
+    "claimLink": "https://notegpt.io/pricing",
+    "domain": "notegpt.io"
+  },
+  {
+    "company": "Kickresume",
+    "description": "AI resume and cover letter builder with ATS checker and career tools. Students can get: Free Premium for 6 months.",
+    "note": "Free Premium for 6 months.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.kickresume.com/en/students/",
+    "domain": "kickresume.com"
+  },
+  {
+    "company": "MindMap AI",
+    "description": "AI mind mapping tool - converts PDFs, notes, audio and video into visual maps. Students can get: Over 70% off - Basic $2.99, Pro $4.49/mo.",
+    "note": "Over 70% off - Basic $2.99, Pro $4.49/mo.",
+    "category": "Design & Creative",
+    "claimLink": "https://mindmapai.app/student-discount",
+    "domain": "mindmapai.app"
+  },
+  {
+    "company": "Parallels Desktop",
+    "description": "Run Windows apps and software on your Mac without a second device. Students can get: 50% off Pro and Standard editions.",
+    "note": "50% off Pro and Standard editions.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.parallels.com/plans/education",
+    "domain": "parallels.com"
+  },
+  {
+    "company": "PDF2Go",
+    "description": "Online PDF toolkit for editing, converting, merging and compressing files. Students can get: Free premium access with student email.",
+    "note": "Free premium access with student email.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.pdf2go.com/solution/education",
+    "domain": "pdf2go.com"
+  },
+  {
+    "company": "Typeform",
+    "description": "Online form builder for surveys, quizzes and data collection. Students can get: Up to 50% off.",
+    "note": "Up to 50% off.",
+    "category": "AI & Productivity",
+    "claimLink": "https://help.typeform.com/hc/en-us/articles/360039728951",
+    "domain": "help.typeform.com"
+  },
+  {
+    "company": "Read AI",
+    "description": "AI meeting notetaker with transcription, summaries and action items. Students can get: EDU plan from $5/mo (reg. $19.75/mo).",
+    "note": "EDU plan from $5/mo (reg. $19.75/mo).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.read.ai/edu-pricing",
+    "domain": "read.ai"
+  },
+  {
+    "company": "PromeAI",
+    "description": "AI platform for generating images, videos and renders from text or sketches. Students can get: 20% off all plans.",
+    "note": "20% off all plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.promeai.pro/apply-education-licensing",
+    "domain": "promeai.pro"
+  },
+  {
+    "company": "Motra",
+    "description": "AI fitness app with personalized workout plans and exercise tracking. Students can get: 50% off student plan.",
+    "note": "50% off student plan.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.motra.com/student-discount",
+    "domain": "motra.com"
+  },
+  {
+    "company": "Sonix",
+    "description": "AI transcription and translation platform for audio and video. Students can get: 20% off all plans forever.",
+    "note": "20% off all plans forever.",
+    "category": "Design & Creative",
+    "claimLink": "https://sonix.ai/discounts",
+    "domain": "sonix.ai"
+  },
+  {
+    "company": "Runway",
+    "description": "Generate and edit videos from text prompts using AI. Students can get: 25% off any paid plan via SheerID.",
+    "note": "25% off any paid plan via SheerID.",
+    "category": "AI & Productivity",
+    "claimLink": "https://runwayml.com/educators",
+    "domain": "runwayml.com"
+  },
+  {
+    "company": "Escape Motions",
+    "description": "Suite of hyper-realistic painting and creative design desktop apps. Students can get: 40% off all apps (lifetime licenses).",
+    "note": "40% off all apps (lifetime licenses).",
+    "category": "Design & Creative",
+    "claimLink": "https://www.escapemotions.com/education",
+    "domain": "escapemotions.com"
+  },
+  {
+    "company": "Curiosity",
+    "description": "AI-powered desktop search app that connects all your apps and files. Students can get: 90% off Pro desktop app.",
+    "note": "90% off Pro desktop app.",
+    "category": "AI & Productivity",
+    "claimLink": "https://curiosity.ai/app/pricing",
+    "domain": "curiosity.ai"
+  },
+  {
+    "company": "Microlaunch",
+    "description": "Product launch platform for indie founders to get visibility. Students can get: 50% off Pro Launch (reg. $49).",
+    "note": "50% off Pro Launch (reg. $49).",
+    "category": "AI & Productivity",
+    "claimLink": "https://microlaunch.net/premium",
+    "domain": "microlaunch.net"
+  },
+  {
+    "company": "Mistral AI",
+    "description": "AI assistant and coding agent suite with Mistral's frontier models. Students can get: Mistral Pro for $5.99/mo (normally $14.99/mo).",
+    "note": "Mistral Pro for $5.99/mo (normally $14.99/mo).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://mistral.ai/pricing/#:~:text=Education%20plan",
+    "domain": "mistral.ai"
+  },
+  {
+    "company": "General Compute",
+    "description": "High-speed inference API for Minimax, DeepSeek and other frontier models. Students can get: Free $100 API credits on signup.",
+    "note": "Free $100 API credits on signup.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.generalcompute.com/",
+    "domain": "generalcompute.com"
+  },
+  {
+    "company": "Shodan",
+    "description": "Internet-wide search engine for finding internet-connected devices. Students can get: Free Membership upgrade with academic email.",
+    "note": "Free Membership upgrade with academic email.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.shodan.io/",
+    "domain": "shodan.io"
+  },
+  {
+    "company": "MATLAB & Simulink",
+    "description": "Numerical computing platform for data analysis, engineering and science. Students can get: Student Suite for $49/year.",
+    "note": "Student Suite for $49/year.",
+    "category": "Science & Research",
+    "claimLink": "https://www.mathworks.com/store/link/products/student/STUDENT",
+    "domain": "mathworks.com"
+  },
+  {
+    "company": "Kimi",
+    "description": "AI assistant with K3, #1 on Frontend Code Arena for agentic coding. Students can get: Free Kimi K3 membership credits via referral draw.",
+    "note": "Free Kimi K3 membership credits via referral draw.",
+    "category": "AI & Productivity",
+    "claimLink": "https://kimi-bot.com/activities/viral-referral/share?scenario=invite&from=share_poster&invitation_code=M8UALW",
+    "domain": "kimi-bot.com"
+  },
+  {
+    "company": "Down Dog",
+    "description": "Yoga, HIIT & Pilates app that builds a custom session every time. Students can get: Free 4-year access for students.",
+    "note": "Free 4-year access for students.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.downdogapp.com/universities",
+    "domain": "downdogapp.com"
+  },
+  {
+    "company": "SiteGround",
+    "description": "Managed WordPress hosting with free SSL, email, daily backups & Google Cloud. Students can get: Up to 90% off first year ($1.99/mo).",
+    "note": "Up to 90% off first year ($1.99/mo).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.siteground.com/studentshosting.htm",
+    "domain": "siteground.com"
+  },
+  {
+    "company": "UpToDate",
+    "description": "Evidence-based clinical reference doctors & med students use at the bedside. Students can get: Up to 50% off - student rate from $219/yr.",
+    "note": "Up to 50% off - student rate from $219/yr.",
+    "category": "Science & Research",
+    "claimLink": "https://www.wolterskluwer.com/en/solutions/uptodate/roles/residents-fellows-students",
+    "domain": "wolterskluwer.com"
+  },
+  {
+    "company": "HGMD",
+    "description": "Database of published gene mutations causing human inherited disease. Students can get: Free access with academic email.",
+    "note": "Free access with academic email.",
+    "category": "Science & Research",
+    "claimLink": "https://www.hgmd.cf.ac.uk/docs/register.html",
+    "domain": "hgmd.cf.ac.uk"
+  },
+  {
+    "company": "Mathpix",
+    "description": "AI OCR that converts math, PDFs & images to LaTeX, Markdown & DOCX. Students can get: 2x free usage with .edu email.",
+    "note": "2x free usage with .edu email.",
+    "category": "AI & Productivity",
+    "claimLink": "https://mathpix.com/pricing/snip",
+    "domain": "mathpix.com"
+  },
+  {
+    "company": "Qwen Cloud",
+    "description": "Alibaba API for 246 AI models - LLMs, vision, video, voice. Students can get: $500+ free credits across 246 AI models.",
+    "note": "$500+ free credits across 246 AI models.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.qwencloud.com/",
+    "domain": "qwencloud.com"
+  },
+  {
+    "company": "Meta Model API",
+    "description": "Agentic AI API - Muse Spark model with 1M-token context, tool calling. Students can get: $20 free API credits.",
+    "note": "$20 free API credits.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://dev.meta.ai/",
+    "domain": "dev.meta.ai"
+  },
+  {
+    "company": "RoleSharp",
+    "description": "AI resume builder that tailors resumes to a specific company and role. Students can get: Free 6 months of Student Premium ($72 value).",
+    "note": "Free 6 months of Student Premium ($72 value).",
+    "category": "AI & Productivity",
+    "claimLink": "https://rolesharp.com/students?utm_source=studentoffers&utm_medium=listing&utm_campaign=student-premium",
+    "domain": "rolesharp.com"
+  },
+  {
+    "company": "RatCTF",
+    "description": "Hands-on cybersecurity labs teaching real pentesting and privilege escalation. Students can get: Free course bundle + 12mo Premium for contributions.",
+    "note": "Free course bundle + 12mo Premium for contributions.",
+    "category": "Security & Privacy",
+    "claimLink": "https://ratctf.thexssrat.com/student-program",
+    "domain": "ratctf.thexssrat.com"
+  },
+  {
+    "company": "SuperGrok",
+    "description": "SpaceXAI's AI assistant with a terminal coding agent and real-time web + X search. Students can get: Free 7-day trial + Grok Build CLI.",
+    "note": "Free 7-day trial + Grok Build CLI.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://grok.com/plans",
+    "domain": "grok.com"
+  },
+  {
+    "company": "ResearchGate",
+    "description": "Academic network to share papers, follow researchers and access publications. Students can get: Free for researchers.",
+    "note": "Free for researchers.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.researchgate.net/",
+    "domain": "researchgate.net"
+  },
+  {
+    "company": "ResearchRabbit",
+    "description": "AI literature review tool that maps related papers, authors and citations. Students can get: Free forever.",
+    "note": "Free forever.",
+    "category": "Science & Research",
+    "claimLink": "https://www.researchrabbit.ai/",
+    "domain": "researchrabbit.ai"
+  },
+  {
+    "company": "GeneCards",
+    "description": "Searchable database of all human genes with genomic, proteomic and clinical data. Students can get: Free academic access.",
+    "note": "Free academic access.",
+    "category": "Science & Research",
+    "claimLink": "https://www.genecards.org/",
+    "domain": "genecards.org"
+  },
+  {
+    "company": "RaiDrive",
+    "description": "Mount cloud storage like Google Drive and S3 as a network drive on Windows. Students can get: Free Education license.",
+    "note": "Free Education license.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.raidrive.com/together",
+    "domain": "raidrive.com"
+  },
+  {
+    "company": "SQLPro Studio",
+    "description": "Database manager for MySQL, PostgreSQL, SQL Server, SQLite and Oracle. Students can get: Free 1-year license.",
+    "note": "Free 1-year license.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.sqlprostudio.com/edu/",
+    "domain": "sqlprostudio.com"
+  },
+  {
+    "company": "think-cell",
+    "description": "PowerPoint add-in for building charts and data-driven presentation slides. Students can get: Free 12-month license (full version).",
+    "note": "Free 12-month license (full version).",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://www.think-cell.com/en/academics/free-think-cell-student-license",
+    "domain": "think-cell.com"
+  },
+  {
+    "company": "MuJoCo",
+    "description": "Physics engine for robotics, reinforcement learning and biomechanics sim. Students can get: Free physics engine by DeepMind.",
+    "note": "Free physics engine by DeepMind.",
+    "category": "Science & Research",
+    "claimLink": "https://mujoco.org/",
+    "domain": "mujoco.org"
+  },
+  {
+    "company": "DBeaver",
+    "description": "Universal database GUI for SQL and NoSQL - query, browse and manage data. Students can get: Free PRO (Enterprise) license (worth $255/yr).",
+    "note": "Free PRO (Enterprise) license (worth $255/yr).",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://dbeaver.com/academic-license/",
+    "domain": "dbeaver.com"
+  },
+  {
+    "company": "SmartGit",
+    "description": "Graphical Git client for commits, merges, branches and pull requests. Students can get: Free full version for students.",
+    "note": "Free full version for students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.syntevo.com/register-non-commercial/#academic",
+    "domain": "syntevo.com"
+  },
+  {
+    "company": "Cargo",
+    "description": "No-code website builder for artists and designers to publish portfolios. Students can get: Free portfolio site while enrolled (worth $14/mo).",
+    "note": "Free portfolio site while enrolled (worth $14/mo).",
+    "category": "AI & Productivity",
+    "claimLink": "https://cargo.site/students",
+    "domain": "cargo.site"
+  },
+  {
+    "company": "MarginNote",
+    "description": "PDF reader and note tool with mind maps and spaced-repetition flashcards. Students can get: 35% off Mac lifetime license.",
+    "note": "35% off Mac lifetime license.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.marginnote.com/en/pricing/",
+    "domain": "marginnote.com"
+  },
+  {
+    "company": "NordVPN",
+    "description": "VPN with encryption, threat protection, and 6-device coverage on one account. Students can get: Up to 81% off 2-yr plan + 3 months free.",
+    "note": "Up to 81% off 2-yr plan + 3 months free.",
+    "category": "Security & Privacy",
+    "claimLink": "https://nordvpn.com/student-employee-discount/",
+    "domain": "nordvpn.com"
+  },
+  {
+    "company": "Altair",
+    "description": "Engineering simulation, CAD and data science suite spanning 50+ tools. Students can get: Free 50+ CAE & simulation tools.",
+    "note": "Free 50+ CAE & simulation tools.",
+    "category": "Science & Research",
+    "claimLink": "https://web.altair.com/altair-student-edition",
+    "domain": "web.altair.com"
+  },
+  {
+    "company": "iLovePDF",
+    "description": "Online PDF toolkit - edit, convert, merge, sign, OCR and compress documents. Students can get: Free 1 year Premium (worth $60/yr).",
+    "note": "Free 1 year Premium (worth $60/yr).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.ilovepdf.com/education",
+    "domain": "ilovepdf.com"
+  },
+  {
+    "company": "edX",
+    "description": "Online courses from top universities - free to audit and learn. Students can get: Free courses from MIT, Harvard & 250+ unis.",
+    "note": "Free courses from MIT, Harvard & 250+ unis.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.edx.org/free-online-courses",
+    "domain": "edx.org"
+  },
+  {
+    "company": "HackerRank",
+    "description": "Coding practice and free skill certifications for developers. Students can get: Free skill certifications & practice.",
+    "note": "Free skill certifications & practice.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.hackerrank.com/skills-verification",
+    "domain": "hackerrank.com"
+  },
+  {
+    "company": "Kali Linux Revealed",
+    "description": "Official Kali Linux training for penetration testing & security. Students can get: Free Kali Linux course + KLCP cert.",
+    "note": "Free Kali Linux course + KLCP cert.",
+    "category": "Security & Privacy",
+    "claimLink": "https://www.offsec.com/kali-training/",
+    "domain": "offsec.com"
+  },
+  {
+    "company": "NVIDIA DLI",
+    "description": "Deep Learning Institute - hands-on AI, CUDA & data science training. Students can get: Free AI & GPU courses with certificates.",
+    "note": "Free AI & GPU courses with certificates.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.nvidia.com/en-us/training/",
+    "domain": "nvidia.com"
+  },
+  {
+    "company": "SAP Learning",
+    "description": "Enterprise software courses & SAP certification prep for students. Students can get: Free student edition + 2 free cert exams.",
+    "note": "Free student edition + 2 free cert exams.",
+    "category": "Education & Learning",
+    "claimLink": "https://learning.sap.com/free-student-edition",
+    "domain": "learning.sap.com"
+  },
+  {
+    "company": "Kaggle",
+    "description": "Cloud notebooks with free GPU/TPU compute, datasets & ML community. Students can get: Free GPUs & TPUs - 30 hrs/week, no card.",
+    "note": "Free GPUs & TPUs - 30 hrs/week, no card.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.kaggle.com/",
+    "domain": "kaggle.com"
+  },
+  {
+    "company": "The Economist",
+    "description": "Daily world news app - concise briefings, podcasts & newsletters. Students can get: Free annual Espresso subscription (worth $99/yr).",
+    "note": "Free annual Espresso subscription (worth $99/yr).",
+    "category": "AI & Productivity",
+    "claimLink": "https://subscribenow.economist.com/student",
+    "domain": "subscribenow.economist.com"
+  },
+  {
+    "company": "AssemblyAI",
+    "description": "Speech-to-text & voice AI API - transcription, diarization & summaries. Students can get: $100 free credits, no card.",
+    "note": "$100 free credits, no card.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://assemblyai.cello.so/tSw9XhXpVN0",
+    "domain": "assemblyai.cello.so"
+  },
+  {
+    "company": "Inference.net",
+    "description": "Run GLM 5.2, Claude Opus, Sonnet, GPT-5.5, Gemini & open-source LLMs via API. Students can get: $25 free credits on signup.",
+    "note": "$25 free credits on signup.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://inference.net/",
+    "domain": "inference.net"
+  },
+  {
+    "company": "Databricks",
+    "description": "Cloud platform for data engineering, analytics and AI/ML. Students can get: Free Edition + 25% off certs for students.",
+    "note": "Free Edition + 25% off certs for students.",
+    "category": "Science & Research",
+    "claimLink": "https://www.databricks.com/learn/free-edition",
+    "domain": "databricks.com"
+  },
+  {
+    "company": "Databricks Academy",
+    "description": "Self-paced data engineering, ML & AI courses with pro certs. Students can get: Free courses + 25% off certifications.",
+    "note": "Free courses + 25% off certifications.",
+    "category": "Science & Research",
+    "claimLink": "https://www.databricks.com/resources/student-resources",
+    "domain": "databricks.com"
+  },
+  {
+    "company": "Modal",
+    "description": "Serverless GPU cloud for AI inference, training & batch jobs. Students can get: $30/month free compute credits.",
+    "note": "$30/month free compute credits.",
+    "category": "Education & Learning",
+    "claimLink": "https://modal.com/signup",
+    "domain": "modal.com"
+  },
+  {
+    "company": "Comet",
+    "description": "Track ML experiments and monitor AI models from training to production. Students can get: Free Pro plan.",
+    "note": "Free Pro plan.",
+    "category": "Education & Learning",
+    "claimLink": "https://www.comet.com/signup?plan=academic",
+    "domain": "comet.com"
+  },
+  {
+    "company": "Lettermint",
+    "description": "European transactional email API with SDKs, SMTP relay and analytics. Students can get: 6 months free Starter or €60 account credit.",
+    "note": "6 months free Starter or €60 account credit.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://lettermint.co/promo-codes-and-discounts/students",
+    "domain": "lettermint.co"
+  },
+  {
+    "company": "Solid Edge",
+    "description": "Professional 3D CAD for part, assembly and sheet metal design and drafting. Students can get: Free full 3D CAD software.",
+    "note": "Free full 3D CAD software.",
+    "category": "Science & Research",
+    "claimLink": "https://resources.sw.siemens.com/en-US/download-solid-edge-student-edition/",
+    "domain": "resources.sw.siemens.com"
+  },
+  {
+    "company": "Judydoll",
+    "description": "Colorful, affordable Chinese makeup - lipstick, mascara, blush, palettes. Students can get: 20% off with student email verification.",
+    "note": "20% off with student email verification.",
+    "category": "Shopping & Fashion",
+    "claimLink": "https://judydoll.com/pages/student-discount",
+    "domain": "judydoll.com"
+  },
+  {
+    "company": "Plaud AI",
+    "description": "AI voice recorder that transcribes and summarizes lectures and meetings. Students can get: 10% off Plaud AI note-taker devices.",
+    "note": "10% off Plaud AI note-taker devices.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.plaud.ai/",
+    "domain": "plaud.ai"
+  },
+  {
+    "company": "Mesh",
+    "description": "Personal CRM that auto-organizes your contacts, notes and reconnects. Students can get: 3 months of Mesh Pro free ($60 value).",
+    "note": "3 months of Mesh Pro free ($60 value).",
+    "category": "AI & Productivity",
+    "claimLink": "https://me.sh/pricing",
+    "domain": "me.sh"
+  },
+  {
+    "company": "Tabula",
+    "description": "Multi-provider lead enrichment platform for sales prospecting. Students can get: 60% off Solo plan with student email.",
+    "note": "60% off Solo plan with student email.",
+    "category": "AI & Productivity",
+    "claimLink": "https://docs.google.com/forms/d/e/1FAIpQLSeUjkC1o7B1hHObHMcCjaoQ6egCg755FsXZgFLV7lax12mAIw/viewform",
+    "domain": "docs.google.com"
+  },
+  {
+    "company": "Craft",
+    "description": "Notes and docs app with AI assistant, offline mode, and cross-device sync. Students can get: Free Education plan (worth $96/yr).",
+    "note": "Free Education plan (worth $96/yr).",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.craft.do/education",
+    "domain": "craft.do"
+  },
+  {
+    "company": "Taskade",
+    "description": "No-code AI app builder - turn a prompt into apps, agents & automations. Students can get: Free for Education or 50% off annual Pro.",
+    "note": "Free for Education or 50% off annual Pro.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.studentbeans.com/student-discount/us/taskade",
+    "domain": "studentbeans.com"
+  },
+  {
+    "company": "UXPin",
+    "description": "UX/UI prototyping tool - real code components, states, logic & AI. Students can get: Free for students.",
+    "note": "Free for students.",
+    "category": "AI & Productivity",
+    "claimLink": "https://www.uxpin.com/pricing",
+    "domain": "uxpin.com"
+  },
+  {
+    "company": "RoboForm",
+    "description": "Password manager - autofill, generator, breach scanner & secure sharing. Students can get: Free for 1 year, then $12/year.",
+    "note": "Free for 1 year, then $12/year.",
+    "category": "Security & Privacy",
+    "claimLink": "https://www.roboform.com/promotions/college",
+    "domain": "roboform.com"
+  },
+  {
+    "company": "StyleCI",
+    "description": "Auto-fixes code style for PHP, JS, CSS, Vue and Python via Git. Students can get: Student discount on paid plans.",
+    "note": "Student discount on paid plans.",
+    "category": "AI & Productivity",
+    "claimLink": "https://styleci.io/",
+    "domain": "styleci.io"
+  },
+  {
+    "company": "Northflank",
+    "description": "Developer cloud to deploy apps, microservices, databases and cron jobs. Students can get: Free tier doubled for students.",
+    "note": "Free tier doubled for students.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://northflank.com/student-developer-pack",
+    "domain": "northflank.com"
+  },
+  {
+    "company": "InterServer",
+    "description": "US web host - cPanel, WordPress, email and SSL on a real hosting account. Students can get: Free web hosting for 1 year.",
+    "note": "Free web hosting for 1 year.",
+    "category": "Developer & Cloud Tools",
+    "claimLink": "https://www.interserver.net/webhosting/student-webhosting.html",
+    "domain": "interserver.net"
+  },
+  {
+    "company": "Glossika",
+    "description": "Audio-based language app teaching 60+ languages through full sentences. Students can get: 55% off all plans.",
+    "note": "55% off all plans.",
+    "category": "Design & Creative",
+    "claimLink": "https://ai.glossika.com/pricing",
+    "domain": "ai.glossika.com"
+  },
+  {
+    "company": "Planet Labs",
+    "description": "AI-powered daily satellite imagery of Earth for GIS + research. Students can get: 3,000 km²/mo free satellite imagery.",
+    "note": "3,000 km²/mo free satellite imagery.",
+    "category": "Science & Research",
+    "claimLink": "https://www.planet.com/industries/education-and-research/",
+    "domain": "planet.com"
+  },
+  {
+    "company": "OriginLab",
+    "description": "Scientific data analysis & graphing - 2D/3D plots, curve fitting, stats. Students can get: Free 6-month edition or $69/yr student version.",
+    "note": "Free 6-month edition or $69/yr student version.",
+    "category": "Science & Research",
+    "claimLink": "https://www.originlab.com/index.aspx?go=Products/OriginStudentVersion",
+    "domain": "originlab.com"
+  },
+  {
+    "company": "Ansys",
+    "description": "Industry-standard simulation - CFD, FEA, structures, fluids & optics. Students can get: Free bundle of 10+ engineering simulation tools.",
+    "note": "Free bundle of 10+ engineering simulation tools.",
+    "category": "Science & Research",
+    "claimLink": "https://www.ansys.com/academic/students",
+    "domain": "ansys.com"
+  },
+  {
+    "company": "CorePower Yoga",
+    "description": "Largest US yoga studio chain with in-studio and livestream classes. Students can get: 20% off membership and class packs.",
+    "note": "20% off membership and class packs.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.corepoweryoga.com/content/special-pricing-eligible-groups-overview",
+    "domain": "corepoweryoga.com"
+  },
+  {
+    "company": "24 Hour Fitness",
+    "description": "US gym chain with cardio, weights, classes and functional training. Students can get: Discounted summer gym membership for high schoolers.",
+    "note": "Discounted summer gym membership for high schoolers.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.24hourfitness.com/promo/specials/highschool-summer-memberships",
+    "domain": "24hourfitness.com"
+  },
+  {
+    "company": "YouTube Music Premium",
+    "description": "Ad-free music streaming with background play and offline downloads. Students can get: 1 month free, then ~50% off for up to 4 years.",
+    "note": "1 month free, then ~50% off for up to 4 years.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://music.youtube.com/music_premium/student",
+    "domain": "music.youtube.com"
+  },
+  {
+    "company": "Harkins Theatres",
+    "description": "US Southwest cinema chain with student pricing at select theaters. Students can get: Discounted tickets with student ID.",
+    "note": "Discounted tickets with student ID.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.harkins.com/",
+    "domain": "harkins.com"
+  },
+  {
+    "company": "SiriusXM",
+    "description": "Streaming radio with music, sports, news, comedy and podcasts. Students can get: $1 for 3 months, then $4/mo.",
+    "note": "$1 for 3 months, then $4/mo.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.siriusxm.com/offers/student",
+    "domain": "siriusxm.com"
+  },
+  {
+    "company": "Cinemark",
+    "description": "US movie theater chain with student pricing at participating locations. Students can get: Up to 25% off movie tickets with student ID.",
+    "note": "Up to 25% off movie tickets with student ID.",
+    "category": "Streaming & Entertainment",
+    "claimLink": "https://www.cinemark.com/discounts/student-discount",
+    "domain": "cinemark.com"
+  },
+  {
+    "company": "Hyper3D",
+    "description": "AI 3D model generator - text or image to game-ready meshes and textures. Students can get: $12/mo Creator plan - 50% off with education.",
+    "note": "$12/mo Creator plan - 50% off with education.",
+    "category": "Design & Creative",
+    "claimLink": "https://hyper3d.ai/workspace/subscribe",
+    "domain": "hyper3d.ai"
+  },
+  {
+    "company": "TinyFish",
+    "description": "Free web search + fetch APIs plus browser agents for AI builders. Students can get: Free web search + fetch + 500 agent credits.",
+    "note": "Free web search + fetch + 500 agent credits.",
+    "category": "AI & Productivity",
+    "claimLink": "https://agent.tinyfish.ai/sign-up?ref=v1.dXNlcl8zRnVpd1ZpQ3JndkNsSmtLYjM5cmxLaEtleGU.hclCmjLzuvZneu-MpuqSa3HAcFhEsd57anSZpUB8ZMY",
+    "domain": "agent.tinyfish.ai"
+  },
+  {
+    "company": "Sam's Club",
+    "description": "Warehouse club with bulk groceries, fuel savings and free shipping. Students can get: 60% off Club membership or $50 off Plus.",
+    "note": "60% off Club membership or $50 off Plus.",
+    "category": "Food & Dining",
+    "claimLink": "https://hosted-pages.id.me/sams-club-student",
+    "domain": "hosted-pages.id.me"
+  },
+  {
+    "company": "BetterSleep",
+    "description": "Sleep app with mixable sounds, guided meditations and bedtime stories. Students can get: $6.99/mo Premium Student Plan.",
+    "note": "$6.99/mo Premium Student Plan.",
+    "category": "Health & Fitness",
+    "claimLink": "https://www.bettersleep.com/studentprogram",
+    "domain": "bettersleep.com"
+  },
+  {
+    "company": "FitOn",
+    "description": "Fitness app with guided workouts, meditation and nutrition plans. Students can get: 6 months free FitOn PRO.",
+    "note": "6 months free FitOn PRO.",
+    "category": "Health & Fitness",
+    "claimLink": "https://fitonapp.com/pro/how-to-verify-your-college-email/",
+    "domain": "fitonapp.com"
+  }
+]

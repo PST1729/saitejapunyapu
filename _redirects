@@ -5,6 +5,10 @@
 /blogs/claude-code-slash-commands       /blogs/claude-code-slash-commands.html       200
 /blogs/google-adk-agentic-development   /blogs/google-adk-agentic-development.html   200
 
+# StudentPerks SPA
+/projects/student-perks   /projects/student-perks/index.html   200
+/projects/student-perks/  /projects/student-perks/index.html   200
+
 # Redirect old domain (if configured as alias, Netlify handles at domain level)
 # Force trailing consistency
 /sitemap.xml                  /sitemap.xml                     200

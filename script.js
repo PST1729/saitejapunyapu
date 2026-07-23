@@ -29,14 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Setup view switching for sections with multiple views
     setupViewSwitchers();
 
-    // Setup contact form handling
-    setupContactForm();
-
     // Add scroll animations
     setupScrollAnimations();
-
-    // Setup resume preview hover functionality
-    setupResumePreview();
 
     // Setup mobile navigation
     setupMobileNav();
@@ -76,7 +70,7 @@ function initExperienceTimelineChart() {
         },
         {
             company: 'FinanceOps.AI',
-            role: 'Business Analyst (Intern → Full-time)',
+            role: 'Business Analyst (Intern ? Full-time)',
             logo: 'https://blogger.googleusercontent.com/img/a/AVvXsEgkl3EYLSN2NWzOEi5_CLVhnjUQUBnfbvqnpKB3ZyeO66KyTFQqE5i-of8CtwAypLhrw_k9BFiE0n-Ipdv9T-H8zJ60vgWTB1d8LF5fii3KuMYMY5RGH_ibNR28K-qVhXnXYOVJVXV4P2MEDmF1FoBtpfkDYVL6incQYpmcXPmDFGy9VFFHwEcAUgMiT_Bg',
             start: '2024-01-01',
             end: '2024-08-30'
@@ -128,11 +122,11 @@ function initExperienceTimelineChart() {
                             const options = { year: 'numeric', month: 'short' };
                             const startDate = new Date(start).toLocaleDateString(undefined, options);
                             const endDate = experience.end === today ? 'Present' : new Date(experience.end).toLocaleDateString(undefined, options);
-                            return `${experience.role}\n${startDate} – ${endDate}`;
+                            return `${experience.role}\n${startDate} ? ${endDate}`;
                         },
                         afterLabel: function(context) {
                             const experience = experiences.find(e => e.company === context.raw.y);
-                            return `🔗 ${experience.company}`;
+                            return `?? ${experience.company}`;
                         }
                     }
                 }
@@ -776,59 +770,6 @@ function setupProjectLinks() {
     });
 }
 
-// Contact form handling
-function setupContactForm() {
-    const contactForm = document.getElementById('contactForm');
-    if (!contactForm) return;
-
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        // Get form values
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-
-        // Basic validation
-        if (!name || !email || !message) {
-            alert('Please fill in all fields');
-            return;
-        }
-
-        // Email validation
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert('Please enter a valid email address');
-            return;
-        }
-
-        // Simulate form submission
-        const submitBtn = this.querySelector('.submit-btn');
-        const originalText = submitBtn.textContent;
-
-        // Change button text and disable
-        submitBtn.textContent = 'Sending...';
-        submitBtn.disabled = true;
-
-        // Simulate server delay
-        setTimeout(() => {
-            alert(`Thank you ${name}! Your message has been received. I'll get back to you soon.`);
-
-            // Reset form and button
-            contactForm.reset();
-            submitBtn.textContent = originalText;
-            submitBtn.disabled = false;
-        }, 1500);
-
-        // In a real application, you would send this data to your server
-        console.log({
-            name,
-            email,
-            message
-        });
-    });
-}
-
 // Scroll animations
 function setupScrollAnimations() {
     const sections = document.querySelectorAll('.dashboard-section');
@@ -1039,26 +980,5 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', function() {
         updateScrollButtons();
         updatePageIndicator();
-    });
-
-    // Fix image loading errors
-    const images = document.querySelectorAll('.certificate-logo img');
-    images.forEach(img => {
-        img.addEventListener('error', function() {
-            this.src = '/api/placeholder/60/60';
-        });
-    });
-});
-
-
-// Jarvis temporarily disabled (Safe Browsing / social-engineering review)
-window.toggleJarvis = function() {};
-
-// Business card flip disabled � QR / "Know More" card back removed from homepage
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.business-card').forEach(function(card) {
-        card.classList.remove('flipped');
-        card.style.cursor = 'default';
-        card.style.pointerEvents = 'none';
     });
 });

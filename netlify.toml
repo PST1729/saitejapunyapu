@@ -1,8 +1,6 @@
 [build]
-  functions = "netlify/functions"
-
-[functions]
-  node_bundler = "esbuild"
+  command = "npm --prefix projects/student-perks-src ci && npm --prefix projects/student-perks-src run build"
+  publish = "."
 
 [build.environment]
   NODE_VERSION = "20"
